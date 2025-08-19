@@ -1,0 +1,47 @@
+<bmp
+name etc
+file(0-3) sys/etc-r w 90 h 90 row 4 col 1
+resized 3
+default_centerx 43
+default_centery 110
+bmp>
+<f 0 come_here
+   pic 0 state 9997 wait 1 next 1
+f>
+
+<f 1 -
+   pic 0 state 9997 wait 60 next 1000
+   sound mp3/080
+f>
+
+<f 2 stay
+   pic 1 state 9997 wait 1 next 3
+f>
+
+<f 3 -
+   pic 1 state 9997 wait 60 next 1000
+   sound mp3/081
+f>
+
+<f 4 move
+   pic 2 state 9997 wait 1 next 5
+f>
+
+<f 5 -
+   pic 2 state 9997 wait 60 next 1000
+   sound mp3/082
+f>
+
+<f 6 join
+   pic 3 state 9997 wait 1 next 7
+f>
+
+<f 7 -
+   pic 3 state 9997 wait 60 next 1000
+   sound mp3/093
+f>
+
+<f 399 come_here
+   pic 0 state 9997 wait 60 next 1000
+f>
+

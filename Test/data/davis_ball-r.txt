@@ -1,0 +1,251 @@
+<bmp
+name davis_ball
+file(0-11) sys/davis-r_ball w 92 h 52 row 4 col 3
+resized 3
+default_centerx 60
+default_centery 25
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 dvx 4 centerx 61 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 2 dvx 5 centerx 58 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 2 -
+   pic 0 state 3000 wait 1 next 3 dvx 7 centerx 61 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 3 -
+   pic 1 state 3000 wait 1 next 4 dvx 9 centerx 57 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 4 -
+   pic 2 state 3000 wait 1 next 5 dvx 10 centerx 58 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 5 -
+   pic 3 state 3000 wait 1 next 6 dvx 13 centerx 57 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 6 -
+   pic 2 state 3000 wait 1 next 7 dvx 16 centerx 58 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 7 -
+   pic 3 state 3000 wait 1 next 8 dvx 18 centerx 58 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 8 -
+   pic 8 state 3000 wait 1 next 9 dvx 20 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 9 -
+   pic 9 state 3000 wait 1 next 8 dvx 20 centery 26
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centery 24
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 57
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx 51 centery 23
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 48 centery 24
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 63
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 59
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 56 centery 23
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 50
+f>
+
+<f 30 rebounding
+   pic 42 state 3003 wait 1 next 31 centerx 56 centery 22
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32 centerx 56
+   <o kind 1 x 24 y 25 action 7 oid 207 facing 1 o>
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33 centerx 57 centery 24
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000 centerx 50 centery 26
+f>
+
+<f 40 disappearing
+   pic 4 state 3004 wait 1 next 41 centerx 59 centery 26
+f>
+
+<f 41 -
+   pic 5 state 3004 wait 1 next 42 centerx 61 centery 24
+f>
+
+<f 42 -
+   pic 6 state 3004 wait 1 next 1000 centerx 51 centery 24
+f>
+
+<f 50 dflying
+   pic 0 state 3000 wait 1 next 51 dvx 4 centerx 61 centery 24 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 51 -
+   pic 1 state 3000 wait 1 next 52 dvx 5 centerx 58 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 52 -
+   pic 0 state 3000 wait 1 next 53 dvx 7 centerx 61 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 53 -
+   pic 1 state 3000 wait 1 next 54 dvx 9 centerx 58 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 54 -
+   pic 2 state 3000 wait 1 next 55 dvx 10 centerx 59 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 55 -
+   pic 3 state 3000 wait 1 next 56 dvx 13 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 56 -
+   pic 2 state 3000 wait 1 next 57 dvx 16 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 57 -
+   pic 3 state 3000 wait 1 next 58 dvx 18 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 58 -
+   pic 8 state 3000 wait 1 next 59 dvx 20 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 59 -
+   pic 9 state 3000 wait 1 next 58 dvx 20 hit_j 51
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 60 uflying
+   pic 0 state 3000 wait 1 next 61 dvx 4 centerx 61 centery 24 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 61 -
+   pic 1 state 3000 wait 1 next 62 dvx 5 centerx 58 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 62 -
+   pic 0 state 3000 wait 1 next 63 dvx 7 centerx 61 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 63 -
+   pic 1 state 3000 wait 1 next 64 dvx 9 centerx 58 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 64 -
+   pic 2 state 3000 wait 1 next 65 dvx 10 centerx 59 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 65 -
+   pic 3 state 3000 wait 1 next 66 dvx 13 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 66 -
+   pic 2 state 3000 wait 1 next 67 dvx 16 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 67 -
+   pic 3 state 3000 wait 1 next 68 dvx 18 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 68 -
+   pic 8 state 3000 wait 1 next 69 dvx 20 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+
+<f 69 -
+   pic 9 state 3000 wait 1 next 68 dvx 20 hit_j 49
+   <i kind 0 x 31 y 14 w 45 h 24 dvx 7 fall 20 arest 6 bdefend 10 injury 30 i>
+   <b kind 0 x 31 y 14 w 45 h 24 b>
+f>
+

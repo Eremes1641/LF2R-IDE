@@ -1,0 +1,106 @@
+<bmp
+name deep_ball
+file(0-7) sys/deep-r_ball w 92 h 93 row 4 col 2
+resized 3
+default_centerx 42
+default_centery 46
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 dvx 15 centerx 45 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 2 dvx 15 centerx 40 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 1 next 3 dvx 15 centerx 41 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 wait 1 next 4 dvx 15 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 4 -
+   pic 2 state 3000 wait 1 next 5 dvx 15 centerx 45 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 5 -
+   pic 1 state 3000 wait 1 next 999 dvx 15 centerx 45 hit_a 50 hit_d 40
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 70 vrest 10 bdefend 16 injury 55 effect 1 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centerx 44
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 33
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 43
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 38
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 44
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 46
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 1 next 31
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32 centerx 36
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33 centerx 43
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000
+f>
+
+<f 40 disappearing
+   pic 5 state 3004 wait 1 next 41
+f>
+
+<f 41 -
+   pic 6 state 3004 wait 1 next 42
+f>
+
+<f 42 -
+   pic 7 state 3004 wait 1 next 1000 centerx 33
+f>
+

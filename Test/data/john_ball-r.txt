@@ -1,0 +1,219 @@
+<bmp
+name john_ball
+file(0-39) sys/john-r_ball w 92 h 93 row 8 col 6
+resized 3
+default_centerx 45
+default_centery 46
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 42 state 3000 wait 1 next 1 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 1 -
+   pic 41 state 3000 wait 1 next 2 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 2 -
+   pic 40 state 3000 wait 1 next 5 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 wait 1 next 4 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 4 -
+   pic 2 state 3000 wait 1 next 5 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 5 -
+   pic 1 state 3000 wait 1 next 6 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 6 -
+   pic 0 state 3000 wait 1 next 999 dvx 18
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 9 fall 70 vrest 10 bdefend 16 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centerx -5
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx -5
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx -5
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx -5
+f>
+
+<f 20 hit
+   pic 8 state 3002 wait 1 next 21 centerx 24
+f>
+
+<f 21 -
+   pic 9 state 3002 wait 1 next 22 centerx 24
+f>
+
+<f 22 -
+   pic 10 state 3002 wait 1 next 23 centerx 24
+f>
+
+<f 23 -
+   pic 11 state 3002 wait 1 next 1000 centerx 24
+f>
+
+<f 30 rebounding
+   pic 12 state 3003 wait 1 next 31 centerx 24
+f>
+
+<f 31 -
+   pic 13 state 3003 wait 1 next 32 centerx 24
+   <o kind 1 x 24 y 46 oid 200 facing 1 o>
+f>
+
+<f 32 -
+   pic 14 state 3003 wait 1 next 33 centerx 24
+f>
+
+<f 33 -
+   pic 15 state 3003 wait 1 next 1000 centerx 24
+f>
+
+<f 40 stars
+   pic 16 state 3002 wait 3 next 41
+   sound mp3/049
+f>
+
+<f 41 -
+   pic 17 state 3002 wait 3 next 42
+   <o kind 1 x 45 y 44 action 44 oid 200 o>
+f>
+
+<f 42 -
+   pic 18 state 3002 wait 3 next 43
+f>
+
+<f 43 -
+   pic 19 state 3002 wait 3 next 1000
+f>
+
+<f 44 -
+   pic 20 state 3002 wait 2 next 45 centery 31
+f>
+
+<f 45 -
+   pic 21 state 3002 wait 2 next 46 centery 31
+f>
+
+<f 46 -
+   pic 22 state 3002 wait 2 next 47 centery 31
+f>
+
+<f 47 -
+   pic 23 state 3002 wait 2 next 1000 centery 31
+f>
+
+<f 50 healball
+   pic 24 state 3002 wait 3 next 51 centery 31 hit_a 9 hit_d 55
+   <i kind 8 x 30 y 18 w 32 h 34 dvx 40 injury 100 i>
+f>
+
+<f 51 -
+   pic 25 state 3002 wait 3 next 52 centery 31 hit_a 9 hit_d 55
+   <o kind 1 x 45 y 44 action 42 oid 200 o>
+   <i kind 8 x 30 y 18 w 32 h 34 dvx 40 injury 100 i>
+f>
+
+<f 52 -
+   pic 26 state 3002 wait 3 next 53 centery 31 hit_a 9 hit_d 55
+   <o kind 1 x 45 y 44 action 44 oid 200 o>
+   <i kind 8 x 30 y 18 w 32 h 34 dvx 40 injury 100 i>
+f>
+
+<f 53 -
+   pic 28 state 3002 wait 3 next 54 centery 31 hit_a 9 hit_d 55
+   <i kind 8 x 30 y 18 w 32 h 34 dvx 40 injury 100 i>
+f>
+
+<f 54 -
+   pic 27 state 3002 wait 3 next 51 centery 31 hit_a 9 hit_d 55
+   <o kind 1 x 45 y 44 action 42 oid 200 o>
+   <i kind 8 x 30 y 18 w 32 h 34 dvx 40 injury 100 i>
+f>
+
+<f 55 -
+   pic 29 state 3002 wait 2 next 56 centery 31
+f>
+
+<f 56 -
+   pic 30 state 3002 wait 1 next 57 centery 31
+f>
+
+<f 57 -
+   pic 31 state 3002 wait 1 next 1000 centery 31
+f>
+
+<f 60 forcefield
+   pic 32 state 3002 wait 2 next 61 centerx 46 centery 49 hit_a 3 hit_d 67
+   <i kind 9 x 51 y 35 w 10 h 32 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 61 -
+   pic 33 state 3002 wait 2 next 62 centerx 46 centery 50 hit_a 3 hit_d 67
+   <i kind 9 x 46 y 26 w 19 h 47 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 62 -
+   pic 34 state 3002 wait 1 next 63 centerx 40 hit_a 3 hit_d 67
+   sound mp3/051
+   <i kind 9 x 38 y 20 w 26 h 55 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 63 -
+   pic 35 state 3002 wait 1 next 64 centerx 42 hit_a 3 hit_d 67
+   <i kind 9 x 43 y 21 w 21 h 53 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 64 forcefield_dp
+   pic 36 state 3002 wait 1 next 62 centerx 42 hit_a 3 hit_d 67
+   <i kind 9 x 41 y 19 w 23 h 55 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 65 forcefield
+   pic 35 state 3002 wait 1 next 62 centerx 42 hit_a 3 hit_d 67
+   <i kind 9 x 41 y 19 w 23 h 54 dvx 10 fall 70 vrest 8 injury 40 i>
+f>
+
+<f 67 forcefield_dp
+   pic 37 state 3002 wait 2 next 68 centerx 44 centery 45
+   sound mp3/053
+f>
+
+<f 68 -
+   pic 38 state 3002 wait 2 next 69 centerx 38 centery 44
+f>
+
+<f 69 -
+   pic 39 state 3002 wait 2 next 1000 centerx 38 centery 43
+f>
+

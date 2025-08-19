@@ -1,0 +1,352 @@
+<bmp
+name weapon7
+file(0-39) sys/weapon7-r w 78 h 78 row 10 col 4
+resized 3
+default_centerx 39
+default_centery 62
+weapon_hp 200
+weapon_drop_hurt 35
+weapon_hit_sound mp3/023
+weapon_drop_sound mp3/023
+weapon_broken_sound mp3/066
+<wsl
+      entry 1 normal dvx 2 fall 40 vrest 10 bdefend 16 injury 30 effect 3
+      entry 2 jump dvx 7 fall 70 vrest 10 bdefend 16 injury 30 effect 3
+      entry 3 run dvx 10 fall 70 vrest 10 bdefend 16 injury 40 effect 3
+      entry 4 dash dvx 12 fall 70 vrest 20 bdefend 60 injury 40 effect 3
+wsl>
+bmp>
+<f 0 in_the_sky
+   pic 0 state 1000 next 1 centery 63
+   <b kind 0 x 17 y 22 w 46 h 43 b>
+f>
+
+<f 1 -
+   pic 1 state 1000 next 2 centerx 36
+   <b kind 0 x 14 y 20 w 46 h 45 b>
+f>
+
+<f 2 -
+   pic 2 state 1000 next 3 centerx 33 centery 63
+   <b kind 0 x 18 y 25 w 39 h 43 b>
+f>
+
+<f 3 -
+   pic 3 state 1000 next 4 centerx 37 centery 60
+   <b kind 0 x 22 y 20 w 40 h 38 b>
+f>
+
+<f 4 -
+   pic 4 state 1000 next 5 centerx 36 centery 61
+   <b kind 0 x 16 y 18 w 51 h 41 b>
+f>
+
+<f 5 -
+   pic 5 state 1000 next 6 centerx 33 centery 57
+   <b kind 0 x 15 y 22 w 44 h 40 b>
+f>
+
+<f 6 -
+   pic 6 state 1000 next 7 centerx 35 centery 59
+   <b kind 0 x 21 y 26 w 41 h 38 b>
+f>
+
+<f 7 -
+   pic 7 state 1000 next 8 centerx 40 centery 61
+   <b kind 0 x 26 y 28 w 34 h 38 b>
+f>
+
+<f 8 -
+   pic 8 state 1000 next 9 centery 55
+   <b kind 0 x 21 y 13 w 38 h 47 b>
+f>
+
+<f 9 -
+   pic 9 state 1000 next 10 centerx 37 centery 64
+   <b kind 0 x 19 y 22 w 36 h 44 b>
+f>
+
+<f 10 -
+   pic 10 state 1000 next 11 centery 60
+   <b kind 0 x 21 y 21 w 36 h 41 b>
+f>
+
+<f 11 -
+   pic 11 state 1000 next 12 centerx 41 centery 65
+   <b kind 0 x 23 y 26 w 36 h 36 b>
+f>
+
+<f 12 -
+   pic 12 state 1000 next 13 centerx 40 centery 57
+   <b kind 0 x 19 y 22 w 39 h 32 b>
+f>
+
+<f 13 -
+   pic 13 state 1000 next 14 centerx 38 centery 58
+   <b kind 0 x 17 y 23 w 44 h 37 b>
+f>
+
+<f 14 -
+   pic 14 state 1000 next 15 centerx 40 centery 60
+   <b kind 0 x 29 y 25 w 34 h 37 b>
+f>
+
+<f 15 -
+   pic 15 state 1000 next 999 centerx 41 centery 65
+   <b kind 0 x 25 y 30 w 32 h 34 b>
+f>
+
+<f 20 on_hand
+   pic 20 state 1001 centery 63
+   <w kind 2 x 38 y 70 w>
+   <i kind 5 x 33 y 5 w 15 h 78 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 21 -
+   pic 21 state 1001 centerx 37 centery 61
+   <w kind 2 x 30 y 67 w>
+   <i kind 5 x 42 y 9 w 18 h 34 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 24 y 39 w 22 h 40 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 22 -
+   pic 22 state 1001 centerx 33
+   <w kind 2 x 20 y 61 w>
+   <i kind 5 x 12 y 48 w 28 h 22 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 44 y 13 w 21 h 24 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 30 y 30 w 22 h 21 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 23 -
+   pic 23 state 1001 centerx 36 centery 59
+   <w kind 2 x 16 y 53 w>
+   <i kind 5 x 48 y 27 w 25 h 14 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 29 y 35 w 27 h 14 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 7 y 44 w 28 h 17 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 24 -
+   pic 24 state 1001 centery 60
+   <w kind 2 x 12 y 42 w>
+   <i kind 5 x 1 y 36 w 73 h 15 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 25 -
+   pic 25 state 1001 centerx 36 centery 60
+   <w kind 2 x 14 y 33 w>
+   <i kind 5 x 6 y 24 w 31 h 18 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 33 y 38 w 38 h 22 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 26 -
+   pic 26 state 1001 centerx 33 centery 59
+   <w kind 2 x 18 y 21 w>
+   <i kind 5 x 28 y 31 w 19 h 23 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 39 y 46 w 26 h 22 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 11 y 16 w 26 h 24 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 27 -
+   pic 27 state 1001 centerx 37 centery 57
+   <w kind 2 x 30 y 16 w>
+   <i kind 5 x 21 y 6 w 25 h 33 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 34 y 34 w 25 h 41 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 28 -
+   pic 28 state 1001 centerx 38 centery 54
+   <w kind 2 x 39 y 9 w>
+   <i kind 5 x 30 y -5 w 18 h 78 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 29 -
+   pic 29 state 1001 centerx 37 centery 61
+   <w kind 2 x 48 y 17 w>
+   <i kind 5 x 36 y 6 w 21 h 34 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 26 y 33 w 18 h 45 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 30 -
+   pic 30 state 1001 centerx 37 centery 58
+   <w kind 2 x 58 y 24 w>
+   <i kind 5 x 13 y 47 w 25 h 22 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 41 y 15 w 27 h 19 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 32 y 29 w 21 h 20 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 31 -
+   pic 31 state 1001 centerx 36 centery 58
+   <w kind 2 x 65 y 35 w>
+   <i kind 5 x 34 y 31 w 44 h 15 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 6 y 43 w 42 h 17 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 32 -
+   pic 32 state 1001 centerx 33 centery 58
+   <w kind 2 x 66 y 42 w>
+   <i kind 5 x 1 y 31 w 76 h 19 i>
+f>
+
+<f 33 -
+   pic 33 state 1001 centerx 37 centery 59
+   <w kind 2 x 65 y 52 w>
+   <i kind 5 x 6 y 24 w 38 h 20 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 31 y 34 w 45 h 28 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 34 -
+   pic 34 state 1001 centerx 38 centery 55
+   <w kind 2 x 58 y 61 w>
+   <i kind 5 x 37 y 41 w 35 h 29 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 11 y 14 w 25 h 24 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 24 y 29 w 26 h 18 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 35 -
+   pic 35 state 1001 centerx 38 centery 57
+   <w kind 2 x 51 y 67 w>
+   <i kind 5 x 21 y 7 w 22 h 32 dvx 8 fall 20 bdefend 16 injury 789 i>
+   <i kind 5 x 34 y 34 w 26 h 44 dvx 8 fall 20 bdefend 16 injury 789 i>
+f>
+
+<f 40 throwing
+   pic 0 state 1002 next 41
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 41 -
+   pic 1 state 1002 next 42
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 42 -
+   pic 2 state 1002 next 43
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 43 -
+   pic 3 state 1002 next 44
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 44 -
+   pic 4 state 1002 next 45
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 45 -
+   pic 5 state 1002 next 46
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 46 -
+   pic 6 state 1002 next 47
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 47 -
+   pic 7 state 1002 next 48
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 48 -
+   pic 8 state 1002 next 49
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 49 -
+   pic 9 state 1002 next 50
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 50 -
+   pic 10 state 1002 next 51
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 51 -
+   pic 11 state 1002 next 52
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 52 -
+   pic 12 state 1002 next 53
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 53 -
+   pic 13 state 1002 next 54
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 54 -
+   pic 14 state 1002 next 55
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 55 -
+   pic 15 state 1002 next 40
+   <i kind 0 x 16 y 20 w 49 h 47 dvx 8 fall 70 bdefend 16 injury 40 effect 3 i>
+   <b kind 0 x 16 y 19 w 49 h 49 b>
+f>
+
+<f 60 on_ground
+   pic 2 state 1003 wait 1 next 61 centerx 40 centery 60
+   sound mp3/023
+f>
+
+<f 61 -
+   pic 5 state 1003 wait 2 next 62 centerx 35 centery 47
+f>
+
+<f 62 -
+   pic 3 state 1003 wait 2 next 63 centerx 38 centery 50
+   sound mp3/023
+f>
+
+<f 63 -
+   pic 5 state 1003 wait 1 next 64 centerx 36 centery 45
+f>
+
+<f 64 -
+   pic 4 state 1004 centery 45
+   <b kind 0 x 7 y 35 w 72 h 17 b>
+f>
+
+<f 70 just_on_ground
+   pic 2 state 1003 wait 1 next 71 centerx 41 centery 56
+   sound mp3/023
+   <i kind 0 x 20 y 19 w 39 h 46 dvx 2 fall 40 arest 16 bdefend 16 i>
+f>
+
+<f 71 just_on_on_ground
+   pic 5 state 1003 wait 2 next 72 centerx 37 centery 49
+   <i kind 0 x 11 y 35 w 51 h 21 dvx 2 fall 40 arest 16 bdefend 16 i>
+f>
+
+<f 72 -
+   pic 3 state 1003 wait 2 next 64 centery 50
+   sound mp3/023
+   <i kind 0 x 14 y 33 w 52 h 23 dvx 2 fall 40 arest 16 bdefend 16 i>
+f>
+
+<f 399 dummy
+   pic 4 centerx 34 centery 48
+   <b kind 0 x 5 y 23 w 46 h 15 b>
+f>
+

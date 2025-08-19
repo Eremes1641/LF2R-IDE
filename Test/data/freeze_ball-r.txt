@@ -1,0 +1,112 @@
+<bmp
+name freeze_ball
+file(0-11) sys/freeze-r_ball w 92 h 93 row 4 col 3
+resized 3
+default_centerx 48
+default_centery 46
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 next 1 dvx 9 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 next 2 dvx 9 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 next 3 dvx 9 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 next 4 dvx 9 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 4 -
+   pic 8 state 3000 next 5 dvx 9 centerx 45 centery 48
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 5 -
+   pic 9 state 3000 next 999 dvx 9 centerx 45 centery 48
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 7 fall 20 vrest 10 bdefend 16 injury 45 effect 3 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centerx 49
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 49
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx 49
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 49
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 51
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 51
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 51
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 51
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 1 next 31
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32
+   <o kind 1 x 46 y 46 oid 209 facing 1 o>
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000
+f>
+
+<f 40 rebounding
+   pic 4 state 3003 wait 1 next 41
+f>
+
+<f 41 -
+   pic 5 state 3003 wait 1 next 42
+f>
+
+<f 42 -
+   pic 4 state 3003 wait 1 next 31
+f>
+
+<f 399 dummy
+   pic 0 centerx 44 centery 84
+   <b kind 0 x 26 y 23 w 43 h 62 b>
+f>
+

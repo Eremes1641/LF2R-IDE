@@ -1,0 +1,284 @@
+<bmp
+name henry_wind
+file(0-23) sys/henry-r_wind w 92 h 93 row 4 col 6
+file(24-29) sys/henry-r_wind_dummy w 3 h 3 row 6 col 1
+file(30-53) sys/rudolf-r_smoke w 90 h 90 row 6 col 4
+resized 3
+default_centerx 44
+default_centery 46
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3005 wait 4 next 1 dvx 55 centerx 45
+   <i kind 0 x 5 y 10 w 78 h 73 dvx 25 fall 70 vrest 20 bdefend 60 injury 80 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 1 -
+   pic 1 state 3005 wait 3 next 2 dvx 55 centerx 40
+   <i kind 0 x 5 y 9 w 80 h 75 dvx 18 fall 60 vrest 20 bdefend 36 injury 55 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 2 -
+   pic 2 state 3005 wait 2 next 3 dvx 55 centerx 41
+   <i kind 0 x 7 y 6 w 78 h 78 dvx 13 fall 40 vrest 20 bdefend 16 injury 20 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 3 -
+   pic 3 state 3005 wait 2 next 1000 dvx 55 centerx 42
+   <i kind 0 x 7 y 8 w 79 h 75 dvx 9 fall 20 vrest 20 bdefend 16 injury 5 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 10 hiting
+   pic 0 state 3001 wait 1 next 11
+f>
+
+<f 11 -
+   pic 1 state 3001 wait 1 next 12 centerx 52
+f>
+
+<f 12 -
+   pic 2 state 3001 wait 1 next 13 centerx 62
+f>
+
+<f 13 -
+   pic 3 state 3001 wait 1 next 1000 centerx 72
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 0 next 21 centerx 56
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 0 next 22 centerx 57
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 0 next 23 centerx 58
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 0 next 24 centerx 59
+f>
+
+<f 24 -
+   pic 8 state 3002 wait 0 next 25 centerx 59
+f>
+
+<f 25 -
+   pic 9 state 3002 wait 0 next 26 centerx 59
+f>
+
+<f 26 -
+   pic 10 state 3002 wait 0 next 27 centerx 59
+f>
+
+<f 27 -
+   pic 12 state 3002 wait 0 next 28 centerx 59
+f>
+
+<f 28 -
+   pic 14 state 3002 wait 0 next 29 centerx 59
+f>
+
+<f 29 -
+   pic 16 state 3002 wait 0 next 1000 centerx 59
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 0 next 31 centerx 42
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 0 next 32 centerx 43
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 0 next 33 centerx 44
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 0 next 34 centerx 45
+f>
+
+<f 34 -
+   pic 8 state 3003 wait 0 next 35 centerx 45
+f>
+
+<f 35 -
+   pic 9 state 3003 wait 0 next 36 centerx 45
+f>
+
+<f 36 -
+   pic 10 state 3003 wait 0 next 37 centerx 45
+f>
+
+<f 37 -
+   pic 12 state 3003 wait 0 next 38 centerx 45
+f>
+
+<f 38 -
+   pic 14 state 3003 wait 0 next 39 centerx 45
+f>
+
+<f 39 -
+   pic 16 state 3003 wait 0 next 1000 centerx 45
+f>
+
+<f 143 -
+   pic 17 state 3003 wait 0 next 1000 centerx 45
+f>
+
+<f 40 disappearing
+   pic 0 state 3005 wait 1 next 41 centerx 42
+f>
+
+<f 41 -
+   pic 1 state 3005 wait 1 next 42 centerx 42
+f>
+
+<f 42 -
+   pic 2 state 3005 wait 1 next 1000 centerx 33
+f>
+
+<f 50 louis_start
+   pic 1 state 3001 wait 1 next 51 centerx 33
+f>
+
+<f 51 -
+   pic 1 state 3001 wait 1 next 52 centerx 33
+f>
+
+<f 52 -
+   pic 1 state 3001 wait 1 next 53 centerx 58
+   <o kind 1 x 88 y 49 action 20 dvx -5 oid 204 facing 1 o>
+f>
+
+<f 53 louis_flying
+   pic 0 state 3005 wait 2 next 1 dvx 55 centerx 45
+   <i kind 0 x 5 y 10 w 78 h 73 dvx 25 fall 70 vrest 20 bdefend 60 injury 60 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 60 rodulf_smoke
+   pic 30 state 3001 wait 1 next 61 centery 79
+f>
+
+<f 61 -
+   pic 31 state 3001 wait 1 next 62 centery 79
+f>
+
+<f 62 -
+   pic 32 state 3001 wait 1 next 63 centery 79
+f>
+
+<f 63 -
+   pic 33 state 3001 wait 1 next 64 centery 79
+f>
+
+<f 64 -
+   pic 34 state 3001 wait 1 next 65 centery 79
+f>
+
+<f 65 -
+   pic 35 state 3001 wait 1 next 66 centery 79
+f>
+
+<f 66 -
+   pic 42 state 3001 wait 1 next 67 centery 79
+f>
+
+<f 67 -
+   pic 43 state 3001 wait 1 next 68 centery 79
+f>
+
+<f 68 -
+   pic 44 state 3001 wait 1 next 69 centery 79
+f>
+
+<f 69 - 
+   pic 45 state 3001 wait 1 next 170 centery 79
+f>
+
+<f 170 -
+   pic 46 state 3001 wait 1 next 171 centery 79
+f>
+
+<f 171 -
+   pic 47 state 3001 wait 1 next 1000 centery 79
+f>
+
+<f 70 rodulf_smoke
+   pic 36 state 3001 wait 1 next 71 centery 79
+f>
+
+<f 71 -
+   pic 37 state 3001 wait 1 next 72 centery 79
+f>
+
+<f 72 -
+   pic 38 state 3001 wait 1 next 73 centery 79
+f>
+
+<f 73 -
+   pic 39 state 3001 wait 1 next 74 centery 79
+f>
+
+<f 74 -
+   pic 40 state 3001 wait 1 next 75 centery 79
+f>
+
+<f 75 -
+   pic 41 state 3001 wait 1 next 76 centery 79
+f>
+
+<f 76 -
+   pic 48 state 3001 wait 1 next 77 centery 79
+f>
+
+<f 77 -
+   pic 49 state 3001 wait 1 next 78 centery 79
+f>
+
+<f 78 -
+   pic 50 state 3001 wait 1 next 79 centery 79
+f>
+
+<f 79 -
+   pic 51 state 3001 wait 1 next 180 centery 79
+f>
+
+<f 180 -
+   pic 52 state 3001 wait 1 next 181 centery 79
+f>
+
+<f 181 -
+   pic 53 state 3001 wait 1 next 1000 centery 79
+f>
+
+<f 80 monk_start
+   pic 1 state 3001 wait 2 next 81 centerx 33
+f>
+
+<f 81 -
+   pic 1 state 3001 wait 1 next 82 centerx 58
+   <o kind 1 x 65 y 49 action 20 dvx -3 oid 204 facing 1 o>
+f>
+
+<f 82 monk_flying
+   pic 0 state 3005 wait 2 next 83 dvx 40 centerx 45
+   <i kind 0 x 5 y 10 w 78 h 73 dvx 19 fall 70 vrest 20 bdefend 60 injury 50 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 83 -
+   pic 0 state 3005 wait 3 next 1000 dvx 40 centerx 41
+   <i kind 0 x 7 y 6 w 78 h 78 dvx 12 fall 60 vrest 20 bdefend 50 injury 35 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+

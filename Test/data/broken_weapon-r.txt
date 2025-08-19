@@ -1,0 +1,433 @@
+<bmp
+name broken_weapon
+file(0-99) sys/broken-r w 31 h 32 row 10 col 10
+file(100-149) sys/broken2-r w 31 h 32 row 10 col 5
+resized 3
+default_centerx 11
+default_centery 28
+bmp>
+<f 0 stone1
+   pic 0 state 9999 wait 2 next 1 centerx 14
+f>
+
+<f 1 stone2
+   pic 1 state 9999 wait 2 next 2 centerx 14
+f>
+
+<f 2 stone3
+   pic 2 state 9999 wait 2 next 3 centerx 14
+f>
+
+<f 3 stone4
+   pic 3 state 9999 wait 2 next 999 centerx 14
+f>
+
+<f 4 sstone1
+   pic 4 state 9999 wait 2 next 5
+f>
+
+<f 5 sstone2
+   pic 5 state 9999 wait 2 next 6 centerx 12 centery 25
+f>
+
+<f 6 sstone3
+   pic 6 state 9999 wait 2 next 7 centerx 17 centery 24
+f>
+
+<f 7 sstone4
+   pic 7 state 9999 wait 2 next 4 centerx 16
+f>
+
+<f 10 stick1
+   pic 10 state 9999 wait 2 next 11
+f>
+
+<f 11 stick2
+   pic 11 state 9999 wait 2 next 12 centery 24
+f>
+
+<f 12 stick3
+   pic 12 state 9999 wait 2 next 13 centerx 17 centery 23
+f>
+
+<f 13 stick4
+   pic 13 state 9999 wait 2 next 10 centerx 18 centery 29
+f>
+
+<f 14 sstick1
+   pic 14 state 9999 wait 2 next 15 centerx 18 centery 26
+f>
+
+<f 15 sstick2
+   pic 15 state 9999 wait 2 next 16 centerx 14
+f>
+
+<f 16 sstick3
+   pic 16 state 9999 wait 2 next 17 centerx 12
+f>
+
+<f 17 sstick4
+   pic 17 state 9999 wait 2 next 14 centerx 14 centery 23
+f>
+
+<f 20 hoe1
+   pic 20 state 9999 wait 2 next 21
+f>
+
+<f 21 hoe2
+   pic 21 state 9999 wait 2 next 22 centery 24
+f>
+
+<f 22 hoe3
+   pic 22 state 9999 wait 2 next 23 centerx 17 centery 23
+f>
+
+<f 23 hoe4
+   pic 23 state 9999 wait 2 next 20 centerx 18 centery 29
+f>
+
+<f 24 s_hoe1
+   pic 24 state 9999 wait 2 next 25 centerx 18 centery 26
+f>
+
+<f 25 s_hoe2
+   pic 25 state 9999 wait 2 next 26 centerx 14
+f>
+
+<f 26 s_hoe3
+   pic 26 state 9999 wait 2 next 27 centerx 12
+f>
+
+<f 27 s_hoe4
+   pic 27 state 9999 wait 2 next 24 centerx 14 centery 23
+f>
+
+<f 30 k_hoe1
+   pic 30 state 9999 wait 2 next 31
+f>
+
+<f 31 k_hoe2
+   pic 31 state 9999 wait 2 next 32 centery 24
+f>
+
+<f 32 k_hoe3
+   pic 32 state 9999 wait 2 next 33 centerx 17 centery 23
+f>
+
+<f 33 k_hoe4
+   pic 33 state 9999 wait 2 next 30 centerx 18 centery 29
+f>
+
+<f 40 box01
+   pic 40 state 9999 wait 2 next 41
+f>
+
+<f 41 box02
+   pic 41 state 9999 wait 2 next 42 centery 24
+f>
+
+<f 42 box03
+   pic 42 state 9999 wait 2 next 43 centerx 17 centery 23
+f>
+
+<f 43 box04
+   pic 43 state 9999 wait 2 next 40 centerx 18 centery 29
+f>
+
+<f 44 box11
+   pic 44 state 9999 wait 2 next 45 centerx 18 centery 26
+f>
+
+<f 45 box12
+   pic 45 state 9999 wait 2 next 46 centerx 14
+f>
+
+<f 46 box13
+   pic 46 state 9999 wait 2 next 47 centerx 12
+f>
+
+<f 47 box14
+   pic 47 state 9999 wait 2 next 44 centerx 14 centery 23
+f>
+
+<f 50 box21
+   pic 50 state 9999 wait 2 next 51
+f>
+
+<f 51 box22
+   pic 51 state 9999 wait 2 next 52 centery 24
+f>
+
+<f 52 box23
+   pic 52 state 9999 wait 2 next 53 centerx 17 centery 23
+f>
+
+<f 53 box24
+   pic 53 state 9999 wait 2 next 50 centerx 18 centery 29
+f>
+
+<f 54 box31
+   pic 54 state 9999 wait 2 next 55 centerx 18 centery 26
+f>
+
+<f 55 box32
+   pic 55 state 9999 wait 2 next 56 centerx 14
+f>
+
+<f 56 box33
+   pic 56 state 9999 wait 2 next 57 centerx 12
+f>
+
+<f 57 box34
+   pic 57 state 9999 wait 2 next 54 centerx 14 centery 23
+f>
+
+<f 60 baseball1
+   pic 60 state 9999 wait 2 next 61
+f>
+
+<f 61 baseball2
+   pic 61 state 9999 wait 2 next 62 centery 24
+f>
+
+<f 62 baseball3
+   pic 62 state 9999 wait 2 next 63 centerx 17 centery 23
+f>
+
+<f 63 baseball4
+   pic 63 state 9999 wait 2 next 60 centerx 18 centery 29
+f>
+
+<f 70 milk1
+   pic 70 state 9999 wait 2 next 71
+f>
+
+<f 71 milk2
+   pic 71 state 9999 wait 2 next 72 centery 24
+f>
+
+<f 72 milk3
+   pic 72 state 9999 wait 2 next 73 centerx 17 centery 23
+f>
+
+<f 73 milk4
+   pic 73 state 9999 wait 2 next 70 centerx 18 centery 29
+f>
+
+<f 74 milk1
+   pic 74 state 9999 wait 1 next 75
+f>
+
+<f 75 milk2
+   pic 75 state 9999 wait 4 next 76 centery 24
+f>
+
+<f 76 milk3
+   pic 76 state 9999 wait 1 next 77 centerx 17 centery 23
+f>
+
+<f 77 milk4
+   pic 77 state 9999 wait 2 next 74 centerx 18 centery 29
+f>
+
+<f 80 milk13
+   pic 80 state 9999 wait 2 next 81
+f>
+
+<f 81 milk23
+   pic 81 state 9999 wait 2 next 82 centery 24
+f>
+
+<f 82 milk33
+   pic 82 state 9999 wait 2 next 83 centerx 17 centery 23
+f>
+
+<f 83 milk43
+   pic 83 state 9999 wait 2 next 80 centerx 18 centery 29
+f>
+
+<f 101 disappear
+   pic 99 state 9998 wait 100 centerx 14 centery 23
+f>
+
+<f 120 ice11
+   pic 90 state 9999 wait 4 next 121
+f>
+
+<f 121 ice21
+   pic 91 state 9999 wait 4 next 122 centery 24
+f>
+
+<f 122 ice31
+   pic 92 state 9999 wait 4 next 123 centerx 17 centery 23
+f>
+
+<f 123 ice41
+   pic 93 state 9999 wait 4 next 120 centerx 18 centery 29
+f>
+
+<f 125 ice11
+   pic 94 state 9999 wait 2 next 126
+f>
+
+<f 126 ice21
+   pic 95 state 9999 wait 2 next 127 centery 24
+f>
+
+<f 127 ice31
+   pic 96 state 9999 wait 2 next 128 centerx 17 centery 23
+f>
+
+<f 128 ice41
+   pic 97 state 9999 wait 2 next 125 centerx 18 centery 29
+f>
+
+<f 130 ice11
+   pic 84 state 9999 wait 3 next 131
+f>
+
+<f 131 ice21
+   pic 85 state 9999 wait 3 next 132 centery 24
+f>
+
+<f 132 ice31
+   pic 86 state 9999 wait 3 next 133 centerx 17 centery 23
+f>
+
+<f 133 ice41
+   pic 87 state 9999 wait 3 next 130 centerx 18 centery 29
+f>
+
+<f 135 ice11
+   pic 64 state 9999 wait 1 next 136
+f>
+
+<f 136 ice21
+   pic 65 state 9999 wait 1 next 137 centery 24
+f>
+
+<f 137 ice31
+   pic 66 state 9999 wait 1 next 138 centerx 17 centery 23
+f>
+
+<f 138 ice41
+   pic 67 state 9999 wait 1 next 135 centerx 18 centery 29
+f>
+
+<f 140 burning_smoke
+   pic 8 state 9999 wait 1 next 141 dvy -1 centerx 18 centery 29
+f>
+
+<f 141 -
+   pic 9 state 9999 wait 1 next 142 dvy -2 centerx 18 centery 29
+f>
+
+<f 142 -
+   pic 18 state 9999 wait 1 next 143 dvy -3 centerx 18 centery 29
+f>
+
+<f 143 -
+   pic 19 state 9999 wait 1 next 101 dvy -3 centerx 18 centery 29
+f>
+
+<f 150 stick1
+   pic 34 state 9999 wait 2 next 151
+f>
+
+<f 151 stick2
+   pic 35 state 9999 wait 2 next 152 centery 24
+f>
+
+<f 152 stick3
+   pic 36 state 9999 wait 2 next 153 centerx 17 centery 23
+f>
+
+<f 153 stick4
+   pic 37 state 9999 wait 2 next 150 centerx 18 centery 29
+f>
+
+<f 154 sstick1
+   pic 38 state 9999 wait 2 next 155 centerx 18 centery 26
+f>
+
+<f 155 sstick2
+   pic 39 state 9999 wait 2 next 156 centerx 14
+f>
+
+<f 156 sstick3
+   pic 28 state 9999 wait 2 next 157 centerx 12
+f>
+
+<f 157 sstick4
+   pic 29 state 9999 wait 2 next 154 centerx 14 centery 23
+f>
+
+<f 160 beer1
+   pic 100 state 9999 wait 2 next 161
+f>
+
+<f 161 beer2
+   pic 101 state 9999 wait 2 next 162 centery 24
+f>
+
+<f 162 beer3
+   pic 102 state 9999 wait 2 next 163 centerx 17 centery 23
+f>
+
+<f 163 beer4
+   pic 103 state 9999 wait 2 next 160 centerx 18 centery 29
+f>
+
+<f 164 beer1
+   pic 110 state 9999 wait 1 next 165
+f>
+
+<f 165 beer2
+   pic 111 state 9999 wait 4 next 166 centery 24
+f>
+
+<f 166 beer3
+   pic 112 state 9999 wait 1 next 167 centerx 17 centery 23
+f>
+
+<f 167 beer4
+   pic 113 state 9999 wait 2 next 164 centerx 18 centery 29
+f>
+
+<f 170 <1
+   pic 120 state 9999 wait 1 next 171
+f>
+
+<f 171 <2
+   pic 121 state 9999 wait 1 next 172 centery 24
+f>
+
+<f 172 <3
+   pic 122 state 9999 wait 1 next 173 centerx 17 centery 23
+f>
+
+<f 173 <4
+   pic 123 state 9999 wait 1 next 170 centerx 18 centery 29
+f>
+
+<f 174 armour1
+   pic 48 state 9999 wait 1 next 175
+f>
+
+<f 175 armour2
+   pic 49 state 9999 wait 1 next 176 centery 24
+f>
+
+<f 176 armour3
+   pic 58 state 9999 wait 1 next 177 centerx 17 centery 23
+f>
+
+<f 177 armour4
+   pic 59 state 9999 wait 1 next 174 centerx 18 centery 29
+f>
+
+<f 399 dummy
+   pic 5 wait 2 next 999 centerx 14
+   <b kind 0 x 2 y 20 w 46 h 15 b>
+f>
+

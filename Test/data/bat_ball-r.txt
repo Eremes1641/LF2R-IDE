@@ -1,0 +1,82 @@
+<bmp
+name bat_ball
+file(0-7) sys/bat-r_ball w 146 h 39 row 4 col 2
+resized 3
+default_centerx 98
+default_centery 18
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 dvx 19
+   <i kind 0 x 37 y 6 w 98 h 24 dvx 15 dvy -8 fall 40 vrest 10 bdefend 16 injury 40 i>
+   <b kind 0 x 37 y 6 w 98 h 24 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 999 dvx 19
+   <i kind 0 x 37 y 6 w 98 h 24 dvx 15 dvy -8 fall 40 vrest 10 bdefend 16 injury 40 i>
+   <b kind 0 x 37 y 6 w 98 h 24 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 1 next 3 dvx 19
+   <i kind 0 x 37 y 6 w 98 h 24 dvx 15 dvy -8 fall 40 vrest 10 bdefend 16 injury 30 i>
+   <b kind 0 x 37 y 6 w 98 h 24 b>
+f>
+
+<f 3 -
+   pic 2 state 3000 wait 1 next 2 dvx 19
+   <i kind 0 x 37 y 6 w 98 h 24 dvx 15 dvy -8 fall 40 vrest 10 bdefend 16 injury 30 i>
+   <b kind 0 x 37 y 6 w 98 h 24 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 1 next 31
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000
+f>
+

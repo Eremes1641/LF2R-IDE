@@ -1,0 +1,71 @@
+<bmp
+name jack_ball
+file(0-7) sys/jack-r_b w 92 h 93 row 4 col 2
+resized 3
+default_centerx 49
+default_centery 46
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 dvx 14 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 13 dvy -8 fall 70 vrest 10 bdefend 16 injury 45 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 999 dvx 14 centerx 45
+   <i kind 0 x 27 y 32 w 55 h 27 dvx 13 dvy -8 fall 70 vrest 10 bdefend 16 injury 45 i>
+   <b kind 0 x 27 y 32 w 55 h 27 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 51
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 51
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 51
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 51
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 1 next 31 centerx 48
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32 centerx 48
+   <o kind 1 x 46 y 46 oid 216 facing 1 o>
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33 centerx 48
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000 centerx 48
+f>
+

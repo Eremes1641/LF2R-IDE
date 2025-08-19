@@ -1,0 +1,111 @@
+<bmp
+name henry_arrow2
+file(0-11) sys/henry-r_arrow2 w 55 h 54 row 6 col 2
+resized 3
+default_centerx 22
+default_centery 27
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3006 wait 1 next 1 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 1 -
+   pic 1 state 3006 wait 1 next 2 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 2 -
+   pic 2 state 3006 wait 1 next 3 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 3 -
+   pic 3 state 3006 wait 1 next 4 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 4 -
+   pic 4 state 3006 wait 1 next 5 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 5 -
+   pic 5 state 3006 wait 1 next 6 dvx 22
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 6 -
+   pic 11 state 3006 wait 1 next 999 dvx 22 
+   <i kind 0 x 2 y 15 w 51 h 24 dvx 20 fall 70 vrest 15 bdefend 60 injury 50 effect 1 i>
+   <b kind 0 x 2 y 15 w 51 h 24 b>
+f>
+
+<f 10 hiting
+   pic 6 state 3001 wait 1 next 11
+f>
+
+<f 11 -
+   pic 7 state 3001 wait 1 next 12
+f>
+
+<f 12 -
+   pic 8 state 3001 wait 1 next 13
+f>
+
+<f 13 -
+   pic 9 state 3001 wait 1 next 14
+f>
+
+<f 14 -
+   pic 10 state 3001 wait 1 next 1000
+f>
+
+<f 20 hit
+   pic 6 state 3002 wait 1 next 21
+f>
+
+<f 21 -
+   pic 7 state 3002 wait 1 next 22
+f>
+
+<f 22 -
+   pic 8 state 3002 wait 1 next 23
+f>
+
+<f 23 -
+   pic 9 state 3002 wait 1 next 24
+f>
+
+<f 24 -
+   pic 10 state 3002 wait 1 next 1000
+f>
+
+<f 30 rebounding
+   pic 6 state 3003 wait 1 next 31
+f>
+
+<f 31 -
+   pic 7 state 3003 wait 1 next 32
+f>
+
+<f 32 -
+   pic 8 state 3003 wait 1 next 33
+f>
+
+<f 33 -
+   pic 9 state 3003 wait 1 next 34
+f>
+
+<f 34 -
+   pic 10 state 3003 wait 1 next 1000
+f>

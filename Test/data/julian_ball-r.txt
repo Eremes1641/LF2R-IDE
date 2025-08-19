@@ -1,0 +1,167 @@
+<bmp
+name julian_ball
+file(0-11) sys/julian-r_ball w 92 h 93 row 4 col 3
+resized 3
+default_centerx 42
+default_centery 46
+weapon_hit_sound mp3/090
+weapon_drop_sound mp3/090
+weapon_broken_sound mp3/090
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 centerx 45 hit_a 14 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 2 centerx 37 centery 47 hit_a 14 hit_d 1 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 1 next 3 centerx 44 centery 47 hit_a 14 hit_d 2 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 wait 1 next 4 centerx 38 hit_a 14 hit_d 3 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 4 -
+   pic 2 state 3000 wait 1 next 5 centerx 43 centery 47 hit_a 14 hit_d 4 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 5 -
+   pic 1 state 3000 wait 1 next 999 centerx 36 hit_a 14 hit_d 5 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 2 next 11 centerx 39 centery 41
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 2 next 12 centerx 38 centery 41
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 2 next 13 centerx 40 centery 41
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 33
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 43
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 38
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 44
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 46
+f>
+
+<f 30 rebounding
+   pic 4 state 3003 wait 1 next 31
+f>
+
+<f 31 -
+   pic 5 state 3003 wait 1 next 32 centerx 36
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33 centerx 43
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000
+f>
+
+<f 40 disappearing
+   pic 5 state 3004 wait 1 next 41
+f>
+
+<f 41 -
+   pic 6 state 3004 wait 1 next 42
+f>
+
+<f 42 -
+   pic 7 state 3004 wait 1 next 1000 centerx 33
+f>
+
+<f 50 flying
+   pic 8 state 3000 wait 1 next 51 centerx 45 hit_a 14 hit_d 1 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 51 -
+   pic 9 state 3000 wait 1 next 52 centerx 37 centery 47 hit_a 14 hit_d 1 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 52 -
+   pic 10 state 3000 wait 1 next 53 centerx 44 centery 47 hit_a 14 hit_d 2 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 53 -
+   pic 11 state 3000 wait 1 next 54 centerx 38 hit_a 14 hit_d 3 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 54 -
+   pic 10 state 3000 wait 1 next 55 centerx 43 centery 47 hit_a 14 hit_d 4 hit_Fa 14
+   <i kind 0 x 23 y 24 w 56 h 51 dvx 10 fall 20 vrest 10 bdefend 10 injury 40 i>
+   <b kind 0 x 23 y 24 w 56 h 51 b>
+f>
+
+<f 55 -
+   pic 9 state 3000 wait 1 next 50 centerx 36 hit_a 14 hit_d 5 hit_Fa 14
+   <i kind 0 x 15 y 24 w 56 h 51 dvx 16 fall 60 vrest 10 bdefend 16 injury 45 i>
+   <b kind 0 x 15 y 24 w 56 h 51 b>
+f>
+
+<f 60 disappearing2
+   pic 7 state 3004 wait 1 next 61
+   sound mp3/020
+f>
+
+<f 61 -
+   pic 7 state 3004 wait 1 next 62
+f>
+
+<f 62 -
+   pic 7 state 3004 wait 1 next 1000 centerx 33
+f>
+
+<f 100 start
+   pic 7 state 3005 wait 1 next 101 centerx 45 centery 87
+f>
+
+<f 101 -
+   pic 7 state 3005 wait 1 next 102 centerx 5 centery 5 hit_Fa 13
+f>
+
+<f 102 -
+   pic 7 state 3005 wait 1 next 1000 centerx 45 centery 87
+f>
+
