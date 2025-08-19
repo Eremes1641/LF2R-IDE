@@ -1,0 +1,115 @@
+<bmp
+name jan_chase
+file(0-7) sys/jan-r_chase w 92 h 93 row 4 col 2
+file(8-11) sys/jan-r_chaseb w 29 h 29 row 4 col 1
+resized 3
+default_centerx 60
+default_centery 45
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 5 next 1 centerx 50 centery 43 hit_a 7 hit_d 1 hit_Fa 7
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 5 next 2 centerx 46 centery 46 hit_a 7 hit_d 1 hit_Fa 7
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 3 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 5 next 3 centerx 46 centery 46 hit_a 7 hit_d 2 hit_Fa 7
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 3 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 wait 1 centerx 46 hit_a 7 hit_d 3 hit_Fa 7
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 3 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centery 44
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 56
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx 58
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 61 centery 46
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 57
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 63 centery 46
+f>
+
+<f 30 rebounding
+   pic 4 state 3002 wait 1 next 21
+f>
+
+<f 40 tail
+   pic 8 state 3005 wait 2 next 41 centerx 14 centery 14
+f>
+
+<f 41 -
+   pic 9 state 3005 wait 1 next 42 centerx 14 centery 14
+f>
+
+<f 42 -
+   pic 10 state 3005 wait 1 next 43 centerx 14 centery 14
+f>
+
+<f 43 -
+   pic 11 state 3005 wait 1 next 1000 centerx 14 centery 14
+f>
+
+<f 50 start
+   pic 100 state 3005 wait 1 next 51 centerx 45 centery 38
+f>
+
+<f 51 -
+   pic 100 state 3005 wait 1 next 52 centerx 45 centery 38 hit_Fa 6
+f>
+
+<f 52 -
+   pic 100 state 3005 wait 1 next 1000 centerx 45 centery 38
+f>
+
+<f 60 hiting_ground
+   pic 4 state 3001 wait 1 next 61 centery 44
+f>
+
+<f 61 -
+   pic 5 state 3001 wait 1 next 62 centerx 56
+   sound mp3/020
+f>
+
+<f 62 -
+   pic 6 state 3001 wait 1 next 63 centerx 58
+f>
+
+<f 63 -
+   pic 7 state 3001 wait 1 next 1000 centerx 61 centery 46
+f>
+

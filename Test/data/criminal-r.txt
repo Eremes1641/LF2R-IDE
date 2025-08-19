@@ -1,0 +1,207 @@
+<bmp
+name criminal
+file(0-39) sys/criminal-r w 90 h 90 row 10 col 4
+resized 3
+default_centerx 43
+default_centery 83
+bmp>
+<f 0 monk
+   pic 2 wait 7 next 1
+   <b kind 1003 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 1 -
+   pic 1 wait 5 next 2
+   <b kind 1003 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 2 -
+   pic 0 wait 10 next 999
+   <b kind 1003 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 3 -
+   pic 3 wait 2 next 4
+   sound mp3/013
+f>
+
+<f 4 -
+   pic 4 wait 2 next 5
+f>
+
+<f 5 -
+   pic 4 state 8035 wait 2 next 999
+f>
+
+<f 10 mark
+   pic 5 wait 7 next 11
+   <b kind 1013 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 11 -
+   pic 6 wait 5 next 12
+   <b kind 1013 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 12 -
+   pic 7 wait 10 next 10
+   <b kind 1013 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 13 -
+   pic 8 wait 2 next 14
+   sound mp3/013
+f>
+
+<f 14 -
+   pic 9 wait 2 next 15
+f>
+
+<f 15 -
+   pic 9 state 8032 wait 2 next 999
+f>
+
+<f 20 jack
+   pic 10 wait 7 next 21
+   <b kind 1023 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 21 -
+   pic 11 wait 5 next 22
+   <b kind 1023 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 22 -
+   pic 12 wait 10 next 20
+   <b kind 1023 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 23 -
+   pic 13 wait 2 next 24
+   sound mp3/013
+f>
+
+<f 24 -
+   pic 14 wait 2 next 25
+f>
+
+<f 25 -
+   pic 14 state 8033 wait 2 next 999
+f>
+
+<f 30 sorcerer
+   pic 15 wait 7 next 31
+   <b kind 1033 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 31 -
+   pic 16 wait 5 next 32
+   <b kind 1033 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 32 -
+   pic 17 wait 10 next 30
+   <b kind 1033 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 33 -
+   pic 18 wait 2 next 34
+   sound mp3/013
+f>
+
+<f 34 -
+   pic 19 wait 2 next 35
+f>
+
+<f 35 -
+   pic 19 state 8034 wait 2 next 999
+f>
+
+<f 40 bandit
+   pic 20 wait 7 next 41
+   <b kind 1043 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 41 -
+   pic 21 wait 5 next 42
+   <b kind 1043 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 42 -
+   pic 22 wait 10 next 40
+   <b kind 1043 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 43 -
+   pic 23 wait 2 next 44
+   sound mp3/013
+f>
+
+<f 44 -
+   pic 24 wait 2 next 45
+f>
+
+<f 45 -
+   pic 24 state 8030 wait 2 next 999
+f>
+
+<f 50 hunter
+   pic 25 wait 7 next 51
+   <b kind 1053 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 51 -
+   pic 26 wait 5 next 52
+   <b kind 1053 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 52 -
+   pic 27 wait 10 next 50
+   <b kind 1053 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 53 -
+   pic 28 wait 2 next 54
+   sound mp3/013
+f>
+
+<f 54 -
+   pic 29 wait 2 next 55
+f>
+
+<f 55 -
+   pic 29 state 8031 wait 2 next 999
+f>
+
+<f 60 jan
+   pic 30 wait 7 next 61
+   <b kind 1063 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 61 -
+   pic 31 wait 5 next 62
+   <b kind 1063 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 62 -
+   pic 32 wait 10 next 60
+   <b kind 1063 x 26 y 23 w 43 h 62 b>
+f>
+
+<f 63 -
+   pic 33 wait 2 next 64
+   sound mp3/013
+f>
+
+<f 64 -
+   pic 34 wait 2 next 65
+f>
+
+<f 65 -
+   pic 34 state 8036 wait 2 next 999
+f>
+
+<f 399 come_here
+   pic 0 wait 60 next 1000
+f>
+

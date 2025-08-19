@@ -1,0 +1,1497 @@
+<bmp
+name Henry
+head sys/henry_f-r
+small sys/henry_s_x3
+file(0-69) sys/henry-r_0 w 90 h 90 row 10 col 7
+file(70-139) sys/henry-r_1 w 90 h 90 row 10 col 7
+file(140-159) sys/henry-r_2 w 90 h 90 row 10 col 2
+walking_frame_rate 3
+walking_speed 5.000000
+walking_speedz 2.500000
+running_frame_rate 3
+running_speed 11.000000
+running_speedz 1.700000
+heavy_walking_speed 3.700000
+heavy_walking_speedz 1.850000
+heavy_running_speed 6.200000
+heavy_running_speedz 1.000000
+jump_height -16.299999
+jump_distance 10.000000
+jump_distancez 3.750000
+dash_height -11.000000
+dash_distance 18.000000
+dash_distancez 5.000000
+rowing_height -2.000000
+rowing_distance 5.000000
+limb_head sys/limb_henry_head 1000 1000 5 5 0 30
+limb_chest sys/limb_henry_chest 1000 1000 5 5 0 19
+limb_hip sys/limb_henry_chest 1000 1000 5 5 20 15
+limb_l_hand_a sys/limb_henry_hand 1000 1000 5 5 20 10
+limb_r_hand_a sys/limb_henry_hand 1000 1000 5 5 30 10
+limb_l_hand_b sys/limb_henry_hand 500 500 10 10 0 36
+limb_r_hand_b sys/limb_henry_hand 500 500 10 10 40 31
+limb_r_hand_w sys/limb_henry_bow 1000 1000 5 5 0 12
+limb_l_hand_c sys/limb_henry_hand_cover 500 500 10 10 0 35
+limb_r_hand_c sys/limb_henry_hand_cover 500 500 10 10 40 30
+limb_l_leg_a sys/limb_henry_leg 500 500 10 10 0 10
+limb_l_leg_b sys/limb_henry_leg 500 500 10 10 10 6
+limb_r_leg_a sys/limb_henry_leg 500 500 10 10 20 10
+limb_r_leg_b sys/limb_henry_leg 500 500 10 10 30 6
+limb_l_foot sys/limb_henry_leg 500 500 10 10 40 20
+limb_r_foot sys/limb_henry_leg 500 500 10 10 40 20
+limb_effect sys/limb_effect 1000 1000 5 5 0 25
+limb_effect2 sys/limb_henry_effect 500 500 10 10 0 12
+limb_head_blood 552 856 551 845 547 851 550 846 602 837 598 844 597 845 640 838 629 842 640 839 701 826 -1 -1 -1 -1 420 862 420 862 419 862 657 661 570 767 569 766 571 767 621 685 -1 -1 642 700 710 799 -1 -1 553 856 597 846 597 846 597 846 -1 -1
+limb_hand_weapon 242 326 244 326 420 260 424 258 238 345 221 170 360 247 399 284 228 322 304 342 369 243 230 312 230 320 275 128 345 268 445 218 245 280 260 254 230 110 251 122 296 155 297 159 160 362 243 332 183 249 230 353 307 200 369 309 348 275 284 133 307 168 307 168 307 168 307 168 267 303 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 276 338 276 338 201 162 358 275 263 343 268 172 238 110 346 324 303 257 339 263 358 267 252 344 244 325 276 161 307 288 322 279 298 243 380 283 179 389 162 250
+resized 3
+default_centerx 44
+default_centery 84
+bmp>
+<f 0 standing
+   pic 0 wait 4 next 1 centerx 39 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 40.74 y 37.88667 bp>
+   <w kind 1 x 26.31333 y 56.70889 weaponact 23 w>
+   <b kind 0 x 25 y 15 w 34 h 67 b>
+f>
+
+<f 1 -
+   pic 1 wait 4 next 2 centerx 39 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 40.74 y 37.77556 bp>
+   <w kind 1 x 26.09111 y 56.59778 weaponact 23 w>
+   <b kind 0 x 28 y 14 w 32 h 67 b>
+f>
+
+<f 2 -
+   pic 2 wait 4 next 3 centerx 39 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 40.74 y 37.66444 bp>
+   <w kind 1 x 25.98 y 56.48667 weaponact 23 w>
+   <b kind 0 x 29 y 14 w 31 h 70 b>
+f>
+
+<f 3 -
+   pic 3 wait 8 next 4 centerx 39 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 40.74 y 37.55333 bp>
+   <w kind 1 x 25.86889 y 56.37556 weaponact 23 w>
+   <b kind 0 x 27 y 11 w 31 h 71 b>
+f>
+
+<f 4 -
+   pic 2 wait 4 next 999 centerx 39 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 40.74 y 37.66444 bp>
+   <w kind 1 x 25.98 y 56.48667 weaponact 23 w>
+   <b kind 0 x 27 y 11 w 31 h 71 b>
+f>
+
+<f 5 walking
+   pic 4 state 1 wait 3 next 999 centerx 40 centery 83 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 41.74 y 36.88667 bp>
+   <w kind 1 x 27.31333 y 55.70889 weaponact 23 w>
+   <i kind 1 x 45 y 21 w 25 h 65 catchingact 120 120 caughtact 130 130 i>
+   <b kind 0 x 29 y 12 w 31 h 72 b>
+f>
+
+<f 6 -
+   pic 5 state 1 wait 3 next 999 centerx 42 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 43.96222 y 37.77556 bp>
+   <w kind 1 x 29.31333 y 56.59778 weaponact 23 w>
+   <i kind 1 x 45 y 21 w 25 h 65 catchingact 120 120 caughtact 130 130 i>
+   <b kind 0 x 33 y 12 w 26 h 72 b>
+f>
+
+<f 7 -
+   pic 6 state 1 wait 3 next 999 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 45.96222 y 37.66444 bp>
+   <w kind 1 x 31.20222 y 56.48667 weaponact 23 w>
+   <i kind 1 x 45 y 21 w 25 h 65 catchingact 120 120 caughtact 130 130 i>
+   <b kind 0 x 31 y 12 w 30 h 72 b>
+f>
+
+<f 8 -
+   pic 7 state 1 wait 3 next 999 centerx 45 centery 83 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <bp x 46.96222 y 36.55333 bp>
+   <w kind 1 x 32.09111 y 55.37556 weaponact 23 w>
+   <i kind 1 x 45 y 21 w 25 h 65 catchingact 120 120 caughtact 130 130 i>
+   <b kind 0 x 33 y 11 w 28 h 74 b>
+f>
+
+<f 9 running
+   pic 20 state 2 wait 3 centerx 42
+   sound mp3/003
+   <bp x 59.66499 y 41.14705 bp>
+   <w kind 1 x 32.78038219253084 y 54.85075555563101 weaponact 24 w>
+   <b kind 0 x 30 y 16 w 39 h 68 b>
+f>
+
+<f 10 -
+   pic 21 state 2 wait 3 centerx 42
+   <bp x 60.10944 y 41.81372 bp>
+   <w kind 1 x 48.04868446535632 y 58.1802533111036 weaponact 22 w>
+   <b kind 0 x 30 y 15 w 42 h 68 b>
+f>
+
+<f 11 -
+   pic 22 state 2 wait 3
+   sound mp3/004
+   <bp x 62.7761 y 42.03594 bp>
+   <w kind 1 x 63.691286197203084 y 51.106485742860094 weaponact 20 w>
+   <b kind 0 x 34 y 19 w 32 h 64 b>
+f>
+
+<f 12 heavy_obj_walk
+   pic 23 state 1 wait 3 centerx 48
+   <bp x 49.74 y 37.88667 bp>
+   <w kind 1 x 45.61494 y 24.83476 weaponact 10 w>
+   <b kind 0 x 34 y 13 w 29 h 74 b>
+f>
+
+<f 13 -
+   pic 24 state 1 wait 3 centerx 50
+   <bp x 52.18444 y 37.88667 bp>
+   <w kind 1 x 48.05938 y 24.83476 weaponact 10 w>
+   <b kind 0 x 36 y 11 w 28 h 72 b>
+f>
+
+<f 14 -
+   pic 25 state 1 wait 3 centerx 52
+   <bp x 53.96222 y 37.88667 bp>
+   <w kind 1 x 49.83716 y 24.83476 weaponact 10 w>
+   <b kind 0 x 40 y 8 w 25 h 76 b>
+f>
+
+<f 15 -
+   pic 26 state 1 wait 3 centerx 52
+   <bp x 53.74 y 37.88667 bp>
+   <w kind 1 x 49.61494 y 24.83476 weaponact 10 w>
+   <b kind 0 x 41 y 11 w 26 h 74 b>
+f>
+
+<f 16 heavy_obj_run
+   pic 125 state 2 wait 3 centerx 40
+   sound mp3/003
+   <bp x 47.36401 y 39.05672 bp>
+   <w kind 1 x 46.74667 y 24.01511 weaponact 10 w>
+   <b kind 0 x 27 y 15 w 30 h 68 b>
+f>
+
+<f 17 -
+   pic 126 state 2 wait 3 centerx 39
+   <bp x 46.80872 y 38.40556 bp>
+   <w kind 1 x 46.19139 y 23.36395 weaponact 10 w>
+   <b kind 0 x 30 y 12 w 32 h 71 b>
+f>
+
+<f 18 -
+   pic 127 state 2 wait 3 centerx 40
+   sound mp3/004
+   <bp x 49.80872 y 38.85001 bp>
+   <w kind 1 x 49.19139 y 23.8084 weaponact 10 w>
+   <b kind 0 x 34 y 9 w 28 h 75 b>
+f>
+
+<f 19 heavy_stop_run
+   pic 128 state 15 wait 7 next 999 dvx 2 centerx 34
+   sound mp3/009
+   <bp x 36.05829 y 38.74562 bp>
+   <w kind 1 x 31.34625 y 27.71739 weaponact 10 w>
+   <b kind 0 x 18 y 21 w 40 h 62 b>
+f>
+
+<f 20 normal_weapon_atck
+   pic 70 state 3 wait 1 next 21 centerx 35
+   <bp x 35.48722 y 38.63389 bp>
+   <w kind 1 x 19.10924 y 21.11634 weaponact 31 w>
+   <b kind 0 x 26 y 19 w 34 h 65 b>
+f>
+
+<f 21 -
+   pic 71 state 3 wait 1 next 22 centerx 34
+   sound mp3/008
+   <bp x 42.06257 y 39.91657 bp>
+   <w kind 1 x 41.27333 y 21.45778 weaponact 32 w>
+   <b kind 0 x 29 y 17 w 28 h 67 b>
+f>
+
+<f 22 -
+   pic 72 state 3 wait 1 next 23 centerx 16
+   <bp x 40.64633 y 43.31765 bp>
+   <w kind 1 x 51.89516 y 61.29429 weaponact 23 attacking 1 w>
+   <b kind 0 x 12 y 17 w 40 h 68 b>
+f>
+
+<f 23 -
+   pic 73 state 3 wait 1 next 999 centerx 17 centery 85
+   <bp x 42.31913 y 45.10896 bp>
+   <w kind 1 x 52.31749 y 65.06223 weaponact 24 w>
+   <b kind 0 x 14 y 17 w 34 h 69 b>
+   <b kind 0 x 30 y 66 w 17 h 18 b>
+f>
+
+<f 24 rowing
+   pic 69 state 6 wait 2 next 999 dvx 12
+   <w kind 1 x 37 y 52 weaponact 25 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 25 normal_weapon_atck
+   pic 74 state 3 wait 1 next 26 centerx 36
+   <bp x 43.17840147889996 y 38.33498957192544 bp>
+   <w kind 1 x 48.39935 y 39.88585 weaponact 33 cover 1 w>
+   <b kind 0 x 24 y 13 w 33 h 72 b>
+f>
+
+<f 26 -
+   pic 75 state 3 wait 1 next 27 centerx 39
+   sound mp3/008
+   <bp x 51.740491262120415 y 38.89130423617352 bp>
+   <w kind 1 x 58.70714 y 43.26299 weaponact 32 cover 1 w>
+   <b kind 0 x 29 y 17 w 27 h 67 b>
+f>
+
+<f 27 -
+   pic 76 state 3 wait 1 next 28 centerx 18
+   <bp x 39.6330241167419 y 43.03614423192697 bp>
+   <w kind 1 x 54.59651 y 52.55443 weaponact 24 attacking 1 w>
+   <b kind 0 x 14 y 20 w 32 h 64 b>
+f>
+
+<f 28 -
+   pic 77 state 3 wait 1 next 999 centerx 24
+   <bp x 40.125321027655104 y 41.038464534060665 bp>
+   <w kind 1 x 11.03261 y 55.63326 weaponact 25 w>
+   <b kind 0 x 16 y 20 w 34 h 64 b>
+f>
+
+<f 30 jump_weapon_atck
+   pic 80 state 3 wait 1 next 31 centerx 29 centery 89
+   <bp x 36.15389 y 32.52278 bp>
+   <w kind 1 x 19.77591 y 15.00523 weaponact 30 w>
+   <b kind 0 x 21 y 18 w 28 h 58 b>
+f>
+
+<f 31 -
+   pic 81 state 3 wait 1 next 32 centerx 30 centery 87
+   sound mp3/008
+   <bp x 42.50701 y 31.80546 bp>
+   <w kind 1 x 41.71778 y 13.34667 weaponact 32 attacking 2 w>
+   <b kind 0 x 28 y 15 w 23 h 45 b>
+   <b kind 0 x 18 y 43 w 24 h 33 b>
+f>
+
+<f 32 -
+   pic 82 state 3 wait 1 next 33 centerx 18 centery 92
+   <bp x 42.42411 y 38.20654 bp>
+   <w kind 1 x 54.67294 y 56.18318 weaponact 24 attacking 2 w>
+   <b kind 0 x 16 y 37 w 33 h 43 b>
+   <b kind 0 x 34 y 17 w 26 h 38 b>
+f>
+
+<f 33 -
+   pic 83 state 3 wait 4 next 999 centerx 19 centery 92
+   <bp x 44.09691 y 38.99785 bp>
+   <w kind 1 x 54.09527 y 58.95112 weaponact 25 attacking 2 w>
+   <b kind 0 x 16 y 37 w 33 h 43 b>
+   <b kind 0 x 31 y 14 w 26 h 37 b>
+f>
+
+<f 35 run_weapon_atck
+   pic 84 state 3 wait 1 next 36 dvx 6 centerx 45
+   <bp x 53.06257 y 39.91657 bp>
+   <w kind 1 x 52.27333 y 21.45778 weaponact 31 w>
+   <b kind 0 x 36 y 13 w 28 h 72 b>
+f>
+
+<f 36 -
+   pic 85 state 3 wait 1 next 37 dvx 4 centerx 25
+   sound mp3/008
+   <bp x 48.97966465604909 y 43.762095851884354 bp>
+   <w kind 1 x 60.89516 y 61.29429 weaponact 22 attacking 3 w>
+   <b kind 0 x 18 y 14 w 41 h 70 b>
+f>
+
+<f 37 -
+   pic 86 state 3 wait 6 next 999 centerx 25
+   <bp x 49.430238648581636 y 44.775631462222776 bp>
+   <w kind 1 x 60.31749 y 64.06223 weaponact 24 attacking 3 w>
+   <b kind 0 x 23 y 16 w 36 h 65 b>
+f>
+
+<f 40 dash_weapon_atck
+   pic 90 state 3 wait 1 next 41 centerx 26 centery 82
+   <bp x 35.376111111111115 y 36.63388888888889 bp>
+   <w kind 1 x 18.99813 y 19.11634 weaponact 30 w>
+   <b kind 0 x 20 y 20 w 27 h 56 b>
+f>
+
+<f 41 -
+   pic 91 state 3 wait 1 next 42 centerx 28 centery 80
+   sound mp3/008
+   <bp x 42.7292330811839 y 35.91657403454647 bp>
+   <w kind 1 x 41.94 y 17.45778 weaponact 33 attacking 4 w>
+   <b kind 0 x 13 y 37 w 33 h 45 b>
+   <b kind 0 x 28 y 13 w 34 h 33 b>
+f>
+
+<f 42 -
+   pic 92 state 3 wait 1 next 43 centerx 16 centery 83
+   <bp x 42.64633132271575 y 40.762095851884354 bp>
+   <w kind 1 x 54.89516 y 58.29429 weaponact 24 attacking 4 w>
+   <b kind 0 x 13 y 37 w 33 h 45 b>
+   <b kind 0 x 32 y 18 w 30 h 33 b>
+f>
+
+<f 43 -
+   pic 93 state 3 wait 8 next 999 centerx 18
+   <bp x 45.0969053152483 y 42.55340924000056 bp>
+   <w kind 1 x 55.31749 y 62.06223 weaponact 25 attacking 4 w>
+   <b kind 0 x 13 y 37 w 33 h 45 b>
+   <b kind 0 x 28 y 18 w 31 h 37 b>
+f>
+
+<f 45 light_weapon_thw
+   pic 94 state 15 wait 2 next 46 centerx 39
+   <bp x 39.48722222222223 y 38.63388888888889 bp>
+   <w kind 1 x 23.10924 y 21.11634 weaponact 30 w>
+   <b kind 0 x 24 y 20 w 34 h 65 b>
+   <b kind 0 x 14 y 41 w 17 h 18 b>
+f>
+
+<f 46 -
+   pic 95 state 15 wait 1 next 47 centerx 37
+   sound mp3/008
+   <bp x 43.06256641451723 y 39.69435181232426 bp>
+   <w kind 1 x 39.7275 y 22.61164 weaponact 32 w>
+   <b kind 0 x 29 y 27 w 32 h 57 b>
+f>
+
+<f 47 -
+   pic 96 state 15 wait 9 next 999 centerx 37
+   <bp x 64.49979727613234 y 51.29026583758957 bp>
+   <w kind 1 x 107 y 65 weaponact 35 dvx 15 dvy -4 dvz 3 w>
+   <b kind 0 x 15 y 43 w 54 h 21 b>
+   <b kind 0 x 31 y 60 w 32 h 26 b>
+f>
+
+<f 49 throw_lying_man
+   pic 28 state 15 wait 3 next 999 centerx 39
+   <bp x 66.4998 y 51.29027 bp>
+   <w kind 1 x 98 y 42 weaponact 10 dvx 9 dvy -4 dvz 2 w>
+   <b kind 0 x 13 y 44 w 61 h 23 b>
+   <b kind 0 x 24 y 61 w 30 h 24 b>
+f>
+
+<f 50 heavy_weapon_thw
+   pic 27 state 15 wait 4 next 51
+   <bp x 39.39162 y 38.07896 bp>
+   <w kind 1 x 34.67958 y 26.05072 weaponact 10 w>
+   <b kind 0 x 24 y 22 w 30 h 65 b>
+f>
+
+<f 51 -
+   pic 28 state 15 wait 7 next 999 centerx 39
+   sound mp3/007
+   <bp x 66.49979727613234 y 51.29026583758957 bp>
+   <w kind 1 x 98 y 42 weaponact 10 dvx 8 dvy -4 dvz 2 w>
+   <b kind 0 x 13 y 44 w 61 h 23 b>
+   <b kind 0 x 24 y 61 w 30 h 24 b>
+f>
+
+<f 52 sky_lgt_wp_thw
+   pic 97 state 15 wait 2 next 53 centerx 27 centery 78
+   <bp x 36.37611 y 32.63389 bp>
+   <w kind 1 x 19.99813 y 15.11634 weaponact 31 w>
+   <b kind 0 x 20 y 14 w 29 h 54 b>
+f>
+
+<f 53 -
+   pic 98 state 15 wait 1 next 54 dvy -2 centerx 29 centery 77
+   sound mp3/008
+   <bp x 43.95146 y 32.47213 bp>
+   <w kind 1 x 40.61639 y 15.61164 weaponact 33 w>
+   <b kind 0 x 25 y 12 w 31 h 66 b>
+f>
+
+<f 54 -
+   pic 99 state 15 wait 9 next 999 centerx 27 centery 78
+   <bp x 63.38869 y 45.29027 bp>
+   <w kind 1 x 80 y 70 weaponact 23 dvx 16 dvy 8 dvz 3 w>
+   <b kind 0 x 27 y 20 w 38 h 38 b>
+   <b kind 0 x 8 y 42 w 34 h 26 b>
+f>
+
+<f 55 weapon_drink
+   pic 132 state 17 wait 3 next 56 centerx 40 hit_d 999
+   sound mp3/042
+   <w kind 1 x 58.78751 y 27.06532 weaponact 31 w>
+   <b kind 0 x 20 y 17 w 37 h 67 b>
+f>
+
+<f 56 -
+   pic 133 state 17 wait 3 next 57 centerx 40 hit_d 999
+   <w kind 1 x 58.78751 y 26.62088 weaponact 31 w>
+   <b kind 0 x 21 y 25 w 36 h 59 b>
+f>
+
+<f 57 -
+   pic 134 state 17 wait 3 next 58 centerx 40 hit_d 999
+   <w kind 1 x 58.78751 y 26.17643 weaponact 31 w>
+   <b kind 0 x 22 y 22 w 32 h 63 b>
+f>
+
+<f 58 -
+   pic 133 state 17 wait 3 next 55 centerx 40 hit_d 999
+   <w kind 1 x 58.78751 y 26.62088 weaponact 31 w>
+   <b kind 0 x 21 y 18 w 36 h 65 b>
+f>
+
+<f 60 punch
+   pic 10 state 3 wait 1 next 61 centerx 45 mp 12
+   <bp x 46.63389 y 37.21944 bp>
+   <i kind 2 x 26 y 62 w 37 h 24 vrest 1 i>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 61 -
+   pic 11 state 3 wait 1 next 62 centerx 36
+   <b kind 0 x 20 y 10 w 35 h 73 b>
+f>
+
+<f 62 -
+   pic 12 state 3 wait 1 next 63 centerx 29 centery 83
+   sound mp3/022
+   <bp x 33.99 y 36.92611 bp>
+   <b kind 0 x 14 y 14 w 35 h 71 b>
+   <b kind 0 x 28 y 41 w 41 h 16 b>
+f>
+
+<f 63 -
+   pic 13 state 3 wait 1 next 64 centerx 43 centery 83
+   <bp x 48.23222 y 37.28 bp>
+   <b kind 0 x 29 y 15 w 33 h 68 b>
+   <b kind 0 x 33 y 39 w 42 h 19 b>
+f>
+
+<f 64 -
+   pic 14 state 3 wait 1 next 66 centery 83
+   sound mp3/024
+   <o kind 1 x 100 y 62 action 40 dvx 22 dvy -3 oid 201 o>
+   <bp x 48.78778 y 37.28 bp>
+   <b kind 0 x 27 y 12 w 35 h 71 b>
+   <b kind 0 x 31 y 27 w 47 h 29 b>
+f>
+
+<f 65 -
+   pic 10 state 3 wait 1 next 61 centerx 45 mp 12
+   <bp x 46.63389 y 37.21944 bp>
+   <i kind 2 x 38 y 65 w 38 h 19 vrest 1 i>
+   <b kind 0 x 33 y 18 w 33 h 63 b>
+f>
+
+<f 66 -
+   pic 15 state 3 wait 1 next 999 centerx 40 centery 83
+   <bp x 44.67667 y 37.05778 bp>
+   <b kind 0 x 28 y 14 w 33 h 70 b>
+   <b kind 0 x 20 y 37 w 51 h 15 b>
+f>
+
+<f 70 super_punch
+   pic 37 state 3 wait 2 next 71 centerx 47
+   <bp x 47.48722 y 38.85611 bp>
+   <b kind 0 x 25 y 13 w 35 h 71 b>
+f>
+
+<f 71 -
+   pic 29 state 3 wait 1 next 72 dvx 4 centerx 20
+   <bp x 43.45612731641509 y 43.75075774636666 bp>
+   <i kind 0 x 37 y 8 w 43 h 50 dvx 10 fall 60 vrest 15 bdefend 16 injury 35 i>
+   <b kind 0 x 8 y 17 w 36 h 67 b>
+f>
+
+<f 72 -
+   pic 38 state 3 wait 2 next 73 centerx 20
+   sound mp3/007
+   <bp x 51.23391 y 58.86187 bp>
+   <i kind 0 x 40 y 7 w 45 h 88 dvx 10 fall 60 vrest 15 bdefend 16 injury 35 i>
+   <b kind 0 x 10 y 32 w 43 h 52 b>
+f>
+
+<f 73 -
+   pic 39 state 3 wait 2 next 999 centerx 20
+   <bp x 49.44681 y 56.01672 bp>
+   <b kind 0 x 14 y 24 w 37 h 61 b>
+f>
+
+<f 80 jump_attack
+   pic 8 state 3 wait 1 next 81 centerx 23 centery 83 mp 20
+   <bp x 48.47123 y 41.50662 bp>
+   <b kind 0 x 24 y 15 w 39 h 57 b>
+f>
+
+<f 81 -
+   pic 9 state 3 wait 1 next 82 centerx 23 centery 83 mp 20
+   <bp x 48.90652 y 41.80328 bp>
+   <b kind 0 x 24 y 17 w 38 h 59 b>
+f>
+
+<f 82 -
+   pic 49 state 3 wait 1 next 83 centerx 23
+   sound mp3/022
+   <bp x 50.81464 y 43.82624 bp>
+   <b kind 0 x 23 y 17 w 38 h 58 b>
+f>
+
+<f 83 -
+   pic 58 state 3 wait 1 next 84 dvx -1 dvy -3 centerx 23
+   <bp x 50.88401 y 44.08239 bp>
+   <b kind 0 x 17 y 12 w 44 h 63 b>
+f>
+
+<f 84 -
+   pic 59 state 3 wait 11 next 999 centerx 23 hit_a 80
+   sound mp3/024
+   <o kind 1 x 85 y 82 action 44 dvx 12 dvy 9 oid 201 o>
+   <bp x 50.96889 y 44.04338 bp>
+   <b kind 0 x 20 y 15 w 42 h 63 b>
+f>
+
+<f 85 run_attack
+   pic 37 state 3 wait 1 next 86 dvx 5 centerx 47
+   <bp x 47.48722 y 38.85611 bp>
+   <b kind 0 x 25 y 13 w 35 h 71 b>
+f>
+
+<f 86 -
+   pic 29 state 3 wait 1 next 87 dvx 4 centerx 20
+   <bp x 43.45612731641509 y 43.75075774636666 bp>
+   <i kind 0 x 111 y 120 w 1 h 1 dvx 10 fall 60 vrest 15 bdefend 16 injury 35 i>
+   <b kind 0 x 8 y 17 w 36 h 67 b>
+f>
+
+<f 87 -
+   pic 38 state 3 wait 3 next 88 dvx 4 centerx 20
+   sound mp3/007
+   <bp x 51.23391 y 58.86187 bp>
+   <i kind 0 x 39 y 9 w 47 h 89 dvx 10 fall 60 vrest 15 bdefend 16 injury 35 i>
+   <b kind 0 x 10 y 32 w 43 h 52 b>
+f>
+
+<f 88 -
+   pic 39 state 3 wait 2 next 999 centerx 20
+   <bp x 49.44681 y 56.01672 bp>
+   <b kind 0 x 14 y 24 w 37 h 61 b>
+f>
+
+<f 90 dash_attack
+   pic 106 state 15 wait 1 next 91 centerx 43 centery 82
+   <bp x 47.93167 y 34.63389 bp>
+   <b kind 0 x 25 y 8 w 31 h 74 b>
+f>
+
+<f 91 -
+   pic 107 state 15 wait 2 next 92 centerx 20 centery 83
+   sound mp3/007
+   <bp x 43.67834953863731 y 40.30631330192221 bp>
+   <i kind 0 x 32 y 8 w 50 h 57 dvx 12 fall 60 vrest 20 bdefend 60 injury 45 i>
+   <b kind 0 x 14 y 12 w 33 h 70 b>
+f>
+
+<f 92 -
+   pic 108 state 15 centerx 20 centery 83
+   <bp x 45.11153 y 40.9152 bp>
+   <b kind 0 x 14 y 12 w 33 h 70 b>
+f>
+
+<f 95 dash_defend
+   pic 111 state 7 wait 2
+   <w kind 1 x 26 y 32 weaponact 30 w>
+   <b kind 0 x 19 y 24 w 28 h 36 b>
+   <b kind 0 x 33 y 42 w 24 h 34 b>
+f>
+
+<f 100 rowing
+   pic 66 state 6 wait 2 next 101
+   sound mp3/017
+   <bp x 29.7117 y 45.74018 bp>
+   <w kind 1 x 31.01977 y 59.59694 weaponact 32 w>
+f>
+
+<f 101 -
+   pic 65 state 6 wait 6
+   <bp x 39.12222 y 67.63444 bp>
+   <w kind 1 x 35.08842 y 78.7492 weaponact 24 w>
+f>
+
+<f 102 -
+   pic 16 state 6 wait 2 next 103 dvx 12 dvz 2
+   <bp x 53.76052268792947 y 59.442301959273905 bp>
+   <w kind 1 x 52.53545 y 70.53609 weaponact 22 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 103 -
+   pic 17 state 6 wait 2 next 104 dvx 12 dvz 2
+   <bp x 62.25193 y 68.64994 bp>
+   <w kind 1 x 59 y 82 weaponact 24 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 104 -
+   pic 18 state 6 wait 2 next 105 dvx 12 dvz 2
+   <bp x 54.09628 y 68.54546 bp>
+   <w kind 1 x 52 y 82 weaponact 24 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 105 -
+   pic 19 state 6 wait 2 next 106 dvx 12 dvz 2
+   <w kind 1 x 37 y 82 weaponact 24 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 106 -
+   pic 67 state 6 wait 2 next 107 dvx 12 dvz 2
+   <bp x 34.6279 y 68.528 bp>
+   <w kind 1 x 8.9604 y 46.31599 weaponact 27 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 107 -
+   pic 68 state 6 wait 2 next 24 dvx 12 dvz 2
+   <w kind 1 x 59 y 46 weaponact 31 cover 1 w>
+   <i kind 7 x 41 y 59 w 13 h 25 vrest 1 i>
+f>
+
+<f 108 -
+   pic 117 state 6 wait 3 next 109 centerx 50 centery 67
+   sound mp3/017
+   <bp x 35.7117 y 30.9624 bp>
+   <w kind 1 x 37.01977 y 44.81916 weaponact 35 w>
+f>
+
+<f 109 -
+   pic 118 state 6 wait 6
+   <bp x 38.29546 y 35.71213 bp>
+   <w kind 1 x 30.76929 y 54.81025 weaponact 21 w>
+f>
+
+<f 110 defend
+   pic 56 state 7 wait 12 next 999 centerx 42 hit_Fa 235 hit_Fj 270 hit_Uj 250 hit_ja 280
+   <w kind 1 x 38 y 56 weaponact 30 cover 1 w>
+   <b kind 0 x 25 y 24 w 38 h 60 b>
+f>
+
+<f 111 -
+   pic 57 state 7 next 110 centerx 40
+   <w kind 1 x 35 y 56 weaponact 30 cover 1 w>
+   <b kind 0 x 21 y 24 w 42 h 60 b>
+f>
+
+<f 112 broken_defend
+   pic 46 state 8 wait 2 next 113 dvx -2
+   <bp x 33.91021 y 45.34532 bp>
+   <w kind 1 x 15.79007 y 33.50293 weaponact 21 w>
+   <i kind 6 x -4 y 21 w 85 h 65 vrest 1 i>
+   <b kind 0 x 10 y 22 w 64 h 65 b>
+f>
+
+<f 113 -
+   pic 47 state 8 wait 2 next 114 dvx -2 centerx 46 centery 83
+   <bp x 37.66242 y 43.58454 bp>
+   <w kind 1 x 10.72577 y 50.58148 weaponact 35 w>
+   <i kind 6 x -4 y 21 w 85 h 65 vrest 1 i>
+   <b kind 0 x 10 y 22 w 64 h 65 b>
+f>
+
+<f 114 -
+   pic 48 state 8 wait 2 next 999 dvx -2 centerx 45
+   <bp x 34.24716 y 43.56192 bp>
+   <w kind 1 x 24.96137 y 60.3077 weaponact 21 w>
+   <i kind 6 x -4 y 21 w 85 h 65 vrest 1 i>
+   <b kind 0 x 10 y 22 w 64 h 65 b>
+f>
+
+<f 115 picking_light
+   pic 36 state 15 wait 4 next 999 centerx 49
+   sound mp3/009
+   <bp x 51.40667 y 49.22 bp>
+   <w kind 1 x 39.66982 y 74.83225 weaponact 24 w>
+   <b kind 0 x 33 y 24 w 32 h 58 b>
+f>
+
+<f 116 picking_heavy
+   pic 36 state 15 wait 2 next 117 centerx 49
+   sound mp3/009
+   <bp x 51.40667 y 49.22 bp>
+   <w kind 1 x 49 y 84 weaponact 10 w>
+   <b kind 0 x 35 y 28 w 30 h 54 b>
+f>
+
+<f 117 -
+   pic 36 state 15 wait 2 next 999 centerx 49
+   <bp x 51.40667 y 49.22 bp>
+   <w kind 1 x 49 y 78 weaponact 10 w>
+   <b kind 0 x 35 y 28 w 29 h 54 b>
+f>
+
+<f 120 catching
+   pic 51 state 9 wait 2 next 121 centerx 41
+   sound mp3/015
+   <bp x 44.843333333333334 y 38.16888888888889 bp>
+   <c kind 1 x 72 y 44 vaction 131 hurtable 1 decrease 7 c>
+   <w kind 1 x 41.93067 y 54.5389 weaponact 30 cover 1 w>
+   <b kind 0 x 24 y 20 w 28 h 65 b>
+f>
+
+<f 121 -
+   pic 50 state 9
+   <bp x 46.71222222222222 y 37.815 bp>
+   <c kind 1 x 66 y 44 vaction 130 aaction 122 taction -232 hurtable 1 decrease -7 c>
+   <w kind 1 x 41.93067 y 54.5389 weaponact 30 cover 1 w>
+   <b kind 0 x 24 y 20 w 28 h 65 b>
+f>
+
+<f 122 -
+   pic 51 state 9 wait 5 next 123 centerx 43
+   <bp x 44.843333333333334 y 38.16888888888889 bp>
+   <c kind 1 x 66 y 44 vaction 130 hurtable 1 decrease 7 c>
+   <w kind 1 x 41.93067 y 54.5389 weaponact 30 cover 1 w>
+   <b kind 0 x 24 y 20 w 28 h 65 b>
+f>
+
+<f 123 -
+   pic 52 state 9 wait 3 next 121
+   sound mp3/014
+   <bp x 47.82333333333333 y 37.815 bp>
+   <c kind 1 x 63 y 43 injury 15 vaction 132 hurtable 1 decrease 3 c>
+   <w kind 1 x 41.93067 y 54.5389 weaponact 30 cover 1 w>
+   <b kind 0 x 24 y 20 w 28 h 65 b>
+f>
+
+<f 130 picked_caught
+   pic 53 state 10 wait 3
+   <bp x 35.04864 y 36.42421 bp>
+   <c kind 2 x 47 y 44 fronthurtact 132 backhurtact 131 c>
+   <w kind 1 x 30.95842 y 63.41142 weaponact 25 w>
+   <b kind 0 x 31 y 19 w 28 h 66 b>
+f>
+
+<f 131 -
+   pic 54 state 10 wait 3
+   <bp x 36.21305 y 35.39991 bp>
+   <c kind 2 x 53 y 44 fronthurtact 132 backhurtact 132 c>
+   <w kind 1 x 35.78448 y 55.6541 weaponact 25 w>
+   <b kind 0 x 31 y 19 w 28 h 66 b>
+f>
+
+<f 132 -
+   pic 55 state 10 wait 3
+   <bp x 43.90912 y 38.6271 bp>
+   <c kind 2 x 46 y 44 fronthurtact 131 backhurtact 131 c>
+   <w kind 1 x 36.47453 y 53.41961 weaponact 25 w>
+   <b kind 0 x 31 y 19 w 28 h 66 b>
+f>
+
+<f 133 -
+   pic 30 state 10 wait 3
+   <bp x 45.18337 y 40.17141 bp>
+   <c kind 2 x 38 y 41 c>
+   <w kind 1 x 38.79324 y 54.31052 weaponact 22 w>
+f>
+
+<f 134 -
+   pic 31 state 10 wait 3 centerx 45
+   <bp x 31.64333 y 29.96078 bp>
+   <c kind 2 x 42 y 33 c>
+   <w kind 1 x 45.19201 y 42.95175 weaponact 21 w>
+f>
+
+<f 135 -
+   pic 32 state 10 wait 3
+   <c kind 2 x 36 y 27 c>
+   <w kind 1 x 32.23363 y 52.96221 weaponact 21 w>
+f>
+
+<f 136 -
+   pic 33 state 10 wait 3
+   <c kind 2 x 32 y 51 c>
+   <w kind 1 x 46 y 42 weaponact 33 cover 1 w>
+f>
+
+<f 137 -
+   pic 34 state 10 wait 3 centery 76
+   <bp x 29.26914 y 68.51886 bp>
+   <c kind 2 x 38 y 73 c>
+   <w kind 1 x 52.86475 y 80.76836 weaponact 32 w>
+f>
+
+<f 138 -
+   pic 35 state 10 wait 3
+   <bp x 28.37042 y 56.75407 bp>
+   <c kind 2 x 39 y 59 c>
+   <w kind 1 x 54.58757 y 66.62473 weaponact 31 w>
+f>
+
+<f 139 -
+   pic 40 state 10 wait 3
+   <bp x 36.11739 y 31.55411 bp>
+   <c kind 2 x 45 y 41 c>
+   <w kind 1 x 29.54349 y 56.85703 weaponact 35 w>
+f>
+
+<f 140 -
+   pic 41 state 10 wait 3
+   <bp x 51.71766 y 32.87786 bp>
+   <c kind 2 x 41 y 43 c>
+   <w kind 1 x 42.25073 y 53.49291 weaponact 20 w>
+f>
+
+<f 141 -
+   pic 42 state 10 wait 3
+   <bp x 55.97041 y 51.13824 bp>
+   <c kind 2 x 49 y 45 c>
+   <w kind 1 x 50.56697 y 60.08666 weaponact 23 w>
+f>
+
+<f 142 -
+   pic 43 state 10 wait 3
+   <bp x 51.48101 y 65.68322 bp>
+   <c kind 2 x 51 y 56 c>
+   <w kind 1 x 42.9601 y 68.04885 weaponact 24 w>
+f>
+
+<f 143 -
+   pic 44 state 10 wait 3 centery 79
+   <bp x 50.73934 y 76.26459 bp>
+   <c kind 2 x 50 y 71 c>
+   <w kind 1 x 47.86658 y 82.99711 weaponact 24 w>
+f>
+
+<f 144 -
+   pic 45 state 10 wait 3
+   <bp x 55.38404 y 63.35169 bp>
+   <c kind 2 x 47 y 60 c>
+   <w kind 1 x 52.78122 y 72.44144 weaponact 24 w>
+f>
+
+<f 180 falling
+   pic 30 state 12 wait 3
+   <bp x 45.18337 y 40.17141 bp>
+   <w kind 1 x 38.79324 y 54.31052 weaponact 21 w>
+   <i kind 4 x 26 y 19 w 29 h 44 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 30 y 30 w 21 h 20 b>
+f>
+
+<f 181 -
+   pic 31 state 12 wait 3
+   <bp x 31.64333 y 29.96078 bp>
+   <w kind 1 x 46.19201 y 41.95175 weaponact 21 w>
+   <i kind 4 x 20 y 16 w 42 h 26 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <i kind 4 x 40 y 35 w 27 h 29 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 27 y 25 w 24 h 23 b>
+f>
+
+<f 182 -
+   pic 32 state 12 wait 3
+   <w kind 1 x 32.23363 y 52.96221 weaponact 21 w>
+   <i kind 4 x 18 y 23 w 46 h 26 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 32 y 27 w 20 h 18 b>
+f>
+
+<f 183 -
+   pic 33 state 12 wait 3
+   <w kind 1 x 45 y 44 weaponact 33 cover 1 w>
+   <i kind 4 x 37 y 23 w 33 h 27 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <i kind 4 x 15 y 43 w 38 h 21 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 27 y 35 w 27 h 21 b>
+f>
+
+<f 184 -
+   pic 34 state 12 wait 3 centery 77
+   <bp x 29.26914 y 68.51886 bp>
+   <w kind 1 x 52.86475 y 79.76836 weaponact 32 w>
+f>
+
+<f 185 -
+   pic 35 state 12 wait 3
+   <bp x 28.37042 y 56.75407 bp>
+   <w kind 1 x 54.58757 y 67.62473 weaponact 31 w>
+f>
+
+<f 186 -
+   pic 40 state 12 wait 3
+   <bp x 36.11739 y 31.55411 bp>
+   <w kind 1 x 29.54349 y 56.85703 weaponact 34 w>
+   <i kind 4 x 27 y 17 w 36 h 50 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 36 y 29 w 25 h 23 b>
+f>
+
+<f 187 -
+   pic 41 state 12 wait 3
+   <bp x 51.71766 y 32.87786 bp>
+   <w kind 1 x 41.25073 y 53.49291 weaponact 20 w>
+   <i kind 4 x 38 y 11 w 26 h 46 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <i kind 4 x 31 y 48 w 21 h 29 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 33 y 32 w 24 h 26 b>
+f>
+
+<f 188 -
+   pic 42 state 12 wait 3
+   <bp x 55.97041 y 51.13824 bp>
+   <w kind 1 x 51.56697 y 61.08666 weaponact 22 w>
+   <i kind 4 x 19 y 34 w 58 h 23 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 35 y 36 w 24 h 21 b>
+f>
+
+<f 189 -
+   pic 43 state 12 wait 3
+   <bp x 51.48101 y 65.68322 bp>
+   <w kind 1 x 42.9601 y 68.04885 weaponact 24 w>
+   <i kind 4 x 29 y 32 w 26 h 28 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <i kind 4 x 42 y 50 w 31 h 28 dvx 2 fall 70 vrest 20 bdefend 10 injury 30 i>
+   <b kind 0 x 35 y 44 w 23 h 21 b>
+f>
+
+<f 190 -
+   pic 44 state 12 wait 3 centery 80
+   <bp x 50.73934 y 76.26459 bp>
+   <w kind 1 x 47.86658 y 82.99711 weaponact 24 w>
+f>
+
+<f 191 -
+   pic 45 state 12 wait 3
+   <bp x 55.38404 y 63.35169 bp>
+   <w kind 1 x 52.78122 y 72.44144 weaponact 24 w>
+f>
+
+<f 200 ice
+   pic 78 state 15 wait 2 next 201
+   <bp x 36.11739 y 35.55411 bp>
+   <w kind 1 x 29.54349 y 60.85703 weaponact 35 w>
+   <b kind 0 x 15 y 14 w 55 h 68 b>
+f>
+
+<f 201 -
+   pic 79 state 13 wait 90 next 202
+   <bp x 35.01096 y 37.18355 bp>
+   <w kind 1 x 42.56925 y 59.03324 weaponact 20 w>
+   <i kind 14 x 13 y 11 w 67 h 73 vrest 1 i>
+   <b kind 0 x 13 y 11 w 67 h 73 b>
+f>
+
+<f 202 -
+   pic 78 state 15 wait 1 next 182 dvx -4 dvy -3
+   <bp x 36.11739 y 35.55411 bp>
+   <w kind 1 x 29.54349 y 60.85703 weaponact 35 w>
+   <b kind 0 x 13 y 11 w 67 h 73 b>
+f>
+
+<f 203 fire
+   pic 87 state 18 wait 1 next 204
+   <bp x 26.2788 y 39.10363 bp>
+   <w kind 1 x 44.31094 y 49.05123 weaponact 20 w>
+   <i kind 0 x 27 y 40 w 26 h 19 dvx -6 dvy -6 fall 70 vrest 10 bdefend 16 injury 30 effect 20 i>
+   <b kind 0 x 27 y 40 w 26 h 19 b>
+f>
+
+<f 204 -
+   pic 88 state 18 wait 1 next 203
+   <bp x 26.2788 y 39.10363 bp>
+   <w kind 1 x 44.31094 y 49.05123 weaponact 20 w>
+   <i kind 0 x 27 y 40 w 26 h 19 dvx -6 dvy -6 fall 70 vrest 10 bdefend 16 injury 30 effect 20 i>
+   <b kind 0 x 27 y 40 w 26 h 19 b>
+f>
+
+<f 205 -
+   pic 104 state 18 wait 1 next 206
+   <bp x 26.60888 y 53.02336 bp>
+   <w kind 1 x 47.04424 y 50.47211 weaponact 35 w>
+   <i kind 0 x 27 y 40 w 26 h 19 dvx -6 dvy -6 fall 70 vrest 10 bdefend 16 injury 30 effect 20 i>
+   <b kind 0 x 27 y 40 w 26 h 19 b>
+f>
+
+<f 206 -
+   pic 105 state 18 wait 1 next 205
+   <bp x 26.60888 y 53.02336 bp>
+   <w kind 1 x 47.04424 y 50.47211 weaponact 35 w>
+   <i kind 0 x 27 y 40 w 26 h 19 dvx -6 dvy -6 fall 70 vrest 10 bdefend 16 injury 30 effect 20 i>
+   <b kind 0 x 27 y 40 w 26 h 19 b>
+f>
+
+<f 207 tired
+   pic 69 state 15 wait 2
+   <w kind 1 x 47 y 69 weaponact 22 w>
+   <b kind 0 x 49 y 33 w 22 h 37 b>
+   <b kind 0 x 33 y 52 w 28 h 35 b>
+f>
+
+<f 210 jump
+   pic 60 state 4 wait 1 next 211 centerx 38
+   <bp x 40.40667 y 48.33111 bp>
+   <w kind 1 x 26.61144 y 65.93949 weaponact 22 w>
+   <b kind 0 x 23 y 31 w 30 h 54 b>
+f>
+
+<f 211 -
+   pic 61 state 4 wait 1 next 212 centerx 39
+   sound mp3/017
+   <bp x 41.35611 y 48.66389 bp>
+   <w kind 1 x 26.72255 y 66.60616 weaponact 22 w>
+   <b kind 0 x 20 y 32 w 35 h 54 b>
+f>
+
+<f 212 -
+   pic 62 state 4 wait 1
+   <bp x 48.36847 y 32.13159 bp>
+   <w kind 1 x 32.26532 y 46.84752 weaponact 23 w>
+   <b kind 0 x 33 y 8 w 23 h 65 b>
+   <b kind 0 x 23 y 34 w 48 h 17 b>
+f>
+
+<f 213 dash
+   pic 63 state 5 wait 8 next 216
+   <bp x 54.05412 y 33.07378 bp>
+   <w kind 1 x 37.48999 y 46.23492 weaponact 23 w>
+   <b kind 0 x 48 y 10 w 23 h 33 b>
+   <b kind 0 x 33 y 34 w 21 h 33 b>
+   <b kind 0 x 23 y 53 w 27 h 21 b>
+f>
+
+<f 214 -
+   pic 64 state 5 wait 8 next 217 hit_a 81
+   <bp x 30.20011 y 32.23857 bp>
+   <w kind 1 x 36.27563 y 48.31694 weaponact 22 w>
+   <b kind 0 x 25 y 10 w 27 h 38 b>
+   <b kind 0 x 21 y 42 w 36 h 22 b>
+f>
+
+<f 215 crouch
+   pic 60 state 15 wait 2 next 999 centerx 37
+   sound mp3/012
+   <bp x 40.40667 y 48.33111 bp>
+   <w kind 1 x 25.61144 y 65.93949 weaponact 22 w>
+   <b kind 0 x 24 y 28 w 27 h 59 b>
+f>
+
+<f 216 dash
+   pic 112 state 5 wait 2
+   <bp x 52.54032 y 32.74534 bp>
+   <w kind 1 x 37.48999 y 46.23492 weaponact 23 w>
+   <b kind 0 x 40 y 13 w 27 h 27 b>
+   <b kind 0 x 21 y 35 w 39 h 37 b>
+f>
+
+<f 217 -
+   pic 113 state 5 wait 2 hit_a 81
+   <bp x 30.19735 y 31.49689 bp>
+   <w kind 1 x 34.89284 y 49.01876 weaponact 22 w>
+   <b kind 0 x 23 y 18 w 29 h 51 b>
+f>
+
+<f 218 stop_running
+   pic 114 state 15 wait 5 next 999 dvx 1
+   sound mp3/009
+   <bp x 40.76509 y 43.05582 bp>
+   <w kind 1 x 36.5098 y 63.30133 weaponact 22 w>
+   <b kind 0 x 22 y 30 w 30 h 55 b>
+   <b kind 0 x 50 y 52 w 16 h 32 b>
+f>
+
+<f 219 crouch2
+   pic 60 state 15 wait 2 next 999 centerx 38
+   sound mp3/012
+   <bp x 40.40667 y 48.33111 bp>
+   <w kind 1 x 26.61144 y 65.93949 weaponact 22 w>
+   <b kind 0 x 23 y 26 w 29 h 59 b>
+f>
+
+<f 220 injured
+   pic 120 state 11 wait 2 next 221 centerx 52
+   <bp x 54.98632 y 47.51903 bp>
+   <w kind 1 x 45.56558 y 58.05931 weaponact 20 w>
+   <b kind 0 x 30 y 22 w 29 h 61 b>
+f>
+
+<f 221 -
+   pic 121 state 11 wait 3 next 999 centerx 47
+   <bp x 49.93134 y 41.32932 bp>
+   <w kind 1 x 38.94828 y 61.65988 weaponact 21 w>
+   <b kind 0 x 37 y 21 w 27 h 63 b>
+   <b kind 0 x 27 y 42 w 26 h 42 b>
+f>
+
+<f 222 -
+   pic 123 state 11 wait 2 next 223 centerx 52
+   <bp x 39.32475 y 37.32432 bp>
+   <w kind 1 x 40.77104 y 63.7462 weaponact 22 w>
+   <b kind 0 x 16 y 29 w 39 h 31 b>
+   <b kind 0 x 30 y 58 w 40 h 27 b>
+f>
+
+<f 223 -
+   pic 124 state 11 wait 3 next 999
+   <bp x 38.07017 y 35.41858 bp>
+   <w kind 1 x 31.55303 y 61.72457 weaponact 23 w>
+   <b kind 0 x 17 y 28 w 40 h 37 b>
+   <b kind 0 x 32 y 61 w 36 h 24 b>
+f>
+
+<f 224 -
+   pic 130 state 11 wait 2 next 225 centerx 36
+   <bp x 29.76713 y 37.2335 bp>
+   <w kind 1 x 21.03522 y 62.48038 weaponact 24 w>
+   <b kind 0 x 30 y 23 w 31 h 61 b>
+   <b kind 0 x 57 y 43 w 20 h 19 b>
+f>
+
+<f 225 -
+   pic 131 state 11 wait 3 next 999 centerx 54
+   <bp x 52.34345 y 34.02905 bp>
+   <w kind 1 x 43.08687 y 62.05104 weaponact 23 w>
+   <b kind 0 x 29 y 23 w 35 h 63 b>
+f>
+
+<f 226 -
+   pic 120 state 16 wait 6 next 227 centerx 52
+   <bp x 54.98632 y 47.51903 bp>
+   <w kind 1 x 45.56558 y 58.05931 weaponact 21 w>
+   <i kind 6 x 11 y 17 w 85 h 68 vrest 1 i>
+   <b kind 0 x 32 y 27 w 42 h 58 b>
+f>
+
+<f 227 -
+   pic 122 state 16 wait 6 next 228 centerx 41
+   <bp x 53.89369 y 43.78615 bp>
+   <w kind 1 x 39.9427 y 60.13948 weaponact 22 w>
+   <i kind 6 x 11 y 17 w 85 h 68 vrest 1 i>
+   <b kind 0 x 33 y 29 w 39 h 57 b>
+f>
+
+<f 228 -
+   pic 121 state 16 wait 6 next 229 centerx 47
+   <bp x 49.93134 y 41.32932 bp>
+   <w kind 1 x 38.94828 y 61.65988 weaponact 21 w>
+   <i kind 6 x 11 y 17 w 85 h 68 vrest 1 i>
+   <b kind 0 x 33 y 28 w 37 h 58 b>
+f>
+
+<f 229 -
+   pic 122 state 16 wait 6 next 999 centerx 41
+   <bp x 53.89369 y 43.78615 bp>
+   <w kind 1 x 39.9427 y 60.13948 weaponact 22 w>
+   <i kind 6 x 11 y 17 w 85 h 68 vrest 1 i>
+   <b kind 0 x 34 y 31 w 37 h 53 b>
+f>
+
+<f 230 lying
+   pic 34 state 14 wait 30 next 219 centery 77
+   <bp x 29.26914 y 68.51886 bp>
+   <w kind 1 x 52.86475 y 80.76836 weaponact 32 w>
+f>
+
+<f 231 -
+   pic 44 state 14 wait 30 next 219 centery 80
+   <bp x 50.73934 y 76.26459 bp>
+   <w kind 1 x 47.86658 y 82.99711 weaponact 24 w>
+f>
+
+<f 232 throw_lying_man
+   pic 27 state 9 wait 3 next 233
+   <bp x 39.39162 y 38.07896 bp>
+   <c kind 1 x 33 y 14 vaction 135 dircontrol 1 c>
+   <w kind 1 x 36 y 24 weaponact 31 cover 1 w>
+   <b kind 0 x 23 y 20 w 36 h 65 b>
+f>
+
+<f 233 -
+   pic 109 state 9 wait 1 next 234 centerx 40
+   sound mp3/007
+   <bp x 67.69895 y 49.88755 bp>
+   <c kind 1 x 77 y 58 vaction 181 throwvx 13 throwvy -9 throwvz 3 throwinjury 30 c>
+   <w kind 1 x 38 y 56 weaponact 25 cover 1 w>
+   <b kind 0 x 15 y 33 w 61 h 28 b>
+   <b kind 0 x 24 y 61 w 30 h 24 b>
+f>
+
+<f 234 -
+   pic 109 state 9 wait 1 next 49 centerx 40 hit_Fa 245
+   <bp x 67.69895 y 49.88755 bp>
+   <w kind 1 x 38 y 56 weaponact 25 cover 1 w>
+   <b kind 0 x 18 y 35 w 57 h 28 b>
+   <b kind 0 x 24 y 61 w 30 h 24 b>
+f>
+
+<f 235 blastpush
+   pic 135 state 3 wait 1 next 236 centerx 48 mp 150
+   <bp x 43.09785 y 42.16773 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 236 -
+   pic 136 state 3 wait 1 next 237 centerx 48
+   sound mp3/096
+   <bp x 44.46369 y 41.74769 bp>
+   <w kind 1 x 45 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 237 -
+   pic 137 state 3 wait 1 next 238 centerx 48
+   <bp x 46.6558 y 41.09941 bp>
+   <w kind 1 x 46 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 238 -
+   pic 138 state 3 wait 1 next 239 centerx 31
+   <bp x 54.82815 y 49.66559 bp>
+   <w kind 1 x 33 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 239 -
+   pic 139 state 3 wait 1 next 240 centerx 31
+   sound mp3/020
+   <o kind 1 x 88 y 49 action 20 dvx -5 oid 204 facing 1 o>
+   <bp x 54.64001 y 50.44597 bp>
+   <w kind 1 x 33 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 240 -
+   pic 139 state 3 wait 2 next 241 centerx 31
+   <o kind 1 x 78 y 49 oid 204 o>
+   <bp x 54.64001 y 50.44597 bp>
+   <w kind 1 x 33 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 241 -
+   pic 129 state 3 wait 2 next 242 centerx 31
+   <bp x 54.92502 y 51.14738 bp>
+   <w kind 1 x 34 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 242 -
+   pic 119 state 3 wait 2 next 999 centerx 26
+   <bp x 47.92502 y 45.3696 bp>
+   <w kind 1 x 30 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 245 blastpush
+   pic 89 state 3 wait 2 next 237 centerx 48 mp 150
+   sound mp3/096
+   <bp x 55.38282 y 39.46234 bp>
+   <w kind 1 x 47 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 28 y 19 w 35 h 64 b>
+   <b kind 0 x 18 y 48 w 39 h 19 b>
+f>
+
+<f 250 flute
+   pic 140 state 3 wait 8 next 251 centerx 41 mp 350
+   sound mp3/056
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 251 -
+   pic 141 state 3 next 252 centerx 41 hit_d 999
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <i kind 10 x -29 y -66 w 142 h 220 vrest 1 injury 1 zwidth 76 i>
+   <i kind 10 x -92 y -53 w 258 h 207 vrest 1 injury 1 zwidth 55 i>
+   <i kind 10 x -121 y -35 w 318 h 189 vrest 1 injury 1 zwidth 34 i>
+   <i kind 11 x -179 y -32 w 438 h 200 vrest 1 injury 1 zwidth 76 i>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 252 -
+   pic 141 state 3 wait 9 next 253 centerx 41 hit_d 999
+   sound mp3/057
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <i kind 10 x -29 y -66 w 142 h 220 vrest 1 injury 1 zwidth 76 i>
+   <i kind 10 x -92 y -53 w 258 h 207 vrest 1 injury 1 zwidth 55 i>
+   <i kind 10 x -121 y -35 w 318 h 189 vrest 1 injury 1 zwidth 34 i>
+   <i kind 11 x -179 y -32 w 438 h 200 vrest 1 injury 1 zwidth 76 i>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 253 -
+   pic 142 state 3 wait 27 next 254 centerx 41 hit_d 999
+   sound mp3/058
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <i kind 10 x -29 y -66 w 142 h 220 vrest 1 injury 1 zwidth 76 i>
+   <i kind 10 x -92 y -53 w 258 h 207 vrest 1 injury 1 zwidth 55 i>
+   <i kind 10 x -121 y -35 w 318 h 189 vrest 1 injury 1 zwidth 34 i>
+   <i kind 11 x -179 y -32 w 438 h 200 vrest 1 injury 1 zwidth 76 i>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 254 -
+   pic 143 state 3 wait 9 next 255 centerx 41 hit_d 999
+   sound mp3/101
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <i kind 10 x -29 y -66 w 142 h 220 vrest 1 injury 1 zwidth 76 i>
+   <i kind 10 x -92 y -53 w 258 h 207 vrest 1 injury 1 zwidth 55 i>
+   <i kind 10 x -121 y -35 w 318 h 189 vrest 1 injury 1 zwidth 34 i>
+   <i kind 11 x -179 y -32 w 438 h 200 vrest 1 injury 1 zwidth 76 i>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 255 -
+   pic 148 state 3 wait 50 next 999 centerx 41 hit_d 999
+   sound mp3/102
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <i kind 10 x -29 y -66 w 142 h 220 vrest 1 injury 1 zwidth 76 i>
+   <i kind 10 x -92 y -53 w 258 h 207 vrest 1 injury 1 zwidth 55 i>
+   <i kind 10 x -121 y -35 w 318 h 189 vrest 1 injury 1 zwidth 34 i>
+   <i kind 11 x -179 y -32 w 438 h 200 vrest 1 injury 1 zwidth 76 i>
+   <b kind 0 x 27 y 13 w 36 h 73 b>
+f>
+
+<f 270 super_arrow
+   pic 10 state 3 wait 1 next 271 centerx 45 mp 200
+   <bp x 46.63389 y 37.21944 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 271 -
+   pic 11 state 3 wait 1 next 272 centerx 36
+   <bp x 38.41167 y 37.44167 bp>
+   <w kind 1 x 36 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 272 -
+   pic 12 state 3 wait 1 next 273 centerx 29 centery 83
+   <bp x 33.99 y 36.92611 bp>
+   <w kind 1 x 29 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 273 -
+   pic 144 state 3 wait 1 next 274 centerx 43 centery 83
+   sound mp3/022
+   <bp x 48.23222 y 37.28 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 274 -
+   pic 145 state 3 wait 1 next 277 centerx 43 centery 83
+   sound mp3/059
+   <bp x 48.23222 y 37.28 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 275 -
+   pic 145 state 3 wait 1 next 277 centerx 43 centery 83
+   <bp x 48.23222 y 37.28 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 276 -
+   pic 145 state 3 wait 1 next 277 centerx 43 centery 83
+   <bp x 48.23222 y 37.28 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 277 -
+   pic 146 state 3 wait 1 next 278 centery 83
+   sound mp3/024
+   <o kind 1 x 100 y 46 dvx 22 oid 208 o>
+   <bp x 48.78778 y 37.28 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 278 -
+   pic 147 state 3 wait 1 next 279 centerx 41 centery 83
+   <bp x 45.78778 y 37.05778 bp>
+   <w kind 1 x 43 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 279 -
+   pic 15 state 3 wait 1 next 999 centerx 40 centery 83
+   <bp x 44.67667 y 37.05778 bp>
+   <w kind 1 x 43 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 280 5_arrow
+   pic 150 state 3 wait 1 next 281 centerx 41 centery 83 mp 150
+   <bp x 42.63389 y 36.21944 bp>
+   <w kind 1 x 44 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 281 -
+   pic 151 state 3 wait 1 next 282 centerx 32 centery 83 mp 100
+   <bp x 34.41167 y 36.44167 bp>
+   <w kind 1 x 34 y 53 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 282 -
+   pic 152 state 3 wait 1 next 283 centerx 26 centery 82
+   <bp x 30.99 y 35.92611 bp>
+   <w kind 1 x 28 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 283 -
+   pic 153 state 3 wait 1 next 284 centerx 26 centery 82
+   sound mp3/022
+   <bp x 30.99 y 35.92611 bp>
+   <w kind 1 x 28 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 284 -
+   pic 154 state 3 wait 1 next 285 centerx 39 centery 82
+   <bp x 44.23222 y 36.28 bp>
+   <w kind 1 x 42 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 285 -
+   pic 155 state 3 wait 2 next 286 centerx 39 centery 82
+   sound mp3/060
+   <bp x 44.23222 y 36.28 bp>
+   <w kind 1 x 42 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 286 -
+   pic 156 state 3 wait 2 next 287 centerx 40 centery 82
+   <o kind 1 x 100 y 62 action 141 dvx 22 dvy -3 oid 201 facing 50 o>
+   <bp x 44.78778 y 36.28 bp>
+   <w kind 1 x 43 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 287 -
+   pic 157 state 3 wait 2 next 999 centerx 36 centery 82 hit_a 281
+   <bp x 40.78778 y 36.05778 bp>
+   <w kind 1 x 39 y 52 weaponact 30 cover 1 w>
+   <b kind 0 x 31 y 17 w 27 h 68 b>
+f>
+
+<f 399 dummy
+   pic 0 centerx 39
+   <b kind 0 x 26 y 23 w 43 h 62 b>
+f>
+

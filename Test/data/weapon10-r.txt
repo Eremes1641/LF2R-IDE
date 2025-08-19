@@ -1,0 +1,68 @@
+<bmp
+name weapon10
+file(0-6) sys/weapon10-r w 66 h 66 row 7 col 1
+resized 3
+default_centerx 32
+default_centery 59
+weapon_hp 1200
+weapon_drop_hurt 200
+weapon_hit_sound mp3/084
+weapon_drop_sound mp3/084
+weapon_broken_sound mp3/084
+bmp>
+<f 0 in_the_sky
+   pic 0 state 2000 wait 3 next 1
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 1 -
+   pic 1 state 2000 wait 2 next 2
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 2 -
+   pic 2 state 2000 wait 3 next 3
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 3 -
+   pic 3 state 2000 wait 2 next 4
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 4 -
+   pic 4 state 2000 wait 3 next 5
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 5 -
+   pic 5 state 2000 wait 2 next 999
+   <i kind 0 x 11 y 24 w 39 h 39 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+   <b kind 0 x 11 y 24 w 39 h 39 b>
+f>
+
+<f 10 on_hand
+   pic 5 state 2001
+   <w kind 2 x 32 y 59 weaponact 35 w>
+f>
+
+<f 20 on_ground
+   pic 5 state 2004
+   <b kind 0 x 16 y 46 w 31 h 14 b>
+f>
+
+<f 21 just_on_ground
+   pic 3 state 2000 wait 1 next 999
+   <i kind 0 x 22 y 29 w 21 h 30 dvx 5 dvy -7 fall 70 vrest 17 bdefend 30 injury 60 i>
+f>
+
+<f 399 dummy
+   pic 5 wait 2 next 999
+   <b kind 0 x 15 y 45 w 31 h 14 b>
+f>
+

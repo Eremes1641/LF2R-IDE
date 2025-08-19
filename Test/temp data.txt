@@ -1,0 +1,12 @@
+
+<f 310 -
+   pic 1 state 2 wait 3 next 4 dvx 5 dvy 6 dvz 7 centerx 8 centery 9 hit_a 10 hit_d 11 hit_j 12 hit_Fa 13 hit_Ua 14 hit_Da 15 hit_Fj 16 hit_Uj 17 hit_Dj 18 hit_ja 19 mp 20
+   <o kind 1 x 2 y 3 action 4 dvx 5 dvy 6 dvz 7 oid 8 facing 9 o>
+   <bp x 1 y 2 bp>
+   <c kind 1 x 2 y 3 injury 4 cover 5 vaction 6 aaction 7 taction 8 hurtable 9 decrease 10 fronthurtact 11 backhurtact 12 dircontrol 13 throwvx 14 throwvy 15 throwvz 16 throwinjury 17 c>
+   <w kind 1 x 2 y 3 weaponact 4 dvx 5 dvy 6 dvz 7 attacking 8 cover 9 w>
+   <i kind 1 x 2 y 3 w 4 h 5 dvx 6 dvy 7 dvz 8 fall 9 arest 10 vrest 11 bdefend 12 injury 13 zwidth 14 effect 15 catchingact 16 caughtact 17 i>
+   <i kind 21 x 22 y 23 w 24 h 25 dvx 26 dvy 27 dvz 28 fall 29 arest 210 vrest 211 bdefend 212 injury 213 zwidth 214 effect 215 catchingact 216 caughtact 217 i>
+   <b kind 1 x 2 y 3 w 4 h 5 b>
+   <b kind 21 x 22 y 23 w 24 h 25 b>
+f>

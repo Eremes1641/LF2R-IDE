@@ -1,0 +1,117 @@
+<bmp
+name dennis_chase
+file(0-11) sys/dennis-r_chase w 92 h 93 row 4 col 3
+resized 3
+default_centerx 46
+default_centery 45
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 2 next 40 dvx 3 centerx 50 centery 43
+   <i kind 0 x 33 y 35 w 27 h 26 dvx 18 fall 70 vrest 15 bdefend 60 injury 65 i>
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 2 centery 46 hit_a 7 hit_d 1 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 2 -
+   pic 9 state 3000 wait 1 next 1 centery 46 hit_a 7 hit_d 2 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 3 -
+   pic 2 state 3000 wait 1 next 4 hit_a 7 hit_d 3 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 4 -
+   pic 10 state 3000 wait 1 next 3 hit_a 7 hit_d 4 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 5 -
+   pic 3 state 3000 wait 1 next 6 centerx 47 centery 44 hit_a 7 hit_d 5 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 6 -
+   pic 11 state 3000 wait 1 next 5 centerx 47 centery 44 hit_a 7 hit_d 6 hit_Fa 2
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centerx 60 centery 44
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 56
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx 58
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centerx 61 centery 46
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centerx 60
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 57
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 60
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centerx 63 centery 46
+f>
+
+<f 30 rebounding
+   pic 1 state 3000 wait 3 next 31 dvx -14 centery 46
+f>
+
+<f 31 -
+   pic 2 state 3000 wait 3 next 1 dvx -14 centery 46
+   <o kind 1 x 46 y 46 action 20 oid 215 facing 1 o>
+f>
+
+<f 40 flying
+   pic 9 state 3000 wait 2 next 41 dvx 5 centerx 50 centery 43
+   <i kind 0 x 33 y 35 w 27 h 26 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+
+<f 41 -
+   pic 1 state 3000 wait 2 next 42 dvx 7 centerx 50 centery 43
+   <i kind 0 x 33 y 35 w 27 h 26 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+
+<f 42 -
+   pic 2 state 3000 wait 2 next 43 dvx 10 centerx 50 centery 43
+   <i kind 0 x 33 y 35 w 27 h 26 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+
+<f 43 -
+   pic 10 state 3000 wait 2 next 1 dvx 13 centerx 50 centery 43
+   <i kind 0 x 33 y 35 w 27 h 26 dvx 14 fall 70 vrest 15 bdefend 60 injury 40 i>
+   <b kind 0 x 33 y 35 w 27 h 26 b>
+f>
+

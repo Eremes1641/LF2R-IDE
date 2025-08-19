@@ -1,0 +1,87 @@
+<bmp
+name bat_chase
+file(0-7) sys/bat-r_chase w 92 h 93 row 4 col 3
+resized 3
+default_centerx 49
+default_centery 44
+weapon_hit_sound mp3/088
+weapon_drop_sound mp3/088
+weapon_broken_sound mp3/088
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 1 next 1 centerx 48 hit_a 7 hit_Fa 12
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 4 fall 20 vrest 15 bdefend 16 injury 30 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 1 next 2 centerx 52 centery 48 hit_a 7 hit_d 1 hit_Fa 12
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 4 fall 20 vrest 15 bdefend 16 injury 30 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 1 next 3 centerx 50 centery 49 hit_a 7 hit_d 2 hit_Fa 12
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 4 fall 20 vrest 15 bdefend 16 injury 30 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 3 -
+   pic 1 state 3000 wait 1 next 999 centerx 52 centery 50 hit_a 7 hit_d 3 hit_Fa 12
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 4 fall 20 vrest 15 bdefend 16 injury 30 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centerx 46 centery 46
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 46 centery 46
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 0 next 13 centerx 46 centery 46
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 0 next 14 centerx 46 centery 46
+f>
+
+<f 14 -
+   pic 8 state 3001 wait 0 next 15 centerx 46 centery 46
+f>
+
+<f 15 -
+   pic 9 state 3001 wait 0 next 16 centerx 46 centery 46
+f>
+
+<f 16 -
+   pic 10 state 3001 wait 0 next 17 centerx 46 centery 46
+f>
+
+<f 17 -
+   pic 11 state 3001 wait 0 next 1000 centerx 46 centery 46
+f>
+
+<f 20 hit
+   pic 4 state 3001 wait 1 next 11 centerx 46 centery 46
+f>
+
+<f 30 rebounding
+   pic 4 state 3001 wait 1 next 11 centerx 46 centery 46
+f>
+
+<f 50 start
+   pic 3 state 3005 wait 1 next 51 centerx 47 centery 43
+f>
+
+<f 51 -
+   pic 3 state 3005 wait 1 next 52 centerx 45 centery 43 hit_Fa 8
+   sound mp3/087
+f>
+
+<f 52 -
+   pic 3 state 3005 wait 1 next 1000 centerx 45 centery 43
+f>
+

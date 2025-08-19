@@ -1,0 +1,183 @@
+<bmp
+name firzen_chasef
+file(0-7) sys/firzen-r_chasef w 92 h 93 row 4 col 2
+file(8-19) sys/firzen-r_up w 40 h 56 row 4 col 3
+file(20-23) sys/firzen-r_up3 w 92 h 93 row 4 col 1
+resized 3
+default_centerx 47
+default_centery 28
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3000 wait 5 next 1 centerx 51 centery 31 hit_a 7 hit_d 1 hit_Fa 7
+   <b kind 0 x 38 y 26 w 23 h 28 b>
+f>
+
+<f 1 -
+   pic 1 state 3000 wait 5 next 2 centery 41 hit_a 7 hit_d 1 hit_Fa 7
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 3 fall 70 vrest 15 bdefend 20 injury 40 effect 2 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 2 -
+   pic 2 state 3000 wait 5 next 3 centerx 55 centery 53 hit_a 7 hit_d 2 hit_Fa 7
+   <i kind 0 x 34 y 32 w 36 h 39 dvx 3 fall 70 vrest 15 bdefend 20 injury 40 effect 2 i>
+   <b kind 0 x 35 y 33 w 34 h 36 b>
+f>
+
+<f 3 -
+   pic 3 state 3000 wait 1 centerx 49 centery 50 hit_a 7 hit_d 3 hit_Fa 7
+   <i kind 0 x 27 y 27 w 39 h 38 dvx 3 fall 70 vrest 15 bdefend 20 injury 40 effect 2 i>
+   <b kind 0 x 26 y 27 w 40 h 39 b>
+f>
+
+<f 10 hiting
+   pic 4 state 3001 wait 1 next 11 centery 47
+f>
+
+<f 11 -
+   pic 5 state 3001 wait 1 next 12 centerx 45 centery 46
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13 centerx 48 centery 46
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000 centery 46
+f>
+
+<f 20 hit
+   pic 4 state 3002 wait 1 next 21 centery 49
+f>
+
+<f 21 -
+   pic 5 state 3002 wait 1 next 22 centerx 46 centery 46
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23 centerx 46 centery 47
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000 centery 46
+f>
+
+<f 30 rebounding
+   pic 4 state 3002 wait 1 next 21 centery 49
+f>
+
+<f 40 tail
+   pic 12 state 3005 next 41 centerx 21
+f>
+
+<f 41 -
+   pic 13 state 3005 next 42 centerx 21
+f>
+
+<f 42 -
+   pic 14 state 3005 next 43 centerx 21
+f>
+
+<f 43 -
+   pic 15 state 3005 wait 1 next 44 centerx 19
+f>
+
+<f 44 -
+   pic 16 state 3005 wait 1 next 45 centerx 20
+f>
+
+<f 45 -
+   pic 17 state 3005 wait 1 next 1000 centerx 21
+f>
+
+<f 50 start
+   pic 8 state 3005 wait 1 next 51 centerx 19
+   <o kind 1 x 22 y 43 action 70 oid 219 o>
+f>
+
+<f 51 -
+   pic 9 state 3005 wait 1 next 52 centerx 19
+f>
+
+<f 52 -
+   pic 10 state 3005 wait 1 next 53 centerx 19
+   <o kind 1 x 22 y 43 action 70 oid 219 facing 1 o>
+f>
+
+<f 53 -
+   pic 9 state 3005 next 54 centerx 19
+f>
+
+<f 54 -
+   pic 10 state 3005 next 55 centerx 19
+   <o kind 1 x 22 y 43 action 70 oid 219 o>
+f>
+
+<f 55 -
+   pic 11 state 3005 next 56 centerx 19
+f>
+
+<f 56 -
+   pic 10 state 3005 next 57 centerx 19
+   <o kind 1 x 22 y 43 action 70 oid 219 facing 1 o>
+f>
+
+<f 57 -
+   pic 11 state 3005 next 58 centerx 19
+f>
+
+<f 58 -
+   pic 11 state 3005 next 59 centerx 17
+   sound mp3/020
+   <o kind 1 x 19 y 13 action 70 oid 221 facing 1 o>
+f>
+
+<f 59 -
+   pic 50 state 3005 wait 2 next 1000 centerx 15 centery 25 hit_Fa 9
+f>
+
+<f 60 hiting_ground
+   pic 4 state 3001 wait 1 next 61 centerx 46 centery 47
+f>
+
+<f 61 -
+   pic 5 state 3001 wait 1 next 62 centerx 44 centery 45
+   sound mp3/020
+f>
+
+<f 62 -
+   pic 6 state 3001 wait 1 next 63 centerx 46 centery 45
+   <o kind 1 x 46 y 66 action 50 oid 211 facing 1 o>
+f>
+
+<f 63 -
+   pic 7 state 3001 wait 1 next 1000 centerx 46 centery 46
+f>
+
+<f 70 explosion
+   pic 20 state 3005 wait 1 next 71 centery 32
+f>
+
+<f 71 -
+   pic 21 state 3005 wait 1 next 72 centery 32
+f>
+
+<f 72 -
+   pic 22 state 3005 wait 1 next 73 centery 32
+f>
+
+<f 73 -
+   pic 23 state 3005 wait 1 next 1000 centery 32
+f>
+
+<f 80 disaster1
+   pic 50 state 3005 wait 10 next 1000 centerx 42 centery 27 hit_Fa 11
+f>
+
+<f 81 disaster2
+   pic 50 state 3005 wait 10 next 1000 centerx 42 centery 27 hit_Fa 9
+f>
+

@@ -1,0 +1,203 @@
+<bmp
+name julian_ball2
+file(0-7) sys/julian-r_ball2 w 123 h 112 row 4 col 2
+file(8-11) sys/julian-r_col w 225 h 455 row 4 col 1
+file(12-15) sys/julian-r_col2 w 180 h 455 row 4 col 1
+file(16-30) sys/julian-r_exp w 180 h 180 row 5 col 3
+resized 3
+default_centerx 56
+default_centery 55
+weapon_hit_sound mp3/020
+weapon_drop_sound mp3/020
+weapon_broken_sound mp3/020
+bmp>
+<f 0 flying
+   pic 0 state 3006 wait 1 next 1 dvx 18 hit_a 6 hit_d 2
+   <i kind 0 x -10 y 14 w 122 h 85 dvx 30 fall 70 vrest 15 bdefend 100 injury 75 i>
+   <b kind 0 x -10 y 14 w 122 h 85 b>
+f>
+
+<f 1 -
+   pic 1 state 3006 wait 1 next 999 dvx 18 hit_a 6 hit_d 3
+   <i kind 0 x -10 y 14 w 122 h 85 dvx 30 fall 70 vrest 15 bdefend 100 injury 75 i>
+   <b kind 0 x -10 y 14 w 122 h 85 b>
+f>
+
+<f 2 -
+   pic 0 state 3000 wait 1 next 3 dvx 18 hit_a 25 hit_d 2
+   <i kind 0 x -10 y 14 w 122 h 85 dvx 30 fall 70 vrest 15 bdefend 100 injury 75 i>
+   <b kind 0 x -10 y 14 w 122 h 85 b>
+f>
+
+<f 3 -
+   pic 1 state 3000 wait 1 next 2 dvx 18 hit_a 25 hit_d 3
+   <i kind 0 x -10 y 14 w 122 h 85 dvx 30 fall 70 vrest 15 bdefend 100 injury 75 i>
+   <b kind 0 x -10 y 14 w 122 h 85 b>
+f>
+
+<f 10 explosion
+   pic 16 state 18 wait 1 next 111 centerx 88 centery 113
+   sound mp3/089
+   <i kind 0 x 33 y 46 w 112 h 110 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 11 hiting
+   pic 5 state 3001 wait 1 next 12
+f>
+
+<f 12 -
+   pic 6 state 3001 wait 1 next 13
+f>
+
+<f 13 -
+   pic 7 state 3001 wait 1 next 1000
+f>
+
+<f 20 explosion
+   pic 16 state 18 wait 1 next 111 centerx 88 centery 113
+   sound mp3/089
+   <i kind 0 x 33 y 46 w 112 h 110 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 21 hit
+   pic 5 state 3002 wait 1 next 22
+f>
+
+<f 22 -
+   pic 6 state 3002 wait 1 next 23
+f>
+
+<f 23 -
+   pic 7 state 3002 wait 1 next 1000
+f>
+
+<f 30 explosion
+   pic 16 state 18 wait 1 next 111 centerx 88 centery 113
+   sound mp3/089
+   <i kind 0 x 33 y 46 w 112 h 110 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 31 rebounding
+   pic 5 state 3003 wait 1 next 32
+f>
+
+<f 32 -
+   pic 6 state 3003 wait 1 next 33
+f>
+
+<f 33 -
+   pic 7 state 3003 wait 1 next 1000
+f>
+
+<f 40 col
+   pic 8 state 15 wait 3 next 41 centerx 112 centery 415
+   sound mp3/089
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 41 -
+   pic 9 state 15 wait 1 next 42 centerx 112 centery 415
+   sound mp3/071
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 42 -
+   pic 10 state 15 next 43 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 43 -
+   pic 9 state 15 wait 1 next 44 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 44 -
+   pic 10 state 15 next 45 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 45 -
+   pic 11 state 15 next 46 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 46 -
+   pic 10 state 15 wait 1 next 47 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 47 -
+   pic 11 state 15 next 48 centerx 112 centery 415
+   <i kind 0 x 22 y 25 w 180 h 405 dvx -10 dvy -35 fall 70 vrest 30 bdefend 100 injury 135 zwidth 37 effect 23 i>
+f>
+
+<f 48 -
+   pic 12 state 15 wait 1 next 49 centerx 90 centery 415
+f>
+
+<f 49 -
+   pic 13 state 15 next 50 centerx 90 centery 415
+f>
+
+<f 50 -
+   pic 14 state 15 next 51 centerx 90 centery 415
+f>
+
+<f 51 -
+   pic 15 state 15 next 1000 centerx 90 centery 415
+f>
+
+<f 110 explosion
+   pic 16 state 18 wait 1 next 111 centerx 88 centery 113
+   sound mp3/089
+   <i kind 0 x 33 y 46 w 112 h 110 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 111 -
+   pic 17 state 18 wait 1 next 112 centerx 88 centery 113
+   sound mp3/071
+   <i kind 0 x 30 y 26 w 122 h 135 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 112 -
+   pic 18 state 18 wait 1 next 113 centerx 88 centery 113
+   <i kind 0 x 29 y 28 w 127 h 131 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 113 -
+   pic 19 state 18 wait 1 next 114 centerx 88 centery 113
+   <i kind 0 x 17 y 26 w 146 h 132 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 114 -
+   pic 20 state 18 wait 1 next 115 centerx 88 centery 115
+   <i kind 0 x 23 y 23 w 137 h 132 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 115 -
+   pic 21 state 18 wait 1 next 116 centerx 88 centery 120
+   <i kind 0 x 17 y 24 w 145 h 117 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 116 -
+   pic 22 state 18 wait 1 next 117 centerx 88 centery 122
+   <i kind 0 x 25 y 16 w 128 h 123 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 117 -
+   pic 23 state 18 wait 1 next 118 centerx 88 centery 129
+   <i kind 0 x 25 y 16 w 128 h 123 dvx -12 dvy -18 fall 70 vrest 300 bdefend 16 injury 75 zwidth 37 effect 23 i>
+f>
+
+<f 118 -
+   pic 24 state 18 wait 1 next 119 centerx 88 centery 136
+f>
+
+<f 119 -
+   pic 25 state 18 wait 1 next 120 centerx 88 centery 142
+f>
+
+<f 120 -
+   pic 26 state 18 wait 1 next 1000 centerx 86 centery 137
+f>
+
