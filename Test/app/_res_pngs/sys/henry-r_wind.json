@@ -1,0 +1,202 @@
+{"frames": {
+"henry_wind-r-henry-r_wind-0.png":
+{
+  "frame": {"x":0,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-1.png":
+{
+  "frame": {"x":276,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-2.png":
+{
+  "frame": {"x":552,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-3.png":
+{
+  "frame": {"x":828,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-4.png":
+{
+  "frame": {"x":0,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-5.png":
+{
+  "frame": {"x":276,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-6.png":
+{
+  "frame": {"x":552,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-7.png":
+{
+  "frame": {"x":828,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-8.png":
+{
+  "frame": {"x":0,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-9.png":
+{
+  "frame": {"x":276,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-10.png":
+{
+  "frame": {"x":552,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-11.png":
+{
+  "frame": {"x":828,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-12.png":
+{
+  "frame": {"x":0,"y":837,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-13.png":
+{
+  "frame": {"x":276,"y":837,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-14.png":
+{
+  "frame": {"x":552,"y":837,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-15.png":
+{
+  "frame": {"x":828,"y":837,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-16.png":
+{
+  "frame": {"x":0,"y":1116,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-17.png":
+{
+  "frame": {"x":276,"y":1116,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-18.png":
+{
+  "frame": {"x":552,"y":1116,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-19.png":
+{
+  "frame": {"x":828,"y":1116,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-20.png":
+{
+  "frame": {"x":0,"y":1395,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-21.png":
+{
+  "frame": {"x":276,"y":1395,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-22.png":
+{
+  "frame": {"x":552,"y":1395,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"henry_wind-r-henry-r_wind-23.png":
+{
+  "frame": {"x":828,"y":1395,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "henry-r_wind.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

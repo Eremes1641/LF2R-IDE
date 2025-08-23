@@ -1,0 +1,138 @@
+{"frames": {
+"dennis_ball-r-dennis-r_ball-0.png":
+{
+  "frame": {"x":0,"y":0,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-1.png":
+{
+  "frame": {"x":276,"y":0,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-2.png":
+{
+  "frame": {"x":552,"y":0,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-3.png":
+{
+  "frame": {"x":828,"y":0,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-4.png":
+{
+  "frame": {"x":0,"y":156,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-5.png":
+{
+  "frame": {"x":276,"y":156,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-6.png":
+{
+  "frame": {"x":552,"y":156,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-7.png":
+{
+  "frame": {"x":828,"y":156,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-8.png":
+{
+  "frame": {"x":0,"y":312,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-9.png":
+{
+  "frame": {"x":276,"y":312,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-10.png":
+{
+  "frame": {"x":552,"y":312,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-11.png":
+{
+  "frame": {"x":828,"y":312,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-12.png":
+{
+  "frame": {"x":0,"y":468,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-13.png":
+{
+  "frame": {"x":276,"y":468,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-14.png":
+{
+  "frame": {"x":552,"y":468,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+},
+"dennis_ball-r-dennis-r_ball-15.png":
+{
+  "frame": {"x":828,"y":468,"w":275,"h":155},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":155},
+  "sourceSize": {"w":275,"h":155}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "dennis-r_ball.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

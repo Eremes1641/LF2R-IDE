@@ -1,0 +1,106 @@
+{"frames": {
+"firen_ball-r-firen-r_ball-0.png":
+{
+  "frame": {"x":0,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-1.png":
+{
+  "frame": {"x":276,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-2.png":
+{
+  "frame": {"x":552,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-3.png":
+{
+  "frame": {"x":828,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-4.png":
+{
+  "frame": {"x":0,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-5.png":
+{
+  "frame": {"x":276,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-6.png":
+{
+  "frame": {"x":552,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-7.png":
+{
+  "frame": {"x":828,"y":279,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-8.png":
+{
+  "frame": {"x":0,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-9.png":
+{
+  "frame": {"x":276,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-10.png":
+{
+  "frame": {"x":552,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firen_ball-r-firen-r_ball-11.png":
+{
+  "frame": {"x":828,"y":558,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "firen-r_ball.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

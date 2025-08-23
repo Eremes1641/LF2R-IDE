@@ -1,0 +1,106 @@
+{"frames": {
+"firzen_chasef-r-firzen-r_up-8.png":
+{
+  "frame": {"x":0,"y":0,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-9.png":
+{
+  "frame": {"x":120,"y":0,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-10.png":
+{
+  "frame": {"x":240,"y":0,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-11.png":
+{
+  "frame": {"x":360,"y":0,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-12.png":
+{
+  "frame": {"x":0,"y":168,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-13.png":
+{
+  "frame": {"x":120,"y":168,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-14.png":
+{
+  "frame": {"x":240,"y":168,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-15.png":
+{
+  "frame": {"x":360,"y":168,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-16.png":
+{
+  "frame": {"x":0,"y":336,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-17.png":
+{
+  "frame": {"x":120,"y":336,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-18.png":
+{
+  "frame": {"x":240,"y":336,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+},
+"firzen_chasef-r-firzen-r_up-19.png":
+{
+  "frame": {"x":360,"y":336,"w":119,"h":167},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":119,"h":167},
+  "sourceSize": {"w":119,"h":167}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "firzen-r_up.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

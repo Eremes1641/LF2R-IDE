@@ -1,0 +1,410 @@
+{"frames": {
+"broken_weapon-r-broken2-r-100.png":
+{
+  "frame": {"x":0,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-101.png":
+{
+  "frame": {"x":93,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-102.png":
+{
+  "frame": {"x":186,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-103.png":
+{
+  "frame": {"x":279,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-104.png":
+{
+  "frame": {"x":372,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-105.png":
+{
+  "frame": {"x":465,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-106.png":
+{
+  "frame": {"x":558,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-107.png":
+{
+  "frame": {"x":651,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-108.png":
+{
+  "frame": {"x":744,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-109.png":
+{
+  "frame": {"x":837,"y":0,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-110.png":
+{
+  "frame": {"x":0,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-111.png":
+{
+  "frame": {"x":93,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-112.png":
+{
+  "frame": {"x":186,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-113.png":
+{
+  "frame": {"x":279,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-114.png":
+{
+  "frame": {"x":372,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-115.png":
+{
+  "frame": {"x":465,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-116.png":
+{
+  "frame": {"x":558,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-117.png":
+{
+  "frame": {"x":651,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-118.png":
+{
+  "frame": {"x":744,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-119.png":
+{
+  "frame": {"x":837,"y":96,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-120.png":
+{
+  "frame": {"x":0,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-121.png":
+{
+  "frame": {"x":93,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-122.png":
+{
+  "frame": {"x":186,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-123.png":
+{
+  "frame": {"x":279,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-124.png":
+{
+  "frame": {"x":372,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-125.png":
+{
+  "frame": {"x":465,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-126.png":
+{
+  "frame": {"x":558,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-127.png":
+{
+  "frame": {"x":651,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-128.png":
+{
+  "frame": {"x":744,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-129.png":
+{
+  "frame": {"x":837,"y":192,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-130.png":
+{
+  "frame": {"x":0,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-131.png":
+{
+  "frame": {"x":93,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-132.png":
+{
+  "frame": {"x":186,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-133.png":
+{
+  "frame": {"x":279,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-134.png":
+{
+  "frame": {"x":372,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-135.png":
+{
+  "frame": {"x":465,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-136.png":
+{
+  "frame": {"x":558,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-137.png":
+{
+  "frame": {"x":651,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-138.png":
+{
+  "frame": {"x":744,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-139.png":
+{
+  "frame": {"x":837,"y":288,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-140.png":
+{
+  "frame": {"x":0,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-141.png":
+{
+  "frame": {"x":93,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-142.png":
+{
+  "frame": {"x":186,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-143.png":
+{
+  "frame": {"x":279,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-144.png":
+{
+  "frame": {"x":372,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-145.png":
+{
+  "frame": {"x":465,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-146.png":
+{
+  "frame": {"x":558,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-147.png":
+{
+  "frame": {"x":651,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-148.png":
+{
+  "frame": {"x":744,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+},
+"broken_weapon-r-broken2-r-149.png":
+{
+  "frame": {"x":837,"y":384,"w":92,"h":95},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":92,"h":95},
+  "sourceSize": {"w":92,"h":95}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "broken2-r.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

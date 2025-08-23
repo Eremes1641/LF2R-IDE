@@ -1,0 +1,106 @@
+{"frames": {
+"john_biscuit-r-john-r_biscuit-0.png":
+{
+  "frame": {"x":0,"y":0,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-1.png":
+{
+  "frame": {"x":306,"y":0,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-2.png":
+{
+  "frame": {"x":612,"y":0,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-3.png":
+{
+  "frame": {"x":918,"y":0,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-4.png":
+{
+  "frame": {"x":0,"y":69,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-5.png":
+{
+  "frame": {"x":306,"y":69,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-6.png":
+{
+  "frame": {"x":612,"y":69,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-7.png":
+{
+  "frame": {"x":918,"y":69,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-8.png":
+{
+  "frame": {"x":0,"y":138,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-9.png":
+{
+  "frame": {"x":306,"y":138,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-10.png":
+{
+  "frame": {"x":612,"y":138,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+},
+"john_biscuit-r-john-r_biscuit-11.png":
+{
+  "frame": {"x":918,"y":138,"w":305,"h":68},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":305,"h":68},
+  "sourceSize": {"w":305,"h":68}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "john-r_biscuit.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

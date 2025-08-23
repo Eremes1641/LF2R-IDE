@@ -1,0 +1,26 @@
+{"frames": {
+"bat-r-bat-r_2-140.png":
+{
+  "frame": {"x":0,"y":0,"w":539,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":269},
+  "sourceSize": {"w":539,"h":269}
+},
+"bat-r-bat-r_2-141.png":
+{
+  "frame": {"x":540,"y":0,"w":539,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":269},
+  "sourceSize": {"w":539,"h":269}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "bat-r_2.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

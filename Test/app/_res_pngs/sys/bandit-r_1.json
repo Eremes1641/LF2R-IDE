@@ -1,0 +1,570 @@
+{"frames": {
+"bandit-r-bandit-r_1-70.png":
+{
+  "frame": {"x":0,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-71.png":
+{
+  "frame": {"x":270,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-72.png":
+{
+  "frame": {"x":540,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-73.png":
+{
+  "frame": {"x":810,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-74.png":
+{
+  "frame": {"x":1080,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-75.png":
+{
+  "frame": {"x":1350,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-76.png":
+{
+  "frame": {"x":1620,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-77.png":
+{
+  "frame": {"x":1890,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-78.png":
+{
+  "frame": {"x":2160,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-79.png":
+{
+  "frame": {"x":2430,"y":0,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-80.png":
+{
+  "frame": {"x":0,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-81.png":
+{
+  "frame": {"x":270,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-82.png":
+{
+  "frame": {"x":540,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-83.png":
+{
+  "frame": {"x":810,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-84.png":
+{
+  "frame": {"x":1080,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-85.png":
+{
+  "frame": {"x":1350,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-86.png":
+{
+  "frame": {"x":1620,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-87.png":
+{
+  "frame": {"x":1890,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-88.png":
+{
+  "frame": {"x":2160,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-89.png":
+{
+  "frame": {"x":2430,"y":270,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-90.png":
+{
+  "frame": {"x":0,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-91.png":
+{
+  "frame": {"x":270,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-92.png":
+{
+  "frame": {"x":540,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-93.png":
+{
+  "frame": {"x":810,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-94.png":
+{
+  "frame": {"x":1080,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-95.png":
+{
+  "frame": {"x":1350,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-96.png":
+{
+  "frame": {"x":1620,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-97.png":
+{
+  "frame": {"x":1890,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-98.png":
+{
+  "frame": {"x":2160,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-99.png":
+{
+  "frame": {"x":2430,"y":540,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-100.png":
+{
+  "frame": {"x":0,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-101.png":
+{
+  "frame": {"x":270,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-102.png":
+{
+  "frame": {"x":540,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-103.png":
+{
+  "frame": {"x":810,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-104.png":
+{
+  "frame": {"x":1080,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-105.png":
+{
+  "frame": {"x":1350,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-106.png":
+{
+  "frame": {"x":1620,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-107.png":
+{
+  "frame": {"x":1890,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-108.png":
+{
+  "frame": {"x":2160,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-109.png":
+{
+  "frame": {"x":2430,"y":810,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-110.png":
+{
+  "frame": {"x":0,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-111.png":
+{
+  "frame": {"x":270,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-112.png":
+{
+  "frame": {"x":540,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-113.png":
+{
+  "frame": {"x":810,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-114.png":
+{
+  "frame": {"x":1080,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-115.png":
+{
+  "frame": {"x":1350,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-116.png":
+{
+  "frame": {"x":1620,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-117.png":
+{
+  "frame": {"x":1890,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-118.png":
+{
+  "frame": {"x":2160,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-119.png":
+{
+  "frame": {"x":2430,"y":1080,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-120.png":
+{
+  "frame": {"x":0,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-121.png":
+{
+  "frame": {"x":270,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-122.png":
+{
+  "frame": {"x":540,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-123.png":
+{
+  "frame": {"x":810,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-124.png":
+{
+  "frame": {"x":1080,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-125.png":
+{
+  "frame": {"x":1350,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-126.png":
+{
+  "frame": {"x":1620,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-127.png":
+{
+  "frame": {"x":1890,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-128.png":
+{
+  "frame": {"x":2160,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-129.png":
+{
+  "frame": {"x":2430,"y":1350,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-130.png":
+{
+  "frame": {"x":0,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-131.png":
+{
+  "frame": {"x":270,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-132.png":
+{
+  "frame": {"x":540,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-133.png":
+{
+  "frame": {"x":810,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-134.png":
+{
+  "frame": {"x":1080,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-135.png":
+{
+  "frame": {"x":1350,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-136.png":
+{
+  "frame": {"x":1620,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-137.png":
+{
+  "frame": {"x":1890,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-138.png":
+{
+  "frame": {"x":2160,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+},
+"bandit-r-bandit-r_1-139.png":
+{
+  "frame": {"x":2430,"y":1620,"w":269,"h":269},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":269,"h":269},
+  "sourceSize": {"w":269,"h":269}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "bandit-r_1.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

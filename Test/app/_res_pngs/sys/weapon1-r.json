@@ -1,0 +1,66 @@
+{"frames": {
+"weapon1-r-weapon1-r-0.png":
+{
+  "frame": {"x":0,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-1.png":
+{
+  "frame": {"x":198,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-2.png":
+{
+  "frame": {"x":396,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-3.png":
+{
+  "frame": {"x":594,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-4.png":
+{
+  "frame": {"x":792,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-5.png":
+{
+  "frame": {"x":990,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+},
+"weapon1-r-weapon1-r-6.png":
+{
+  "frame": {"x":1188,"y":0,"w":197,"h":197},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":197,"h":197},
+  "sourceSize": {"w":197,"h":197}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "weapon1-r.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

@@ -1,0 +1,122 @@
+{"frames": {
+"knight-r-knight-r_1b-134.png":
+{
+  "frame": {"x":0,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-135.png":
+{
+  "frame": {"x":369,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-136.png":
+{
+  "frame": {"x":738,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-137.png":
+{
+  "frame": {"x":1107,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-138.png":
+{
+  "frame": {"x":1476,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-139.png":
+{
+  "frame": {"x":1845,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-140.png":
+{
+  "frame": {"x":2214,"y":0,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-141.png":
+{
+  "frame": {"x":0,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-142.png":
+{
+  "frame": {"x":369,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-143.png":
+{
+  "frame": {"x":738,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-144.png":
+{
+  "frame": {"x":1107,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-145.png":
+{
+  "frame": {"x":1476,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-146.png":
+{
+  "frame": {"x":1845,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+},
+"knight-r-knight-r_1b-147.png":
+{
+  "frame": {"x":2214,"y":336,"w":368,"h":335},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":335},
+  "sourceSize": {"w":368,"h":335}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "knight-r_1b.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}
