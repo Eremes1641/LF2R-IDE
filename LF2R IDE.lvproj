@@ -217,7 +217,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A4B0AE8D-4C36-47DE-806A-DFF9D55C069E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{4C5A07DB-EEAA-4D6F-A09E-31BC570AB7D0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.00.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{30AFA0A0-1825-4296-A8B2-BE35E633D745}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">LF2R IDE</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -227,7 +226,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D6E3D826-DB11-474A-90A4-70E9C02F2C06}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LF2R IDE.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Build/NI_AB_PROJECTNAME.exe</Property>
@@ -237,7 +236,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Build/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LabVIEW/Source/Icon/LF2R_IDE_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{493E5AD4-EDDA-4651-A8E1-40A2B3D99346}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E1A49DEE-A0FC-4328-BC9A-9CC84BA8E67B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LabVIEW/Main/LF2R IDE Launcher.vi</Property>
