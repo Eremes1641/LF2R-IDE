@@ -1,0 +1,130 @@
+{"frames": {
+"firen_flame-r-firen-r_exp-34.png":
+{
+  "frame": {"x":0,"y":0,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-35.png":
+{
+  "frame": {"x":540,"y":0,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-36.png":
+{
+  "frame": {"x":1080,"y":0,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-37.png":
+{
+  "frame": {"x":1620,"y":0,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-38.png":
+{
+  "frame": {"x":2160,"y":0,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-39.png":
+{
+  "frame": {"x":0,"y":540,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-40.png":
+{
+  "frame": {"x":540,"y":540,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-41.png":
+{
+  "frame": {"x":1080,"y":540,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-42.png":
+{
+  "frame": {"x":1620,"y":540,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-43.png":
+{
+  "frame": {"x":2160,"y":540,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-44.png":
+{
+  "frame": {"x":0,"y":1080,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-45.png":
+{
+  "frame": {"x":540,"y":1080,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-46.png":
+{
+  "frame": {"x":1080,"y":1080,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-47.png":
+{
+  "frame": {"x":1620,"y":1080,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+},
+"firen_flame-r-firen-r_exp-48.png":
+{
+  "frame": {"x":2160,"y":1080,"w":539,"h":539},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":539,"h":539},
+  "sourceSize": {"w":539,"h":539}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "firen-r_exp.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

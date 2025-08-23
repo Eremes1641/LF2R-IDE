@@ -1,0 +1,58 @@
+{"frames": {
+"henry_wind-r-henry-r_wind_dummy-24.png":
+{
+  "frame": {"x":0,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+},
+"henry_wind-r-henry-r_wind_dummy-25.png":
+{
+  "frame": {"x":9,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+},
+"henry_wind-r-henry-r_wind_dummy-26.png":
+{
+  "frame": {"x":18,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+},
+"henry_wind-r-henry-r_wind_dummy-27.png":
+{
+  "frame": {"x":27,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+},
+"henry_wind-r-henry-r_wind_dummy-28.png":
+{
+  "frame": {"x":36,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+},
+"henry_wind-r-henry-r_wind_dummy-29.png":
+{
+  "frame": {"x":45,"y":0,"w":8,"h":8},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+  "sourceSize": {"w":8,"h":8}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "henry-r_wind_dummy.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

@@ -1,0 +1,975 @@
+{
+  "frames": {
+    "john_ball-r-john-r_ball-0.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-1.png": {
+      "frame": {
+        "x": 276,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-2.png": {
+      "frame": {
+        "x": 552,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-3.png": {
+      "frame": {
+        "x": 828,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-4.png": {
+      "frame": {
+        "x": 1104,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-5.png": {
+      "frame": {
+        "x": 1380,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-6.png": {
+      "frame": {
+        "x": 1656,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-7.png": {
+      "frame": {
+        "x": 1932,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-8.png": {
+      "frame": {
+        "x": 0,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-9.png": {
+      "frame": {
+        "x": 276,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-10.png": {
+      "frame": {
+        "x": 552,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-11.png": {
+      "frame": {
+        "x": 828,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-12.png": {
+      "frame": {
+        "x": 1104,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-13.png": {
+      "frame": {
+        "x": 1380,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-14.png": {
+      "frame": {
+        "x": 1656,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-15.png": {
+      "frame": {
+        "x": 1932,
+        "y": 279,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-16.png": {
+      "frame": {
+        "x": 0,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-17.png": {
+      "frame": {
+        "x": 276,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-18.png": {
+      "frame": {
+        "x": 552,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-19.png": {
+      "frame": {
+        "x": 828,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-20.png": {
+      "frame": {
+        "x": 1104,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-21.png": {
+      "frame": {
+        "x": 1380,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-22.png": {
+      "frame": {
+        "x": 1656,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-23.png": {
+      "frame": {
+        "x": 1932,
+        "y": 558,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-24.png": {
+      "frame": {
+        "x": 0,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-25.png": {
+      "frame": {
+        "x": 276,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-26.png": {
+      "frame": {
+        "x": 552,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-27.png": {
+      "frame": {
+        "x": 828,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-28.png": {
+      "frame": {
+        "x": 1104,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-29.png": {
+      "frame": {
+        "x": 1380,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-30.png": {
+      "frame": {
+        "x": 1656,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-31.png": {
+      "frame": {
+        "x": 1932,
+        "y": 837,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-32.png": {
+      "frame": {
+        "x": 0,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-33.png": {
+      "frame": {
+        "x": 276,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-34.png": {
+      "frame": {
+        "x": 552,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-35.png": {
+      "frame": {
+        "x": 828,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-36.png": {
+      "frame": {
+        "x": 1104,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-37.png": {
+      "frame": {
+        "x": 1380,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-38.png": {
+      "frame": {
+        "x": 1656,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-39.png": {
+      "frame": {
+        "x": 1932,
+        "y": 1116,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-40.png": {
+      "frame": {
+        "x": 0,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-41.png": {
+      "frame": {
+        "x": 276,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-42.png": {
+      "frame": {
+        "x": 552,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-43.png": {
+      "frame": {
+        "x": 828,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-44.png": {
+      "frame": {
+        "x": 1104,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-45.png": {
+      "frame": {
+        "x": 1380,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-46.png": {
+      "frame": {
+        "x": 1656,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    },
+    "john_ball-r-john-r_ball-47.png": {
+      "frame": {
+        "x": 1932,
+        "y": 1395,
+        "w": 275,
+        "h": 278
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 275,
+        "h": 278
+      },
+      "sourceSize": {
+        "w": 275,
+        "h": 278
+      }
+    }
+  },
+  "meta": {
+    "app": "LF2 remaster",
+    "version": ".1",
+    "image": "john-r_ball.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1,
+      "h": 1
+    },
+    "scale": "1"
+  }
+}

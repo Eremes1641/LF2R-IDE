@@ -1,0 +1,42 @@
+{"frames": {
+"firzen_chasef-r-firzen-r_up3-20.png":
+{
+  "frame": {"x":0,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firzen_chasef-r-firzen-r_up3-21.png":
+{
+  "frame": {"x":276,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firzen_chasef-r-firzen-r_up3-22.png":
+{
+  "frame": {"x":552,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+},
+"firzen_chasef-r-firzen-r_up3-23.png":
+{
+  "frame": {"x":828,"y":0,"w":275,"h":278},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":275,"h":278},
+  "sourceSize": {"w":275,"h":278}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "firzen-r_up3.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}

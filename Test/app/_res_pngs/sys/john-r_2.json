@@ -1,0 +1,42 @@
+{"frames": {
+"john-r-john-r_2-210.png":
+{
+  "frame": {"x":0,"y":0,"w":368,"h":368},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":368},
+  "sourceSize": {"w":368,"h":368}
+},
+"john-r-john-r_2-211.png":
+{
+  "frame": {"x":369,"y":0,"w":368,"h":368},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":368},
+  "sourceSize": {"w":368,"h":368}
+},
+"john-r-john-r_2-212.png":
+{
+  "frame": {"x":738,"y":0,"w":368,"h":368},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":368},
+  "sourceSize": {"w":368,"h":368}
+},
+"john-r-john-r_2-213.png":
+{
+  "frame": {"x":1107,"y":0,"w":368,"h":368},
+  "rotated": false,
+  "trimmed": false,
+  "spriteSourceSize": {"x":0,"y":0,"w":368,"h":368},
+  "sourceSize": {"w":368,"h":368}
+}},
+"meta": {
+  "app": "LF2 remaster",
+  "version": ".1",
+  "image": "john-r_2.png",
+  "format": "RGBA8888",
+  "size": {"w":1,"h":1},
+  "scale": "1"
+}
+}
