@@ -2,6 +2,18 @@
 ==========================================
 
 
+v1.0.0.3 Date: 2025/08/30, Developer: Jim
+---------------------------------------------------
+### Added
+- Image box and point
+
+### Changed
+- Open file start path "last selection" --> "_res_data"
+
+### Fixed
+- Semi-transparent display
+
+
 v1.0.0.2 Date: 2025/08/24, Developer: Jim
 ---------------------------------------------------
 ### Added

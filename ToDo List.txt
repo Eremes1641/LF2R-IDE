@@ -1,0 +1,17 @@
+# ToDo List
+==========================================
+
+Data folder
+  1. use last folder
+  2. use steam folder
+  3. use IDE folder
+PNG folder
+  1. use costum folder
+  1. use steam folder
+
+Color setting
+
+Language setting
+Caption
+
+Memory Leakage
