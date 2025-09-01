@@ -21,9 +21,14 @@ Features
 - Frame picture display
 - Hitbox and point position display
 
-Downloads
+Installation
 --------------------------------------------------------------
-Visit the [Releases](https://github.com/Eremes1641/LF2R-IDE/releases) page to download the latest version.
+Download the files below.
+- [LabVIEW Runtime 2018 32bit](https://www.ni.com/zh-tw/support/downloads/software-products/download.labview-runtime.html?srsltid=AfmBOoo1Wfdol8T-3dQPaSJJE2lkCwq9QZ1iU7SQM5-eRnTu3_e9dYs8#359578)  
+- [LF2R IDE](https://github.com/Eremes1641/LF2R-IDE/releases)  
+
+LF2R IDE is developed using National Instruments (NI) LabVIEW rather than compiled with C#.  
+Please register a National Instruments account and install the LabVIEW Runtime to ensure that LF2R IDE runs properly.
 
 License
 --------------------------------------------------------------
