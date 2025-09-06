@@ -7,69 +7,221 @@
     "pic":{"Name":"pic","Tip":""},
     "state":{"Name":"state","Tip":""},
     "wait":{"Name":"wait","Tip":""},
-    "next":{"Name":"next","Tip":""},
-    "dvx":{"Name":"dvx","Tip":""},
-    "dvy":{"Name":"dvy","Tip":""},
-    "dvz":{"Name":"dvz","Tip":""},
-    "centerx":{"Name":"centerx","Tip":""},
-    "centery":{"Name":"centery","Tip":""},
+    "next":{
+      "Name":"next",
+      "Tip":"Next frame number  \n999: Return to frame number 0  \n1000: Remove object  \n12XX: Invisible, where XX represents the duration  \n-XXXX: A minus sign indicates direction reversal"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"Forward (positive) and backward (negative) movement speed"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"Upward (negative) and downward (positive) movement speed"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"Vertical movement speed, with the direction determined by the ↑ and ↓ arrow keys"
+    },
+    "centerx":{
+      "Name":"centerx",
+      "Tip":"X-axis position of the frame center (shadow), with direction from left to right"
+    },
+    "centery":{
+      "Name":"centery",
+      "Tip":"Y-axis position of the frame center (shadow), with direction from top to bottom"
+    },
     "sound":{"Name":"sound","Tip":""}
   },
   "Frame Skill":{
-    "mp":{"Name":"mp","Tip":""},
-    "hit_a":{"Name":"hit_a","Tip":""},
-    "hit_d":{"Name":"hit_d","Tip":""},
-    "hit_j":{"Name":"hit_j","Tip":""},
-    "hit_Fa":{"Name":"hit_Fa","Tip":""},
-    "hit_Ua":{"Name":"hit_Ua","Tip":""},
-    "hit_Da":{"Name":"hit_Da","Tip":""},
-    "hit_Fj":{"Name":"hit_Fj","Tip":""},
-    "hit_Uj":{"Name":"hit_Uj","Tip":""},
-    "hit_Dj":{"Name":"hit_Dj","Tip":""},
-    "hit_ja":{"Name":"hit_ja","Tip":""}
+    "mp":{
+      "Name":"mp",
+      "Tip":"HP/MP Consumption  \nOOXXX: OO represents the tens digit of HP consumption, XXX represents MP consumption  \n100: Consumes 100 MP  \n4300: Consumes 40 HP and 300 MP  \n\nWhen entering a frame using hit_XX:  \n  - Positive values indicate consumption  \n  - Negative values indicate recovery  \n\nWhen entering a frame using next:  \n  - Positive values have no effect  \n  - Negative values indicate consumption"
+    },
+    "hit_a":{
+      "Name":"hit_a",
+      "Tip":"When pressing Attack, jump to the corresponding frame number"
+    },
+    "hit_d":{
+      "Name":"hit_d",
+      "Tip":"When pressing Defense, jump to the corresponding frame number"
+    },
+    "hit_j":{
+      "Name":"hit_j",
+      "Tip":"When pressing Jump, jump to the corresponding frame number"
+    },
+    "hit_Fa":{
+      "Name":"hit_Fa",
+      "Tip":"When pressing Defense → Attack, jump to the corresponding frame number"
+    },
+    "hit_Ua":{
+      "Name":"hit_Ua",
+      "Tip":"When pressing Defense ↑ Attack, jump to the corresponding frame number"
+    },
+    "hit_Da":{
+      "Name":"hit_Da",
+      "Tip":"When pressing Defense ↓ Attack, jump to the corresponding frame number"
+    },
+    "hit_Fj":{
+      "Name":"hit_Fj",
+      "Tip":"When pressing Defense → Jump, jump to the corresponding frame number"
+    },
+    "hit_Uj":{
+      "Name":"hit_Uj",
+      "Tip":"When pressing Defense ↑ Jump, jump to the corresponding frame number"
+    },
+    "hit_Dj":{
+      "Name":"hit_Dj",
+      "Tip":"When pressing Defense ↓ Jump, jump to the corresponding frame number"
+    },
+    "hit_ja":{
+      "Name":"hit_ja",
+      "Tip":"When pressing Defense + Jump + Attack, jump to the corresponding frame number"
+    }
   },
   "bp":{
-    "x":{"Name":"x","Tip":""},
-    "y":{"Name":"y","Tip":""}
+    "x":{
+      "Name":"x",
+      "Tip":"X-axis position of mouth bleeding\nBleeding occurs when HP is less than 1/3"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"Y-axis position of mouth bleeding\nBleeding occurs when HP is less than 1/3"
+    }
   },
   "w":{
-    "kind":{"Name":"kind","Tip":""},
-    "x":{"Name":"x","Tip":""},
-    "y":{"Name":"y","Tip":""},
-    "weaponact":{"Name":"weaponact","Tip":""},
-    "cover":{"Name":"cover","Tip":""},
-    "dvx":{"Name":"dvx","Tip":""},
-    "dvy":{"Name":"dvy","Tip":""},
-    "dvz":{"Name":"dvz","Tip":""},
-    "attacking":{"Name":"attacking","Tip":""}
+    "kind":{
+      "Name":"kind",
+      "Tip":"Weapon state\n1: Held in hand  \n2: Held in hand  \n3: Dropped"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"X-axis position of the weapon"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"Y-axis position of the weapon"
+    },
+    "weaponact":{
+      "Name":"weaponact",
+      "Tip":"Weapon frame number\nIf outside 20~35, the weapon can be hit"
+    },
+    "cover":{
+      "Name":"cover",
+      "Tip":"0: Weapon in front (overlays the character image)  \n1: Weapon behind (character overlays the weapon image)"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"Forward (positive) and backward (negative) movement speed"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"Upward (negative) and downward (positive) movement speed"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"Vertical movement speed, with the direction determined by the ↑ and ↓ arrow keys"
+    },
+    "attacking":{
+      "Name":"attacking",
+      "Tip":"Attack state\n0: No attack  \n1: Attack while standing  \n2: Attack while jumping  \n3: Attack while running  \n4: Attack while jumping forward"
+    }
   },
   "b":{
     "kind":{"Name":"kind","Tip":""},
-    "x":{"Name":"x","Tip":""},
-    "y":{"Name":"y","Tip":""},
-    "w":{"Name":"w","Tip":""},
-    "h":{"Name":"h","Tip":""}
+    "x":{
+      "Name":"x",
+      "Tip":"X-axis position of the hitbox"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"Y-axis position of the hitbox"
+    },
+    "w":{"Name":"w","Tip":"Width of the hitbox"},
+    "h":{
+      "Name":"h",
+      "Tip":"Height of the hitbox"
+    },
+    "index":{
+      "Name":"<b> index",
+      "Tip":"body section index"
+    }
   },
   "i":{
-    "kind":{"Name":"kind","Tip":""},
-    "x":{"Name":"x","Tip":""},
-    "y":{"Name":"y","Tip":""},
-    "w":{"Name":"w","Tip":""},
-    "h":{"Name":"h","Tip":""},
-    "zwidth":{"Name":"zwidth","Tip":""},
-    "dvx":{"Name":"dvx","Tip":""},
-    "dvy":{"Name":"dvy","Tip":""},
-    "dvz":{"Name":"dvz","Tip":""},
-    "fall":{"Name":"fall","Tip":""},
-    "arest":{"Name":"arest","Tip":""},
-    "vrest":{"Name":"vrest","Tip":""},
-    "bdefend":{"Name":"bdefend","Tip":""},
+    "kind":{
+      "Name":"kind",
+      "Tip":"0: Normal attack / effect attack  \n1: Grab a stunned opponent (state 16)  \n2: Pick up a weapon  \n3: Forced grab  \n4: Attack type when thrown by an enemy  \n5: Weapon type  \n6: If an enemy is within this range, jump to a super_punch frame  \n7: Press Attack to pick up a weapon immediately  \n8: Convert injury to healing, jump to dvx frame  \n9: Reduce HP to zero after hitting an enemy  \n10: Henry's \"Death Symphony\" effect  \n11: Henry's \"Death Symphony\" effect  \n14: Block  \n15: Float  \n16: Freeze"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"X-axis position of the hitbox"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"Y-axis position of the hitbox"
+    },
+    "w":{"Name":"w","Tip":"Width of the hitbox"},
+    "h":{
+      "Name":"h",
+      "Tip":"Height of the hitbox"
+    },
+    "zwidth":{
+      "Name":"zwidth",
+      "Tip":"Width of the hitbox along the Z-axis"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"Forward (positive) and backward (negative) movement speed of the hit object"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"Upward (negative) and downward (positive) movement speed of the hit object"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"Vertical movement speed of the hit object"
+    },
+    "fall":{
+      "Name":"fall",
+      "Tip":"Knockdown value\n1: Enemy pauses briefly, but the value does not accumulate toward stun  \n25: Hitting twice will stun the enemy  \n40: First hit makes the enemy step back, second hit knocks them down  \n60: First hit stuns the enemy, second hit knocks them down  \n70: Forced knockdown  \nNegative value: Does not affect the enemy's action, but grants super armor (enemy shows no hurt animation)"
+    },
+    "arest":{
+      "Name":"arest",
+      "Tip":"Interval for repeatedly attacking a single enemy\nForcibly disables vrest"
+    },
+    "vrest":{
+      "Name":"vrest",
+      "Tip":"Interval for repeatedly attacking multiple enemies\nCannot be used simultaneously with arest\nMinimum value is 4"
+    },
+    "bdefend":{
+      "Name":"bdefend",
+      "Tip":"Guard break value\nAccumulate up to 60 to break a defending enemy  \n60: Directly breaks guard  \n100: Ignores all defense and hits directly. Items are forcibly destroyed"
+    },
     "injury":{"Name":"injury","Tip":""},
-    "effect":{"Name":"effect","Tip":""},
-    "catchingact 1":{"Name":"catchingact 1","Tip":""},
-    "catchingact 2":{"Name":"catchingact 2","Tip":""},
-    "caughtact 1":{"Name":"caughtact 1","Tip":""},
-    "caughtact 2":{"Name":"caughtact 2","Tip":""}
+    "effect":{
+      "Name":"effect",
+      "Tip":"Attack special effect (only for kind:0)\n0: Fist effect  \n1: Bladed weapon effect  \n2: Fire  \n20: Fire, cannot hit ball attacks  \n21: Fire, can reflect ball attacks; when combined with state 18 (fire), it will not hit allies  \n22: Fire; if dvx is positive, attack direction is inward; if dvx is negative, attack direction is outward  \n23: Hit effect; if dvx is positive, attack direction is inward; if dvx is negative, attack direction is outward  \n3: Freeze  \n30: Freeze; cannot hit state 13 characters (frozen characters)  \n4: Only attacks objects of type: 1, 2, 3, 4, 5, 6"
+    },
+    "catchingact 1":{
+      "Name":"catchingact 1",
+      "Tip":"Only for kind: 1 (grab stunned enemy), kind: 3 (forced grab)\nAfter grabbing an enemy, jumps to the frame number"
+    },
+    "catchingact 2":{
+      "Name":"catchingact 2",
+      "Tip":"Only for kind: 1 (grab stunned enemy), kind: 3 (forced grab)\nAfter grabbing an enemy, jumps to the frame number"
+    },
+    "caughtact 1":{
+      "Name":"caughtact 1",
+      "Tip":"Only for kind: 1 (grab stunned enemy), kind: 3 (forced grab)\nAfter grabbing an enemy, the enemy's frame number jumps to the frame number"
+    },
+    "caughtact 2":{
+      "Name":"caughtact 2",
+      "Tip":"Only for kind: 1 (grab stunned enemy), kind: 3 (forced grab)\nAfter grabbing an enemy, the enemy's frame number jumps to the frame number"
+    },
+    "index":{
+      "Name":"<i> index",
+      "Tip":"injury section index"
+    }
   },
   "o":{
     "kind":{"Name":"kind","Tip":""},
