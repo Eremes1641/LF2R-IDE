@@ -1,0 +1,110 @@
+{
+  "Title":{
+    "Frame Num":{"Name":"Frame Num","Tip":""},
+    "Name":{"Name":"Name","Tip":""}
+  },
+  "Frame Basic":{
+    "pic":{"Name":"pic","Tip":""},
+    "state":{"Name":"state","Tip":""},
+    "wait":{"Name":"wait","Tip":""},
+    "next":{"Name":"next","Tip":""},
+    "dvx":{"Name":"dvx","Tip":""},
+    "dvy":{"Name":"dvy","Tip":""},
+    "dvz":{"Name":"dvz","Tip":""},
+    "centerx":{"Name":"centerx","Tip":""},
+    "centery":{"Name":"centery","Tip":""},
+    "sound":{"Name":"sound","Tip":""}
+  },
+  "Frame Skill":{
+    "mp":{"Name":"mp","Tip":""},
+    "hit_a":{"Name":"hit_a","Tip":""},
+    "hit_d":{"Name":"hit_d","Tip":""},
+    "hit_j":{"Name":"hit_j","Tip":""},
+    "hit_Fa":{"Name":"hit_Fa","Tip":""},
+    "hit_Ua":{"Name":"hit_Ua","Tip":""},
+    "hit_Da":{"Name":"hit_Da","Tip":""},
+    "hit_Fj":{"Name":"hit_Fj","Tip":""},
+    "hit_Uj":{"Name":"hit_Uj","Tip":""},
+    "hit_Dj":{"Name":"hit_Dj","Tip":""},
+    "hit_ja":{"Name":"hit_ja","Tip":""}
+  },
+  "bp":{
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""}
+  },
+  "w":{
+    "kind":{"Name":"kind","Tip":""},
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""},
+    "weaponact":{"Name":"weaponact","Tip":""},
+    "cover":{"Name":"cover","Tip":""},
+    "dvx":{"Name":"dvx","Tip":""},
+    "dvy":{"Name":"dvy","Tip":""},
+    "dvz":{"Name":"dvz","Tip":""},
+    "attacking":{"Name":"attacking","Tip":""}
+  },
+  "b":{
+    "kind":{"Name":"kind","Tip":""},
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""},
+    "w":{"Name":"w","Tip":""},
+    "h":{"Name":"h","Tip":""}
+  },
+  "i":{
+    "kind":{"Name":"kind","Tip":""},
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""},
+    "w":{"Name":"w","Tip":""},
+    "h":{"Name":"h","Tip":""},
+    "zwidth":{"Name":"zwidth","Tip":""},
+    "dvx":{"Name":"dvx","Tip":""},
+    "dvy":{"Name":"dvy","Tip":""},
+    "dvz":{"Name":"dvz","Tip":""},
+    "fall":{"Name":"fall","Tip":""},
+    "arest":{"Name":"arest","Tip":""},
+    "vrest":{"Name":"vrest","Tip":""},
+    "bdefend":{"Name":"bdefend","Tip":""},
+    "injury":{"Name":"injury","Tip":""},
+    "effect":{"Name":"effect","Tip":""},
+    "catchingact 1":{"Name":"catchingact 1","Tip":""},
+    "catchingact 2":{"Name":"catchingact 2","Tip":""},
+    "caughtact 1":{"Name":"caughtact 1","Tip":""},
+    "caughtact 2":{"Name":"caughtact 2","Tip":""}
+  },
+  "o":{
+    "kind":{"Name":"kind","Tip":""},
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""},
+    "action":{"Name":"action","Tip":""},
+    "dvx":{"Name":"dvx","Tip":""},
+    "dvy":{"Name":"dvy","Tip":""},
+    "dvz":{"Name":"dvz","Tip":""},
+    "oid":{"Name":"oid","Tip":""},
+    "facing":{"Name":"facing","Tip":""}
+  },
+  "c":{
+    "kind":{"Name":"kind","Tip":""},
+    "x":{"Name":"x","Tip":""},
+    "y":{"Name":"y","Tip":""},
+    "injury":{"Name":"injury","Tip":""},
+    "cover":{"Name":"cover","Tip":""},
+    "vaction":{"Name":"vaction","Tip":""},
+    "aaction":{"Name":"aaction","Tip":""},
+    "taction":{"Name":"taction","Tip":""},
+    "hurtable":{"Name":"hurtable","Tip":""},
+    "decrease":{"Name":"decrease","Tip":""},
+    "fronthurtact":{"Name":"fronthurtact","Tip":""},
+    "backhurtact":{"Name":"backhurtact","Tip":""},
+    "throwvx":{"Name":"throwvx","Tip":""},
+    "throwvy":{"Name":"throwvy","Tip":""},
+    "throwvz":{"Name":"throwvz","Tip":""},
+    "throwinjury":{"Name":"throwinjury","Tip":""},
+    "dircontrol":{"Name":"dircontrol","Tip":""}
+  },
+  "Other":{
+    "File Path":{"Name":"File Path","Tip":""},
+    "GoTo":{"Name":"Go to Frame","Tip":""},
+    "Apply Change":{"Name":"Apply Change","Tip":""},
+    "To Next Frame":{"Name":"To Next Frame","Tip":""}
+  }
+}

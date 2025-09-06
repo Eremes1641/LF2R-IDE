@@ -1,0 +1,110 @@
+{
+  "Title":{
+    "Frame Num":{"Name":"Frame Num2","Tip":""},
+    "Name":{"Name":"Name2","Tip":""}
+  },
+  "Frame Basic":{
+    "pic":{"Name":"pic2","Tip":""},
+    "state":{"Name":"state2","Tip":""},
+    "wait":{"Name":"wait2","Tip":""},
+    "next":{"Name":"next2","Tip":""},
+    "dvx":{"Name":"dvx2","Tip":""},
+    "dvy":{"Name":"dvy2","Tip":""},
+    "dvz":{"Name":"dvz2","Tip":""},
+    "centerx":{"Name":"centerx2","Tip":""},
+    "centery":{"Name":"centery2","Tip":""},
+    "sound":{"Name":"sound2","Tip":""}
+  },
+  "Frame Skill":{
+    "mp":{"Name":"mp2","Tip":""},
+    "hit_a":{"Name":"hit_a2","Tip":""},
+    "hit_d":{"Name":"hit_d2","Tip":""},
+    "hit_j":{"Name":"hit_j2","Tip":""},
+    "hit_Fa":{"Name":"hit_Fa2","Tip":""},
+    "hit_Ua":{"Name":"hit_Ua2","Tip":""},
+    "hit_Da":{"Name":"hit_Da2","Tip":""},
+    "hit_Fj":{"Name":"hit_Fj2","Tip":""},
+    "hit_Uj":{"Name":"hit_Uj2","Tip":""},
+    "hit_Dj":{"Name":"hit_Dj2","Tip":""},
+    "hit_ja":{"Name":"hit_ja2","Tip":""}
+  },
+  "bp":{
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""}
+  },
+  "w":{
+    "kind":{"Name":"kind2","Tip":""},
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""},
+    "weaponact":{"Name":"weaponact2","Tip":""},
+    "cover":{"Name":"cover2","Tip":""},
+    "dvx":{"Name":"dvx2","Tip":""},
+    "dvy":{"Name":"dvy2","Tip":""},
+    "dvz":{"Name":"dvz2","Tip":""},
+    "attacking":{"Name":"attacking2","Tip":""}
+  },
+  "b":{
+    "kind":{"Name":"kind2","Tip":""},
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""},
+    "w":{"Name":"w2","Tip":""},
+    "h":{"Name":"h2","Tip":""}
+  },
+  "i":{
+    "kind":{"Name":"kind2","Tip":""},
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""},
+    "w":{"Name":"w2","Tip":""},
+    "h":{"Name":"h2","Tip":""},
+    "zwidth":{"Name":"zwidth2","Tip":""},
+    "dvx":{"Name":"dvx2","Tip":""},
+    "dvy":{"Name":"dvy2","Tip":""},
+    "dvz":{"Name":"dvz2","Tip":""},
+    "fall":{"Name":"fall2","Tip":""},
+    "arest":{"Name":"arest2","Tip":""},
+    "vrest":{"Name":"vrest2","Tip":""},
+    "bdefend":{"Name":"bdefend2","Tip":""},
+    "injury":{"Name":"injury2","Tip":""},
+    "effect":{"Name":"effect2","Tip":""},
+    "catchingact 1":{"Name":"catchingact 12","Tip":""},
+    "catchingact 2":{"Name":"catchingact 22","Tip":""},
+    "caughtact 1":{"Name":"caughtact 12","Tip":""},
+    "caughtact 2":{"Name":"caughtact 22","Tip":""}
+  },
+  "o":{
+    "kind":{"Name":"kind2","Tip":""},
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""},
+    "action":{"Name":"action2","Tip":""},
+    "dvx":{"Name":"dvx2","Tip":""},
+    "dvy":{"Name":"dvy2","Tip":""},
+    "dvz":{"Name":"dvz2","Tip":""},
+    "oid":{"Name":"oid2","Tip":""},
+    "facing":{"Name":"facing2","Tip":""}
+  },
+  "c":{
+    "kind":{"Name":"kind2","Tip":""},
+    "x":{"Name":"x2","Tip":""},
+    "y":{"Name":"y2","Tip":""},
+    "injury":{"Name":"injury2","Tip":""},
+    "cover":{"Name":"cover2","Tip":""},
+    "vaction":{"Name":"vaction2","Tip":""},
+    "aaction":{"Name":"aaction2","Tip":""},
+    "taction":{"Name":"taction2","Tip":""},
+    "hurtable":{"Name":"hurtable2","Tip":""},
+    "decrease":{"Name":"decrease2","Tip":""},
+    "fronthurtact":{"Name":"fronthurtact2","Tip":""},
+    "backhurtact":{"Name":"backhurtact2","Tip":""},
+    "throwvx":{"Name":"throwvx2","Tip":""},
+    "throwvy":{"Name":"throwvy2","Tip":""},
+    "throwvz":{"Name":"throwvz2","Tip":""},
+    "throwinjury":{"Name":"throwinjury2","Tip":""},
+    "dircontrol":{"Name":"dircontrol2","Tip":""}
+  },
+  "Other":{
+    "File Path":{"Name":"File Path2","Tip":""},
+    "GoTo":{"Name":"Go to Frame2","Tip":""},
+    "Apply Change":{"Name":"Apply Change2","Tip":""},
+    "To Next Frame":{"Name":"To Next Frame2","Tip":""}
+  }
+}

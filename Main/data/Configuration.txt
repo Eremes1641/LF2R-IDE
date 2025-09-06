@@ -1,0 +1,24 @@
+{
+  "Language":{"Name":"Chinese"},
+  "Path Config":{
+    "Data Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\_res_data",
+    "PNG Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\_res_pngs"
+  },
+  "Image Viewer Config":{
+    "Center Point":{"Size":3,"Color":16448250,"Show?":true},
+    "bp Point":{"Size":3,"Color":16711680,"Show?":true},
+    "w Point":{"Size":3,"Color":10546431,"Show?":true},
+    "b Box":{
+      "Fill Color":16752543,
+      "Border Color":16752543,
+      "Show?":true
+    },
+    "i Box":{
+      "Fill Color":16776305,
+      "Border Color":16776305,
+      "Show?":true
+    },
+    "o Point":{"Size":3,"Color":10546431,"Show?":true},
+    "c Point":{"Size":3,"Color":10546431,"Show?":true}
+  }
+}
