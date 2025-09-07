@@ -1,0 +1,472 @@
+{
+  "Title":{
+    "Frame Num":{
+      "Name":"¼v®æ½s¸¹",
+      "Tip":"",
+      "Description":""
+    },
+    "Name":{
+      "Name":"¼v®æ¦WºÙ",
+      "Tip":"",
+      "Description":""
+    }
+  },
+  "Frame Basic":{
+    "pic":{
+      "Name":"pic",
+      "Tip":"¹Ï¤ù½s¸¹",
+      "Description":""
+    },
+    "state":{
+      "Name":"state",
+      "Tip":"",
+      "Description":""
+    },
+    "wait":{
+      "Name":"wait",
+      "Tip":"°±µ¥®É¶¡",
+      "Description":""
+    },
+    "next":{
+      "Name":"next",
+      "Tip":"¤U¤@­Ó¼v®æ½s¸¹",
+      "Description":"¤U¤@­Ó¼v®æ½s¸¹\n\n999: ¦^¨ì¼v®æ½s¸¹0\n1000: ²¾°£ª«¥ó\n12XX: Áô§Î¡AXXªí®É¶¡ªøµu\n­t­È: Âà¦V"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
+      "Description":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
+      "Description":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
+      "Description":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+    },
+    "centerx":{
+      "Name":"centerx",
+      "Tip":"¼v®æ¤¤¤ß(¼v¤l)ªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k",
+      "Description":"¼v®æ¤¤¤ß(¼v¤l)ªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k"
+    },
+    "centery":{
+      "Name":"centery",
+      "Tip":"¼v®æ¤¤¤ß(¼v¤l)ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U",
+      "Description":"¼v®æ¤¤¤ß(¼v¤l)ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U"
+    },
+    "sound":{
+      "Name":"sound",
+      "Tip":"­µ®Ä",
+      "Description":""
+    }
+  },
+  "Frame Skill":{
+    "mp":{
+      "Name":"mp",
+      "Tip":"®ð/¦å®ø¯Ó",
+      "Description":"®ð/¦å®ø¯Ó\n\nOOXXX¡AOOªí¦å¶qªº¤Q¦ì¼Æ®ø¯Ó¡AXXXªí®ð®ø¯Ó\n100: ®ø¯Ó100ÂIªº®ð\n4300: ®ø¯Ó40ÂI¦å¶q»P300ÂI®ð\n\n­Y¥Îhit_XX¶i¤J¼v®æ¡A«h¥¿­È¬°®ø¯Ó¡A­t­È¬°¼W¥[\n­Y¥Înext¶i¤J¼v®æ¡A«h¥¿­È¤£·|¦³ÅÜ¤Æ¡A­t­È¬°®ø¯Ó"
+    },
+    "hit_a":{
+      "Name":"hit_a",
+      "Tip":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_d":{
+      "Name":"hit_d",
+      "Tip":"«ö¨¾¿m®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¿m®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_j":{
+      "Name":"hit_j",
+      "Tip":"«ö¸õÅD®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¸õÅD®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Fa":{
+      "Name":"hit_Fa",
+      "Tip":"«ö¨¾¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Ua":{
+      "Name":"hit_Ua",
+      "Tip":"«ö¨¾¡ô§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡ô§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Da":{
+      "Name":"hit_Da",
+      "Tip":"«ö¨¾¡õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Fj":{
+      "Name":"hit_Fj",
+      "Tip":"«ö¨¾¡÷¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡÷¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Uj":{
+      "Name":"hit_Uj",
+      "Tip":"«ö¨¾¡ô¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡ô¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_Dj":{
+      "Name":"hit_Dj",
+      "Tip":"«ö¨¾¡õ¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¡õ¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hit_ja":{
+      "Name":"hit_ja",
+      "Tip":"«ö¨¾¸õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¨¾¸õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    }
+  },
+  "bp":{
+    "x":{
+      "Name":"x",
+      "Tip":"¼L¨¤¬y¦åªºx¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å",
+      "Description":"¼L¨¤¬y¦åªºx¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"¼L¨¤¬y¦åªºy¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å",
+      "Description":"¼L¨¤¬y¦åªºy¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å"
+    }
+  },
+  "w":{
+    "kind":{
+      "Name":"kind",
+      "Tip":"ªZ¾¹ª¬ºA\n1: «ù¦b¤â¤W\n2: «ù¦b¤â¤W\n3: ±¼¸¨",
+      "Description":"ªZ¾¹ª¬ºA\n1: «ù¦b¤â¤W\n2: «ù¦b¤â¤W\n3: ±¼¸¨"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"ªZ¾¹ªºx¶b¦ì¸m",
+      "Description":"ªZ¾¹ªºx¶b¦ì¸m"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"ªZ¾¹ªºy¶b¦ì¸m",
+      "Description":"ªZ¾¹ªºy¶b¦ì¸m"
+    },
+    "weaponact":{
+      "Name":"weaponact",
+      "Tip":"ªZ¾¹ªº²Ä´X­Ó¼v®æ\n­Y¦b20~35¤§¥~¡AªZ¾¹·|³Q¥´¨ì",
+      "Description":"ªZ¾¹ªº²Ä´X­Ó¼v®æ\n­Y¦b20~35¤§¥~¡AªZ¾¹·|³Q¥´¨ì"
+    },
+    "cover":{
+      "Name":"cover",
+      "Tip":"0: ªZ¾¹¦b«e (ÂÐ»\\¦b¨¤¦â¹Ï¤ù)\n1: ªZ¾¹¦b«á (¨¤¦âÂÐ»\\ªZ¾¹¹Ï¤ù)",
+      "Description":"0: ªZ¾¹¦b«e (ÂÐ»\\¦b¨¤¦â¹Ï¤ù)\n1: ªZ¾¹¦b«á (¨¤¦âÂÐ»\\ªZ¾¹¹Ï¤ù)"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
+      "Description":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
+      "Description":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
+      "Description":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+    },
+    "attacking":{
+      "Name":"attacking",
+      "Tip":"§ðÀ»ª¬ºA\n0: µL§ðÀ»\n1: ¯¸¥ß®É§ðÀ»\n2: ¸õÅD®É§ðÀ»\n3: ¶]§ð®Éªº§ðÀ»\n4: ½Ä¸õ®Éªº§ðÀ»",
+      "Description":"§ðÀ»ª¬ºA\n0: µL§ðÀ»\n1: ¯¸¥ß®É§ðÀ»\n2: ¸õÅD®É§ðÀ»\n3: ¶]§ð®Éªº§ðÀ»\n4: ½Ä¸õ®Éªº§ðÀ»"
+    }
+  },
+  "b":{
+    "kind":{
+      "Name":"kind",
+      "Tip":"",
+      "Description":""
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"³Q¥´À»®Øªºx¶b°_©l¦ì¸m",
+      "Description":"³Q¥´À»®Øªºx¶b°_©l¦ì¸m"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"³Q¥´À»®Øªºy¶b°_©l¦ì¸m",
+      "Description":"³Q¥´À»®Øªºy¶b°_©l¦ì¸m"
+    },
+    "w":{
+      "Name":"w",
+      "Tip":"³Q¥´À»®Øªºx¶b¼e«×",
+      "Description":"³Q¥´À»®Øªºx¶b¼e«×"
+    },
+    "h":{
+      "Name":"h",
+      "Tip":"³Q¥´À»®Øªºy¶b°ª«×",
+      "Description":"³Q¥´À»®Øªºy¶b°ª«×"
+    },
+    "index":{
+      "Name":"<b> index",
+      "Tip":"",
+      "Description":""
+    }
+  },
+  "i":{
+    "kind":{
+      "Name":"kind",
+      "Tip":"¶Ë®`¯S®Ä",
+      "Description":"¶Ë®`¯S®Ä\n0: ¤@¯ë§ðÀ»/¯S®Ä§ðÀ»\n1: ®»¦í·w¯tªº¤H(state 16)\n2: ¾ß°_ªZ¾¹\n3: ±j¨î§ì¤H\n4: ³Q¼Ä¤Hªº<c>¥á¥X®Éªº§ðÀ»Ãþ§O\n5: ªZ¾¹Ãþ§O\n6: ¼Ä¤H­Y¦b¦¹½d³ò¡AÂà¸õ¦Ü­«§ðÀ»¼v®æ\n7: «ö§ðÀ»¥iª½±µ¾ß¬BªZ¾¹\\n8: injuryÅÜ¦¨ªvÀø¼Æ­È¡A¼v®æÂà¸õ¦Üdvx\n9: ¥´¤¤¼Ä¤H¦Û¨­¦å¶qÂk¹s\n10: Henry¦º¤`¤§¼Ö³¹®ÄªG\n11: Henry¦º¤`¤§¼Ö³¹®ÄªG\n14: ªý¾×\n15: ¯B°_\n16: µ²­á"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"¥´À»®Øªºx¶b°_©l¦ì¸m",
+      "Description":"¥´À»®Øªºx¶b°_©l¦ì¸m"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"¥´À»®Øªºy¶b°_©l¦ì¸m",
+      "Description":"¥´À»®Øªºy¶b°_©l¦ì¸m"
+    },
+    "w":{
+      "Name":"w",
+      "Tip":"¥´À»®Øªºx¶b¼e«×",
+      "Description":"¥´À»®Øªºx¶b¼e«×"
+    },
+    "h":{
+      "Name":"h",
+      "Tip":"¥´À»®Øªºy¶b°ª«×",
+      "Description":"¥´À»®Øªºy¶b°ª«×"
+    },
+    "zwidth":{
+      "Name":"zwidth",
+      "Tip":"¥´À»®Øªºz¶b¼e«×",
+      "Description":"¥´À»®Øªºz¶b¼e«×"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"³QÀ»¤¤ªºª«Åéªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
+      "Description":"³QÀ»¤¤ªºª«Åéªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"³QÀ»¤¤ªºª«Åéªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
+      "Description":"³QÀ»¤¤ªºª«Åéªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"³QÀ»¤¤ªºª«Åéªº¦V¤W¤U²¾°Êªº³t«×",
+      "Description":"³QÀ»¤¤ªºª«Åéªº¦V¤W¤U²¾°Êªº³t«×"
+    },
+    "fall":{
+      "Name":"fall",
+      "Tip":"À»­Ë­È",
+      "Description":"À»­Ë­È\n1: ¼Ä¤H·|°±¹y¤@¤U¡A¦ý¤£·|²Ö¥[¦Ü·w¯t\n25: ¥´¨â¤U¼Ä¤H·|·w¯t\n40: ¥´²Ä¤@¤U¼Ä¤H·|«á°h¡A²Ä¤G¤U­Ë¦a\n60: ¥´²Ä¤@¤U¼Ä¤H·w¯t¡A²Ä¤G¤U­Ë¦a\n70: ª½±µ­Ë¦a\n­t­È: ¤£¼vÅT³Q¥´À»ªº¨¤¦â°Ê§@¡A¦ý·|¨Ï¨ä¦³ÅQÅé®ÄªG (³Q¥´À»¤£·|¦³¨ü¶Ë°Ê§@)"
+    },
+    "arest":{
+      "Name":"arest",
+      "Tip":"­«½Æ§ðÀ»³æ­Ó¼Ä¤Hªº¶¡¹j\n±j¨î°±¥Îvrest",
+      "Description":"­«½Æ§ðÀ»³æ­Ó¼Ä¤Hªº¶¡¹j\n±j¨î°±¥Îvrest"
+    },
+    "vrest":{
+      "Name":"vrest",
+      "Tip":"­«½Æ§ðÀ»½Æ¼Æ¼Ä¤Hªº¶¡¹j\nµLªk»Parest¦P®É¨Ï¥Î\n³Ì¤p­È¬°4",
+      "Description":"­«½Æ§ðÀ»½Æ¼Æ¼Ä¤Hªº¶¡¹j\nµLªk»Parest¦P®É¨Ï¥Î\n³Ì¤p­È¬°4"
+    },
+    "bdefend":{
+      "Name":"bdefend",
+      "Tip":"¯}¨¾­È\n²Ö¥[¨ì60¥iÀ»¯}¨¾¿mª¬ºAªº¼Ä¤H\n60: ª½±µ¯}¨¾\n100: µLµø¥ô¦ó¨¾¿m®ÄªG¡Aª½±µ§ðÀ»¡C¹D¨ã«h±j¨î¯}Ãa",
+      "Description":"¯}¨¾­È\n²Ö¥[¨ì60¥iÀ»¯}¨¾¿mª¬ºAªº¼Ä¤H\n60: ª½±µ¯}¨¾\n100: µLµø¥ô¦ó¨¾¿m®ÄªG¡Aª½±µ§ðÀ»¡C¹D¨ã«h±j¨î¯}Ãa"
+    },
+    "injury":{
+      "Name":"injury",
+      "Tip":"¶Ë®`",
+      "Description":"¶Ë®`"
+    },
+    "effect":{
+      "Name":"effect",
+      "Tip":"§ðÀ»¯S®Ä¡A¶È­­©ókind:0",
+      "Description":"§ðÀ»¯S®Ä¡A¶È­­©ókind:0\n0: ®±À»¯S®Ä\n1: §Q¾¹¯S®Ä\n2: µÛ¤õ\n20: µÛ¤õ¡A¥´¤£¨ì®ð¥\\\n21: µÛ¤õ¡A¥i¤Ï¼u®ð¥\\¡A°t¦Xstate 18(fire)«K¤£·|¥´¨ì¶¤¤Í\n22: µÛ¤õ¡Cdvx¬°¥¿®É¡A§ðÀ»¤è¦V¦V¤º¡Cdvx¬°­t®É¡A§ðÀ»¤è¦V¦V¥~\n23: ¥´À»¯S®Ä¡Cdvx¬°¥¿®É¡A§ðÀ»¤è¦V¦V¤º¡Cdvx¬°­t®É¡A§ðÀ»¤è¦V¦V¥~\n3: ¦B­á\n30: ¦B­á¡C¥´¤£¨ìstate 13ªº¤H(³Q¦B­áªº¤H)\n4: ¶È§ðÀ»type:1, 2, 3, 4, 5, 6ªºª««~"
+    },
+    "catchingact 1":{
+      "Name":"catchingact 1",
+      "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
+      "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+    },
+    "catchingact 2":{
+      "Name":"catchingact 2",
+      "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
+      "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+    },
+    "caughtact 1":{
+      "Name":"caughtact 1",
+      "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
+      "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+    },
+    "caughtact 2":{
+      "Name":"caughtact 2",
+      "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
+      "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+    },
+    "index":{
+      "Name":"<i> index",
+      "Tip":"",
+      "Description":""
+    }
+  },
+  "o":{
+    "kind":{
+      "Name":"kind",
+      "Tip":"»s³yÃþ«¬\n1: ±¼¸¨\n2: «ù¦b¤â¤W",
+      "Description":"»s³yÃþ«¬\n1: ±¼¸¨\n2: «ù¦b¤â¤W"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"ª«¥óªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k",
+      "Description":"ª«¥óªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"ª««~ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Üª«¥óªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U",
+      "Description":"ª«¥óªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U"
+    },
+    "action":{
+      "Name":"action",
+      "Tip":"ª«¥óªº¼v®æ½s¸¹",
+      "Description":"ª«¥óªº¼v®æ½s¸¹"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"ª«¥óªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
+      "Description":"ª«¥óªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"ª«¥óªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
+      "Description":"ª«¥óªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"ª«¥óªº¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
+      "Description":"ª«¥óªº¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+    },
+    "oid":{
+      "Name":"oid",
+      "Tip":"ª«¥óID",
+      "Description":"ª«¥óID"
+    },
+    "facing":{
+      "Name":"facing",
+      "Tip":"ª«¥óªº¼Æ¶q©M¤è¦V\nOOX: OO¬°¼Æ¶q¡CX¬°¤è¦V¡A0¬°¥¿¦V¡B1¬°¤Ï¦V",
+      "Description":"ª«¥óªº¼Æ¶q©M¤è¦V\nOOX: OO¬°¼Æ¶q¡CX¬°¤è¦V¡A0¬°¥¿¦V¡B1¬°¤Ï¦V"
+    }
+  },
+  "c":{
+    "kind":{
+      "Name":"kind",
+      "Tip":"§ì¤Hª¬ºA\n1: §ì¤H¤è\n2: ³Q§ì¤è",
+      "Description":"§ì¤Hª¬ºA\n1: §ì¤H¤è\n2: ³Q§ì¤è"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"§ì/³Q§ìªºx¶b¦ì¸m",
+      "Description":"§ì/³Q§ìªºx¶b¦ì¸m"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"§ì/³Q§ìªºy¶b¦ì¸m",
+      "Description":"§ì/³Q§ìªºy¶b¦ì¸m"
+    },
+    "injury":{
+      "Name":"injury",
+      "Tip":"¶Ë®`\n¥¿­È: ¨ü¶Ë¥[¥´À»ªº°±¹y®ÄªG\n­t­È: ¨ü¶Ë¦ýµL¥´À»ªº°±¹y®ÄªG",
+      "Description":"¶Ë®`\n¥¿­È: ¨ü¶Ë¥[¥´À»ªº°±¹y®ÄªG\n­t­È: ¨ü¶Ë¦ýµL¥´À»ªº°±¹y®ÄªG"
+    },
+    "cover":{
+      "Name":"cover",
+      "Tip":"¹Ï¼h¶¶§Ç\n10: ³Q§ìªÌ¦b«á\n11: ³Q§ìªÌ¦b«e",
+      "Description":"¹Ï¼h¶¶§Ç\n10: ³Q§ìªÌ¦b«á\n11: ³Q§ìªÌ¦b«e"
+    },
+    "vaction":{
+      "Name":"vaction",
+      "Tip":"³Q§ìªÌªº¼v®æ½s¸¹",
+      "Description":"³Q§ìªÌªº¼v®æ½s¸¹"
+    },
+    "aaction":{
+      "Name":"aaction",
+      "Tip":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "taction":{
+      "Name":"taction",
+      "Tip":"«ö¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
+      "Description":"«ö¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+    },
+    "hurtable":{
+      "Name":"hurtable",
+      "Tip":"³Q§ìªÌ·|¤£·|³Q¨ä¥L¤H¥´¨ì\n0: ¤£·|\n1: ·|",
+      "Description":"³Q§ìªÌ·|¤£·|³Q¨ä¥L¤H¥´¨ì\n0: ¤£·|\n1: ·|"
+    },
+    "decrease":{
+      "Name":"decrease",
+      "Tip":"§ì¦í®É¶¡ªº´î¤Ö­È(­t­È)¡AÁ`®É¶¡¬°301",
+      "Description":"§ì¦í®É¶¡ªº´î¤Ö­È(­t­È)¡AÁ`®É¶¡¬°301"
+    },
+    "fronthurtact":{
+      "Name":"fronthurtact",
+      "Tip":"¥¿­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹",
+      "Description":"¥¿­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹"
+    },
+    "backhurtact":{
+      "Name":"backhurtact",
+      "Tip":"­I­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹",
+      "Description":"­I­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹"
+    },
+    "throwvx":{
+      "Name":"throwvx",
+      "Tip":"¥á¥X¥hªºx¤è¦V³t«×",
+      "Description":"¥á¥X¥hªºx¤è¦V³t«×"
+    },
+    "throwvy":{
+      "Name":"throwvy",
+      "Tip":"¥á¥X¥hªºy¤è¦V³t«×",
+      "Description":"¥á¥X¥hªºy¤è¦V³t«×"
+    },
+    "throwvz":{
+      "Name":"throwvz",
+      "Tip":"¥á¥X¥hªºz¤è¦V³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
+      "Description":"¥á¥X¥hªºz¤è¦V³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+    },
+    "throwinjury":{
+      "Name":"throwinjury",
+      "Tip":"¥áÂY¶Ë®`",
+      "Description":"¥áÂY¶Ë®`"
+    },
+    "dircontrol":{
+      "Name":"dircontrol",
+      "Tip":"",
+      "Description":""
+    }
+  },
+  "Other":{
+    "File Path":{
+      "Name":"ÀÉ®×¸ô®|",
+      "Tip":"",
+      "Description":""
+    },
+    "GoTo":{
+      "Name":"¼v®æÂà¸õ",
+      "Tip":"",
+      "Description":""
+    },
+    "Apply Change":{
+      "Name":"§ó·s¼v®æ¼Æ¾Ú",
+      "Tip":"",
+      "Description":""
+    },
+    "To Next Frame":{
+      "Name":"¤U¤@­Ó¼v®æ",
+      "Tip":"",
+      "Description":""
+    }
+  }
+}

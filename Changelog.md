@@ -2,6 +2,17 @@
 ==========================================
 
 
+v1.0.0.5 Date: 2025/09/07, Developer: Jim
+---------------------------------------------------
+### Added
+- Language
+- Frame data annotation
+- Help window
+
+### Changed
+- The frame's basic state uses a ring control instead of a numeric control
+
+
 v1.0.0.4 Date: 2025/09/01, Developer: Jim
 ---------------------------------------------------
 ### Added
