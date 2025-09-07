@@ -30,6 +30,20 @@ Download the files below.
 LF2R IDE is developed using National Instruments (NI) LabVIEW rather than compiled with C#.  
 Please register a National Instruments account and install the LabVIEW Runtime to ensure that LF2R IDE runs properly.
 
+Third-Party Libraries / Dependencies
+--------------------------------------------------------------
+This project relies on the following third-party libraries to implement core functionalities.
+- [MGI Library](https://www.mooregoodideas.com/products/library/index.html)  
+- [OpenG Library](https://www.vipm.io/package/oglib_file/)  
+- [JSONtext](https://www.vipm.io/package/jdp_science_jsontext/)  
+- [ScintillaNET](https://github.com/jacobslusser/ScintillaNET)  
+
+Frame Data Annotation References
+--------------------------------------------------------------
+- [彩虹的改檔教學](https://yxc1037586.neocities.org/htm/char)  
+- [[人物改檔]新.Lf2改檔教學](https://yxc1037586.neocities.org/htm/char)  
+- [Data Changing Guide V1.2](https://www.angelfire.com/wizard/bolt/changing_tuturial.htm)  
+
 License
 --------------------------------------------------------------
 LF2R IDE is licensed under the [MIT License](https://github.com/Eremes1641/LF2R-IDE/blob/main/LICENSE).
