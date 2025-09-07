@@ -9,7 +9,7 @@ LF2R IDE
 Little Figther 2 Remastered Integrated Development Environment
 </div>
 
-LF2R IDE is a graphical file editor designed for Little Fighter 2 Remastered. It allows users to easily edit *-r.txt data files with user-friendly features, streamlining the modding process for creators.
+LF2R IDE is a graphical file editor designed for Little Fighter 2 Remastered. It allows users to easily edit `*-r.txt` data files with user-friendly features, streamlining the modding process for creators.
 
 ![Screenshot](Screenshot.png)
 
