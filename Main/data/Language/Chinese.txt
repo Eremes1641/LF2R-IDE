@@ -1,110 +1,472 @@
 {
   "Title":{
-    "Frame Num":{"Name":"影格編號","Tip":""},
-    "Name":{"Name":"影格名稱","Tip":""}
+    "Frame Num":{
+      "Name":"影格編號",
+      "Tip":"",
+      "Description":""
+    },
+    "Name":{
+      "Name":"影格名稱",
+      "Tip":"",
+      "Description":""
+    }
   },
   "Frame Basic":{
-    "pic":{"Name":"pic","Tip":"圖片編號"},
-    "state":{"Name":"state","Tip":""},
-    "wait":{"Name":"wait","Tip":"停頓時間"},
-    "next":{"Name":"next","Tip":"下一個影格編號\n999: 回到影格編號0\n1000: 移除物件\n12XX: 隱形，XX表時間長短\n負值: 轉向"},
-    "dvx":{"Name":"dvx","Tip":"向前(正)、後(負)移動的速度"},
-    "dvy":{"Name":"dvy","Tip":"向天(負)、地(正)移動的速度"},
-    "dvz":{"Name":"dvz","Tip":"向上下移動的速度，方向由方向鍵↑↓決定"},
-    "centerx":{"Name":"centerx","Tip":"影格中心(影子)的x軸位置，方向為左至右"},
-    "centery":{"Name":"centery","Tip":"影格中心(影子)的y軸位置，方向為上至下"},
-    "sound":{"Name":"sound","Tip":"音效"}
+    "pic":{
+      "Name":"pic",
+      "Tip":"圖片編號",
+      "Description":""
+    },
+    "state":{
+      "Name":"state",
+      "Tip":"",
+      "Description":""
+    },
+    "wait":{
+      "Name":"wait",
+      "Tip":"停等時間",
+      "Description":""
+    },
+    "next":{
+      "Name":"next",
+      "Tip":"下一個影格編號",
+      "Description":"下一個影格編號\n\n999: 回到影格編號0\n1000: 移除物件\n12XX: 隱形，XX表時間長短\n負值: 轉向"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"向前(正)、後(負)移動的速度",
+      "Description":"向前(正)、後(負)移動的速度"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"向天(負)、地(正)移動的速度",
+      "Description":"向天(負)、地(正)移動的速度"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"向上下移動的速度，方向由方向鍵↑↓決定",
+      "Description":"向上下移動的速度，方向由方向鍵↑↓決定"
+    },
+    "centerx":{
+      "Name":"centerx",
+      "Tip":"影格中心(影子)的x軸位置，方向為左至右",
+      "Description":"影格中心(影子)的x軸位置，方向為左至右"
+    },
+    "centery":{
+      "Name":"centery",
+      "Tip":"影格中心(影子)的y軸位置，方向為上至下",
+      "Description":"影格中心(影子)的y軸位置，方向為上至下"
+    },
+    "sound":{
+      "Name":"sound",
+      "Tip":"音效",
+      "Description":""
+    }
   },
   "Frame Skill":{
-    "mp":{"Name":"mp","Tip":"氣/血消耗\nOOXXX，OO表血量的十位數消耗，XXX表氣消耗\n100: 消耗100點的氣\n4300: 消耗40點血量與300點氣\n\n若用hit_XX進入影格，則正值為消耗，負值為增加\n若用next進入影格，則正值不會有變化，負值為消耗"},
-    "hit_a":{"Name":"hit_a","Tip":"按攻擊時，轉跳到其影格編號"},
-    "hit_d":{"Name":"hit_d","Tip":"按防禦時，轉跳到其影格編號"},
-    "hit_j":{"Name":"hit_j","Tip":"按跳躍時，轉跳到其影格編號"},
-    "hit_Fa":{"Name":"hit_Fa","Tip":"按防→攻時，轉跳到其影格編號"},
-    "hit_Ua":{"Name":"hit_Ua","Tip":"按防↑攻時，轉跳到其影格編號"},
-    "hit_Da":{"Name":"hit_Da","Tip":"按防↓攻時，轉跳到其影格編號"},
-    "hit_Fj":{"Name":"hit_Fj","Tip":"按防→跳時，轉跳到其影格編號"},
-    "hit_Uj":{"Name":"hit_Uj","Tip":"按防↑跳時，轉跳到其影格編號"},
-    "hit_Dj":{"Name":"hit_Dj","Tip":"按防↓跳時，轉跳到其影格編號"},
-    "hit_ja":{"Name":"hit_ja","Tip":"按防跳攻時，轉跳到其影格編號"}
+    "mp":{
+      "Name":"mp",
+      "Tip":"氣/血消耗",
+      "Description":"氣/血消耗\n\nOOXXX，OO表血量的十位數消耗，XXX表氣消耗\n100: 消耗100點的氣\n4300: 消耗40點血量與300點氣\n\n若用hit_XX進入影格，則正值為消耗，負值為增加\n若用next進入影格，則正值不會有變化，負值為消耗"
+    },
+    "hit_a":{
+      "Name":"hit_a",
+      "Tip":"按攻擊時，轉跳到其影格編號",
+      "Description":"按攻擊時，轉跳到其影格編號"
+    },
+    "hit_d":{
+      "Name":"hit_d",
+      "Tip":"按防禦時，轉跳到其影格編號",
+      "Description":"按防禦時，轉跳到其影格編號"
+    },
+    "hit_j":{
+      "Name":"hit_j",
+      "Tip":"按跳躍時，轉跳到其影格編號",
+      "Description":"按跳躍時，轉跳到其影格編號"
+    },
+    "hit_Fa":{
+      "Name":"hit_Fa",
+      "Tip":"按防→攻時，轉跳到其影格編號",
+      "Description":"按防→攻時，轉跳到其影格編號"
+    },
+    "hit_Ua":{
+      "Name":"hit_Ua",
+      "Tip":"按防↑攻時，轉跳到其影格編號",
+      "Description":"按防↑攻時，轉跳到其影格編號"
+    },
+    "hit_Da":{
+      "Name":"hit_Da",
+      "Tip":"按防↓攻時，轉跳到其影格編號",
+      "Description":"按防↓攻時，轉跳到其影格編號"
+    },
+    "hit_Fj":{
+      "Name":"hit_Fj",
+      "Tip":"按防→跳時，轉跳到其影格編號",
+      "Description":"按防→跳時，轉跳到其影格編號"
+    },
+    "hit_Uj":{
+      "Name":"hit_Uj",
+      "Tip":"按防↑跳時，轉跳到其影格編號",
+      "Description":"按防↑跳時，轉跳到其影格編號"
+    },
+    "hit_Dj":{
+      "Name":"hit_Dj",
+      "Tip":"按防↓跳時，轉跳到其影格編號",
+      "Description":"按防↓跳時，轉跳到其影格編號"
+    },
+    "hit_ja":{
+      "Name":"hit_ja",
+      "Tip":"按防跳攻時，轉跳到其影格編號",
+      "Description":"按防跳攻時，轉跳到其影格編號"
+    }
   },
   "bp":{
-    "x":{"Name":"x","Tip":"嘴角流血的x軸位置\nHP小於1/3時流血"},
-    "y":{"Name":"y","Tip":"嘴角流血的y軸位置\nHP小於1/3時流血"}
+    "x":{
+      "Name":"x",
+      "Tip":"嘴角流血的x軸位置\nHP小於1/3時流血",
+      "Description":"嘴角流血的x軸位置\nHP小於1/3時流血"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"嘴角流血的y軸位置\nHP小於1/3時流血",
+      "Description":"嘴角流血的y軸位置\nHP小於1/3時流血"
+    }
   },
   "w":{
-    "kind":{"Name":"kind","Tip":"武器狀態\n1: 持在手上\n2: 持在手上\n3: 掉落"},
-    "x":{"Name":"x","Tip":"武器的x軸位置"},
-    "y":{"Name":"y","Tip":"武器的y軸位置"},
-    "weaponact":{"Name":"weaponact","Tip":"武器的第幾個影格\n若在20~35之外，武器會被打到"},
-    "cover":{"Name":"cover","Tip":"0: 武器在前 (覆蓋在角色圖片)\n1: 武器在後 (角色覆蓋武器圖片)"},
-    "dvx":{"Name":"dvx","Tip":"向前(正)、後(負)移動的速度"},
-    "dvy":{"Name":"dvy","Tip":"向天(負)、地(正)移動的速度"},
-    "dvz":{"Name":"dvz","Tip":"向上下移動的速度，方向由方向鍵↑↓決定"},
-    "attacking":{"Name":"attacking","Tip":"攻擊狀態\n0: 無攻擊\n1: 站立時攻擊\n2: 跳躍時攻擊\n3: 跑攻時的攻擊\n4: 衝跳時的攻擊"}
+    "kind":{
+      "Name":"kind",
+      "Tip":"武器狀態\n1: 持在手上\n2: 持在手上\n3: 掉落",
+      "Description":"武器狀態\n1: 持在手上\n2: 持在手上\n3: 掉落"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"武器的x軸位置",
+      "Description":"武器的x軸位置"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"武器的y軸位置",
+      "Description":"武器的y軸位置"
+    },
+    "weaponact":{
+      "Name":"weaponact",
+      "Tip":"武器的第幾個影格\n若在20~35之外，武器會被打到",
+      "Description":"武器的第幾個影格\n若在20~35之外，武器會被打到"
+    },
+    "cover":{
+      "Name":"cover",
+      "Tip":"0: 武器在前 (覆蓋在角色圖片)\n1: 武器在後 (角色覆蓋武器圖片)",
+      "Description":"0: 武器在前 (覆蓋在角色圖片)\n1: 武器在後 (角色覆蓋武器圖片)"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"向前(正)、後(負)移動的速度",
+      "Description":"向前(正)、後(負)移動的速度"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"向天(負)、地(正)移動的速度",
+      "Description":"向天(負)、地(正)移動的速度"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"向上下移動的速度，方向由方向鍵↑↓決定",
+      "Description":"向上下移動的速度，方向由方向鍵↑↓決定"
+    },
+    "attacking":{
+      "Name":"attacking",
+      "Tip":"攻擊狀態\n0: 無攻擊\n1: 站立時攻擊\n2: 跳躍時攻擊\n3: 跑攻時的攻擊\n4: 衝跳時的攻擊",
+      "Description":"攻擊狀態\n0: 無攻擊\n1: 站立時攻擊\n2: 跳躍時攻擊\n3: 跑攻時的攻擊\n4: 衝跳時的攻擊"
+    }
   },
   "b":{
-    "kind":{"Name":"kind","Tip":""},
-    "x":{"Name":"x","Tip":"被打擊框的x軸起始位置"},
-    "y":{"Name":"y","Tip":"被打擊框的y軸起始位置"},
-    "w":{"Name":"w","Tip":"被打擊框的x軸寬度"},
-    "h":{"Name":"h","Tip":"被打擊框的y軸高度"}
+    "kind":{
+      "Name":"kind",
+      "Tip":"",
+      "Description":""
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"被打擊框的x軸起始位置",
+      "Description":"被打擊框的x軸起始位置"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"被打擊框的y軸起始位置",
+      "Description":"被打擊框的y軸起始位置"
+    },
+    "w":{
+      "Name":"w",
+      "Tip":"被打擊框的x軸寬度",
+      "Description":"被打擊框的x軸寬度"
+    },
+    "h":{
+      "Name":"h",
+      "Tip":"被打擊框的y軸高度",
+      "Description":"被打擊框的y軸高度"
+    },
+    "index":{
+      "Name":"<b> index",
+      "Tip":"",
+      "Description":""
+    }
   },
   "i":{
-    "kind":{"Name":"kind","Tip":"0: 一般攻擊/特效攻擊\n1: 捉住暈眩的人(state 16)\n2: 撿起武器\n3: 強制抓人\n4: 被敵人的<c>丟出時的攻擊類別\n5: 武器類別\n6: 敵人若在此範圍，轉跳至重攻擊影格\n7: 按攻擊可直接撿拾武器\n8: injury變成治療數值，影格轉跳至dvx\n9: 打中敵人自身血量歸零\n10: Henry死亡之樂章效果\n11: Henry死亡之樂章效果\n14: 阻擋\n15: 浮起\n16: 結凍"},
-    "x":{"Name":"x","Tip":"打擊框的x軸起始位置"},
-    "y":{"Name":"y","Tip":"打擊框的y軸起始位置"},
-    "w":{"Name":"w","Tip":"打擊框的x軸寬度"},
-    "h":{"Name":"h","Tip":"打擊框的y軸高度"},
-    "zwidth":{"Name":"zwidth","Tip":"打擊框的z軸寬度"},
-    "dvx":{"Name":"dvx","Tip":"被擊中的物體的向前(正)、後(負)移動的速度"},
-    "dvy":{"Name":"dvy","Tip":"被擊中的物體的向天(負)、地(正)移動的速度"},
-    "dvz":{"Name":"dvz","Tip":"被擊中的物體的向上下移動的速度"},
-    "fall":{"Name":"fall","Tip":"擊倒值\n1: 敵人會停頓一下，但不會累加至暈眩\n25: 打兩下敵人會暈眩\n40: 打第一下敵人會後退，第二下倒地\n60: 打第一下敵人暈眩，第二下倒地\n70: 直接倒地\n負值: 不影響被打擊的角色動作，但會使其有霸體效果 (被打擊不會有受傷動作)"},
-    "arest":{"Name":"arest","Tip":"重複攻擊單個敵人的間隔\n強制停用vrest"},
-    "vrest":{"Name":"vrest","Tip":"重複攻擊複數敵人的間隔\n無法與arest同時使用\n最小值為4"},
-    "bdefend":{"Name":"bdefend","Tip":"破防值\n累加到60可擊破防禦狀態的敵人\n60: 直接破防\n100: 無視任何防禦效果，直接攻擊。道具則強制破壞"},
-    "injury":{"Name":"injury","Tip":"傷害"},
-    "effect":{"Name":"effect","Tip":"攻擊特效，僅限於kind:0\n0: 拳擊特效\n1: 利器特效\n2: 著火\n20: 著火，打不到氣功\n21: 著火，可反彈氣功，配合state 18(fire)便不會打到隊友\n22: 著火。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n23: 打擊特效。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n3: 冰凍\n30: 冰凍。打不到state 13的人(被冰凍的人)\n4: 僅攻擊type:1, 2, 3, 4, 5, 6的物品"},
-    "catchingact 1":{"Name":"catchingact 1","Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"},
-    "catchingact 2":{"Name":"catchingact 2","Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"},
-    "caughtact 1":{"Name":"caughtact 1","Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"},
-    "caughtact 2":{"Name":"caughtact 2","Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"}
+    "kind":{
+      "Name":"kind",
+      "Tip":"傷害特效",
+      "Description":"傷害特效\n0: 一般攻擊/特效攻擊\n1: 捉住暈眩的人(state 16)\n2: 撿起武器\n3: 強制抓人\n4: 被敵人的<c>丟出時的攻擊類別\n5: 武器類別\n6: 敵人若在此範圍，轉跳至重攻擊影格\n7: 按攻擊可直接撿拾武器\\n8: injury變成治療數值，影格轉跳至dvx\n9: 打中敵人自身血量歸零\n10: Henry死亡之樂章效果\n11: Henry死亡之樂章效果\n14: 阻擋\n15: 浮起\n16: 結凍"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"打擊框的x軸起始位置",
+      "Description":"打擊框的x軸起始位置"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"打擊框的y軸起始位置",
+      "Description":"打擊框的y軸起始位置"
+    },
+    "w":{
+      "Name":"w",
+      "Tip":"打擊框的x軸寬度",
+      "Description":"打擊框的x軸寬度"
+    },
+    "h":{
+      "Name":"h",
+      "Tip":"打擊框的y軸高度",
+      "Description":"打擊框的y軸高度"
+    },
+    "zwidth":{
+      "Name":"zwidth",
+      "Tip":"打擊框的z軸寬度",
+      "Description":"打擊框的z軸寬度"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"被擊中的物體的向前(正)、後(負)移動的速度",
+      "Description":"被擊中的物體的向前(正)、後(負)移動的速度"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"被擊中的物體的向天(負)、地(正)移動的速度",
+      "Description":"被擊中的物體的向天(負)、地(正)移動的速度"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"被擊中的物體的向上下移動的速度",
+      "Description":"被擊中的物體的向上下移動的速度"
+    },
+    "fall":{
+      "Name":"fall",
+      "Tip":"擊倒值",
+      "Description":"擊倒值\n1: 敵人會停頓一下，但不會累加至暈眩\n25: 打兩下敵人會暈眩\n40: 打第一下敵人會後退，第二下倒地\n60: 打第一下敵人暈眩，第二下倒地\n70: 直接倒地\n負值: 不影響被打擊的角色動作，但會使其有霸體效果 (被打擊不會有受傷動作)"
+    },
+    "arest":{
+      "Name":"arest",
+      "Tip":"重複攻擊單個敵人的間隔\n強制停用vrest",
+      "Description":"重複攻擊單個敵人的間隔\n強制停用vrest"
+    },
+    "vrest":{
+      "Name":"vrest",
+      "Tip":"重複攻擊複數敵人的間隔\n無法與arest同時使用\n最小值為4",
+      "Description":"重複攻擊複數敵人的間隔\n無法與arest同時使用\n最小值為4"
+    },
+    "bdefend":{
+      "Name":"bdefend",
+      "Tip":"破防值\n累加到60可擊破防禦狀態的敵人\n60: 直接破防\n100: 無視任何防禦效果，直接攻擊。道具則強制破壞",
+      "Description":"破防值\n累加到60可擊破防禦狀態的敵人\n60: 直接破防\n100: 無視任何防禦效果，直接攻擊。道具則強制破壞"
+    },
+    "injury":{
+      "Name":"injury",
+      "Tip":"傷害",
+      "Description":"傷害"
+    },
+    "effect":{
+      "Name":"effect",
+      "Tip":"攻擊特效，僅限於kind:0",
+      "Description":"攻擊特效，僅限於kind:0\n0: 拳擊特效\n1: 利器特效\n2: 著火\n20: 著火，打不到氣功\n21: 著火，可反彈氣功，配合state 18(fire)便不會打到隊友\n22: 著火。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n23: 打擊特效。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n3: 冰凍\n30: 冰凍。打不到state 13的人(被冰凍的人)\n4: 僅攻擊type:1, 2, 3, 4, 5, 6的物品"
+    },
+    "catchingact 1":{
+      "Name":"catchingact 1",
+      "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號",
+      "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"
+    },
+    "catchingact 2":{
+      "Name":"catchingact 2",
+      "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號",
+      "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"
+    },
+    "caughtact 1":{
+      "Name":"caughtact 1",
+      "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號",
+      "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"
+    },
+    "caughtact 2":{
+      "Name":"caughtact 2",
+      "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號",
+      "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"
+    },
+    "index":{
+      "Name":"<i> index",
+      "Tip":"",
+      "Description":""
+    }
   },
   "o":{
-    "kind":{"Name":"kind2","Tip":""},
-    "x":{"Name":"x2","Tip":""},
-    "y":{"Name":"y2","Tip":""},
-    "action":{"Name":"action2","Tip":""},
-    "dvx":{"Name":"dvx2","Tip":""},
-    "dvy":{"Name":"dvy2","Tip":""},
-    "dvz":{"Name":"dvz2","Tip":""},
-    "oid":{"Name":"oid2","Tip":""},
-    "facing":{"Name":"facing2","Tip":""}
+    "kind":{
+      "Name":"kind",
+      "Tip":"製造類型\n1: 掉落\n2: 持在手上",
+      "Description":"製造類型\n1: 掉落\n2: 持在手上"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"物件的x軸位置，方向為左至右",
+      "Description":"物件的x軸位置，方向為左至右"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"物品的y軸位置，方向為上至物件的y軸位置，方向為上至下",
+      "Description":"物件的y軸位置，方向為上至下"
+    },
+    "action":{
+      "Name":"action",
+      "Tip":"物件的影格編號",
+      "Description":"物件的影格編號"
+    },
+    "dvx":{
+      "Name":"dvx",
+      "Tip":"物件的向前(正)、後(負)移動的速度",
+      "Description":"物件的向前(正)、後(負)移動的速度"
+    },
+    "dvy":{
+      "Name":"dvy",
+      "Tip":"物件的向天(負)、地(正)移動的速度",
+      "Description":"物件的向天(負)、地(正)移動的速度"
+    },
+    "dvz":{
+      "Name":"dvz",
+      "Tip":"物件的向上下移動的速度，方向由方向鍵↑↓決定",
+      "Description":"物件的向上下移動的速度，方向由方向鍵↑↓決定"
+    },
+    "oid":{
+      "Name":"oid",
+      "Tip":"物件ID",
+      "Description":"物件ID"
+    },
+    "facing":{
+      "Name":"facing",
+      "Tip":"物件的數量和方向\nOOX: OO為數量。X為方向，0為正向、1為反向",
+      "Description":"物件的數量和方向\nOOX: OO為數量。X為方向，0為正向、1為反向"
+    }
   },
   "c":{
-    "kind":{"Name":"kind2","Tip":""},
-    "x":{"Name":"x2","Tip":""},
-    "y":{"Name":"y2","Tip":""},
-    "injury":{"Name":"injury2","Tip":""},
-    "cover":{"Name":"cover2","Tip":""},
-    "vaction":{"Name":"vaction2","Tip":""},
-    "aaction":{"Name":"aaction2","Tip":""},
-    "taction":{"Name":"taction2","Tip":""},
-    "hurtable":{"Name":"hurtable2","Tip":""},
-    "decrease":{"Name":"decrease2","Tip":""},
-    "fronthurtact":{"Name":"fronthurtact2","Tip":""},
-    "backhurtact":{"Name":"backhurtact2","Tip":""},
-    "throwvx":{"Name":"throwvx2","Tip":""},
-    "throwvy":{"Name":"throwvy2","Tip":""},
-    "throwvz":{"Name":"throwvz2","Tip":""},
-    "throwinjury":{"Name":"throwinjury2","Tip":""},
-    "dircontrol":{"Name":"dircontrol2","Tip":""}
+    "kind":{
+      "Name":"kind",
+      "Tip":"抓人狀態\n1: 抓人方\n2: 被抓方",
+      "Description":"抓人狀態\n1: 抓人方\n2: 被抓方"
+    },
+    "x":{
+      "Name":"x",
+      "Tip":"抓/被抓的x軸位置",
+      "Description":"抓/被抓的x軸位置"
+    },
+    "y":{
+      "Name":"y",
+      "Tip":"抓/被抓的y軸位置",
+      "Description":"抓/被抓的y軸位置"
+    },
+    "injury":{
+      "Name":"injury",
+      "Tip":"傷害\n正值: 受傷加打擊的停頓效果\n負值: 受傷但無打擊的停頓效果",
+      "Description":"傷害\n正值: 受傷加打擊的停頓效果\n負值: 受傷但無打擊的停頓效果"
+    },
+    "cover":{
+      "Name":"cover",
+      "Tip":"圖層順序\n10: 被抓者在後\n11: 被抓者在前",
+      "Description":"圖層順序\n10: 被抓者在後\n11: 被抓者在前"
+    },
+    "vaction":{
+      "Name":"vaction",
+      "Tip":"被抓者的影格編號",
+      "Description":"被抓者的影格編號"
+    },
+    "aaction":{
+      "Name":"aaction",
+      "Tip":"按攻擊時，轉跳到其影格編號",
+      "Description":"按攻擊時，轉跳到其影格編號"
+    },
+    "taction":{
+      "Name":"taction",
+      "Tip":"按→攻時，轉跳到其影格編號",
+      "Description":"按→攻時，轉跳到其影格編號"
+    },
+    "hurtable":{
+      "Name":"hurtable",
+      "Tip":"被抓者會不會被其他人打到\n0: 不會\n1: 會",
+      "Description":"被抓者會不會被其他人打到\n0: 不會\n1: 會"
+    },
+    "decrease":{
+      "Name":"decrease",
+      "Tip":"抓住時間的減少值(負值)，總時間為301",
+      "Description":"抓住時間的減少值(負值)，總時間為301"
+    },
+    "fronthurtact":{
+      "Name":"fronthurtact",
+      "Tip":"正面被打後轉跳的影格編號",
+      "Description":"正面被打後轉跳的影格編號"
+    },
+    "backhurtact":{
+      "Name":"backhurtact",
+      "Tip":"背面被打後轉跳的影格編號",
+      "Description":"背面被打後轉跳的影格編號"
+    },
+    "throwvx":{
+      "Name":"throwvx",
+      "Tip":"丟出去的x方向速度",
+      "Description":"丟出去的x方向速度"
+    },
+    "throwvy":{
+      "Name":"throwvy",
+      "Tip":"丟出去的y方向速度",
+      "Description":"丟出去的y方向速度"
+    },
+    "throwvz":{
+      "Name":"throwvz",
+      "Tip":"丟出去的z方向速度，方向由方向鍵↑↓決定",
+      "Description":"丟出去的z方向速度，方向由方向鍵↑↓決定"
+    },
+    "throwinjury":{
+      "Name":"throwinjury",
+      "Tip":"丟擲傷害",
+      "Description":"丟擲傷害"
+    },
+    "dircontrol":{
+      "Name":"dircontrol",
+      "Tip":"",
+      "Description":""
+    }
   },
   "Other":{
-    "File Path":{"Name":"File Path2","Tip":""},
-    "GoTo":{"Name":"Go to Frame2","Tip":""},
-    "Apply Change":{"Name":"Apply Change2","Tip":""},
-    "To Next Frame":{"Name":"To Next Frame2","Tip":""}
+    "File Path":{
+      "Name":"檔案路徑",
+      "Tip":"",
+      "Description":""
+    },
+    "GoTo":{
+      "Name":"影格轉跳",
+      "Tip":"",
+      "Description":""
+    },
+    "Apply Change":{
+      "Name":"更新影格數據",
+      "Tip":"",
+      "Description":""
+    },
+    "To Next Frame":{
+      "Name":"下一個影格",
+      "Tip":"",
+      "Description":""
+    }
   }
 }
