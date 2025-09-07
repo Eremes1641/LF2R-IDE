@@ -41,7 +41,7 @@
     "dvz":{
       "Name":"dvz",
       "Tip":"movement speed",
-      "Description":"Vertical movement speed, with the direction determined by the ↑ and ↓ arrow keys"
+      "Description":"Vertical movement speed, with the direction determined by the ¡ô and ¡õ arrow keys"
     },
     "centerx":{
       "Name":"centerx",
@@ -82,33 +82,33 @@
     },
     "hit_Fa":{
       "Name":"hit_Fa",
-      "Tip":"When pressing Defense → Attack, jump to the corresponding frame number",
-      "Description":"When pressing Defense → Attack, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡÷ Attack, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡÷ Attack, jump to the corresponding frame number"
     },
     "hit_Ua":{
       "Name":"hit_Ua",
-      "Tip":"When pressing Defense ↑ Attack, jump to the corresponding frame number",
-      "Description":"When pressing Defense ↑ Attack, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡ô Attack, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡ô Attack, jump to the corresponding frame number"
     },
     "hit_Da":{
       "Name":"hit_Da",
-      "Tip":"When pressing Defense ↓ Attack, jump to the corresponding frame number",
-      "Description":"When pressing Defense ↓ Attack, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡õ Attack, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡õ Attack, jump to the corresponding frame number"
     },
     "hit_Fj":{
       "Name":"hit_Fj",
-      "Tip":"When pressing Defense → Jump, jump to the corresponding frame number",
-      "Description":"When pressing Defense → Jump, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡÷ Jump, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡÷ Jump, jump to the corresponding frame number"
     },
     "hit_Uj":{
       "Name":"hit_Uj",
-      "Tip":"When pressing Defense ↑ Jump, jump to the corresponding frame number",
-      "Description":"When pressing Defense ↑ Jump, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡ô Jump, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡ô Jump, jump to the corresponding frame number"
     },
     "hit_Dj":{
       "Name":"hit_Dj",
-      "Tip":"When pressing Defense ↓ Jump, jump to the corresponding frame number",
-      "Description":"When pressing Defense ↓ Jump, jump to the corresponding frame number"
+      "Tip":"When pressing Defense ¡õ Jump, jump to the corresponding frame number",
+      "Description":"When pressing Defense ¡õ Jump, jump to the corresponding frame number"
     },
     "hit_ja":{
       "Name":"hit_ja",
@@ -167,7 +167,7 @@
     "dvz":{
       "Name":"dvz",
       "Tip":"movement speed",
-      "Description":"Vertical movement speed, with the direction determined by the ↑ and ↓ arrow keys"
+      "Description":"Vertical movement speed, with the direction determined by the ¡ô and ¡õ arrow keys"
     },
     "attacking":{
       "Name":"attacking",
@@ -251,7 +251,7 @@
     "dvz":{
       "Name":"dvz",
       "Tip":"movement speed",
-      "Description":"Vertical movement speed, with the direction determined by the ↑ and ↓ arrow keys"
+      "Description":"Vertical movement speed, with the direction determined by the ¡ô and ¡õ arrow keys"
     },
     "fall":{
       "Name":"fall",
@@ -343,7 +343,7 @@
     "dvz":{
       "Name":"dvz",
       "Tip":"movement speed",
-      "Description":"Vertical movement speed of the object, with direction determined by the ↑ and ↓ arrow keys"
+      "Description":"Vertical movement speed of the object, with direction determined by the ¡ô and ¡õ arrow keys"
     },
     "oid":{
       "Name":"oid",
@@ -394,8 +394,8 @@
     },
     "taction":{
       "Name":"taction",
-      "Tip":"When pressing → + Attack, jump to the corresponding frame number",
-      "Description":"When pressing → + Attack, jump to the corresponding frame number"
+      "Tip":"When pressing ¡÷ + Attack, jump to the corresponding frame number",
+      "Description":"When pressing ¡÷ + Attack, jump to the corresponding frame number"
     },
     "hurtable":{
       "Name":"hurtable",
@@ -429,8 +429,8 @@
     },
     "throwvz":{
       "Name":"throwvz",
-      "Tip":"Z-direction speed when thrown, with direction determined by the ↑ and ↓ arrow keys",
-      "Description":"Z-direction speed when thrown, with direction determined by the ↑ and ↓ arrow keys"
+      "Tip":"Z-direction speed when thrown, with direction determined by the ¡ô and ¡õ arrow keys",
+      "Description":"Z-direction speed when thrown, with direction determined by the ¡ô and ¡õ arrow keys"
     },
     "throwinjury":{
       "Name":"throwinjury",
