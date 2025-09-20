@@ -464,5 +464,47 @@
       "Tip":"",
       "Description":""
     }
+  },
+  "Menu":{
+    "File":{
+      "Name":"File",
+      "Tip":"",
+      "Description":""
+    },
+    "Open File":{
+      "Name":"Open File",
+      "Tip":"",
+      "Description":""
+    },
+    "Save File":{
+      "Name":"Save File",
+      "Tip":"",
+      "Description":""
+    },
+    "Exit":{
+      "Name":"Exit",
+      "Tip":"",
+      "Description":""
+    },
+    "Settings":{
+      "Name":"Settings",
+      "Tip":"",
+      "Description":""
+    },
+    "Preferences":{
+      "Name":"Preferences",
+      "Tip":"",
+      "Description":""
+    },
+    "Help":{
+      "Name":"Help",
+      "Tip":"",
+      "Description":""
+    },
+    "Show Context Help":{
+      "Name":"Show Context Help",
+      "Tip":"",
+      "Description":""
+    }
   }
 }

@@ -468,5 +468,47 @@
       "Tip":"",
       "Description":""
     }
+  },
+  "Menu":{
+    "File":{
+      "Name":"ÀÉ®×",
+      "Tip":"",
+      "Description":""
+    },
+    "Open File":{
+      "Name":"¶}±ÒÀÉ®×",
+      "Tip":"",
+      "Description":""
+    },
+    "Save File":{
+      "Name":"Àx¦sÀÉ®×",
+      "Tip":"",
+      "Description":""
+    },
+    "Exit":{
+      "Name":"µ²§ô",
+      "Tip":"",
+      "Description":""
+    },
+    "Settings":{
+      "Name":"³]©w",
+      "Tip":"",
+      "Description":""
+    },
+    "Preferences":{
+      "Name":"³]©w",
+      "Tip":"",
+      "Description":""
+    },
+    "Help":{
+      "Name":"À°§U",
+      "Tip":"",
+      "Description":""
+    },
+    "Show Context Help":{
+      "Name":"Åã¥ÜÀ°§Uµøµ¡",
+      "Tip":"",
+      "Description":""
+    }
   }
 }
