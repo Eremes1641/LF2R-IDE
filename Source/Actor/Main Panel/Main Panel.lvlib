@@ -7,5 +7,5 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="LF2R IDE Cmd Msg.lvclass" Type="LVClass" URL="../LF2R IDE Messages/LF2R IDE Cmd Msg/LF2R IDE Cmd Msg.lvclass"/>
 	</Item>
-	<Item Name="LF2R IDE.lvclass" Type="LVClass" URL="../LF2R IDE/LF2R IDE.lvclass"/>
+	<Item Name="Main Panel.lvclass" Type="LVClass" URL="../LF2R IDE/Main Panel.lvclass"/>
 </Library>
