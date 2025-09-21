@@ -41,7 +41,7 @@ This project relies on the following third-party libraries to implement core fun
 Frame Data Annotation References
 --------------------------------------------------------------
 - [彩虹的改檔教學](https://yxc1037586.neocities.org/htm/char)  
-- [[人物改檔]新.Lf2改檔教學]([https://yxc1037586.neocities.org/htm/char](https://ibbs.hk/read.php?tid=16268))  
+- [[人物改檔]新.Lf2改檔教學](https://ibbs.hk/read.php?tid=16268)  
 - [Data Changing Guide V1.2](https://www.angelfire.com/wizard/bolt/changing_tuturial.htm)  
 
 License
