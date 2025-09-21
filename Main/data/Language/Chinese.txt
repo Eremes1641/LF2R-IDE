@@ -2,12 +2,12 @@
   "Main Panel":{
     "Title":{
       "Frame Num":{
-        "Name":"¼v®æ½s¸¹",
+        "Name":"影格編號",
         "Tip":"",
         "Description":""
       },
       "Name":{
-        "Name":"¼v®æ¦WºÙ",
+        "Name":"影格名稱",
         "Tip":"",
         "Description":""
       }
@@ -15,7 +15,7 @@
     "Frame Basic":{
       "pic":{
         "Name":"pic",
-        "Tip":"¹Ï¤ù½s¸¹",
+        "Tip":"圖片編號",
         "Description":""
       },
       "state":{
@@ -25,159 +25,159 @@
       },
       "wait":{
         "Name":"wait",
-        "Tip":"°±µ¥®É¶¡",
+        "Tip":"停等時間",
         "Description":""
       },
       "next":{
         "Name":"next",
-        "Tip":"¤U¤@­Ó¼v®æ½s¸¹",
-        "Description":"¤U¤@­Ó¼v®æ½s¸¹\n\n999: ¦^¨ì¼v®æ½s¸¹0\n1000: ²¾°£ª«¥ó\n12XX: Áô§Î¡AXXªí®É¶¡ªøµu\n­t­È: Âà¦V"
+        "Tip":"下一個影格編號",
+        "Description":"下一個影格編號\n\n999: 回到影格編號0\n1000: 移除物件\n12XX: 隱形，XX表時間長短\n負值: 轉向"
       },
       "dvx":{
         "Name":"dvx",
-        "Tip":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
-        "Description":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+        "Tip":"向前(正)、後(負)移動的速度",
+        "Description":"向前(正)、後(負)移動的速度"
       },
       "dvy":{
         "Name":"dvy",
-        "Tip":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
-        "Description":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+        "Tip":"向天(負)、地(正)移動的速度",
+        "Description":"向天(負)、地(正)移動的速度"
       },
       "dvz":{
         "Name":"dvz",
-        "Tip":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
-        "Description":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+        "Tip":"向上下移動的速度，方向由方向鍵↑↓決定",
+        "Description":"向上下移動的速度，方向由方向鍵↑↓決定"
       },
       "centerx":{
         "Name":"centerx",
-        "Tip":"¼v®æ¤¤¤ß(¼v¤l)ªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k",
-        "Description":"¼v®æ¤¤¤ß(¼v¤l)ªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k"
+        "Tip":"影格中心(影子)的x軸位置，方向為左至右",
+        "Description":"影格中心(影子)的x軸位置，方向為左至右"
       },
       "centery":{
         "Name":"centery",
-        "Tip":"¼v®æ¤¤¤ß(¼v¤l)ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U",
-        "Description":"¼v®æ¤¤¤ß(¼v¤l)ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U"
+        "Tip":"影格中心(影子)的y軸位置，方向為上至下",
+        "Description":"影格中心(影子)的y軸位置，方向為上至下"
       },
       "sound":{
         "Name":"sound",
-        "Tip":"­µ®Ä",
+        "Tip":"音效",
         "Description":""
       }
     },
     "Frame Skill":{
       "mp":{
         "Name":"mp",
-        "Tip":"®ð/¦å®ø¯Ó",
-        "Description":"®ð/¦å®ø¯Ó\n\nOOXXX¡AOOªí¦å¶qªº¤Q¦ì¼Æ®ø¯Ó¡AXXXªí®ð®ø¯Ó\n100: ®ø¯Ó100ÂIªº®ð\n4300: ®ø¯Ó40ÂI¦å¶q»P300ÂI®ð\n\n­Y¥Îhit_XX¶i¤J¼v®æ¡A«h¥¿­È¬°®ø¯Ó¡A­t­È¬°¼W¥[\n­Y¥Înext¶i¤J¼v®æ¡A«h¥¿­È¤£·|¦³ÅÜ¤Æ¡A­t­È¬°®ø¯Ó"
+        "Tip":"氣/血消耗",
+        "Description":"氣/血消耗\n\nOOXXX，OO表血量的十位數消耗，XXX表氣消耗\n100: 消耗100點的氣\n4300: 消耗40點血量與300點氣\n\n若用hit_XX進入影格，則正值為消耗，負值為增加\n若用next進入影格，則正值不會有變化，負值為消耗"
       },
       "hit_a":{
         "Name":"hit_a",
-        "Tip":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按攻擊時，轉跳到其影格編號",
+        "Description":"按攻擊時，轉跳到其影格編號"
       },
       "hit_d":{
         "Name":"hit_d",
-        "Tip":"«ö¨¾¿m®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¿m®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防禦時，轉跳到其影格編號",
+        "Description":"按防禦時，轉跳到其影格編號"
       },
       "hit_j":{
         "Name":"hit_j",
-        "Tip":"«ö¸õÅD®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¸õÅD®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按跳躍時，轉跳到其影格編號",
+        "Description":"按跳躍時，轉跳到其影格編號"
       },
       "hit_Fa":{
         "Name":"hit_Fa",
-        "Tip":"«ö¨¾¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防→攻時，轉跳到其影格編號",
+        "Description":"按防→攻時，轉跳到其影格編號"
       },
       "hit_Ua":{
         "Name":"hit_Ua",
-        "Tip":"«ö¨¾¡ô§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡ô§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防↑攻時，轉跳到其影格編號",
+        "Description":"按防↑攻時，轉跳到其影格編號"
       },
       "hit_Da":{
         "Name":"hit_Da",
-        "Tip":"«ö¨¾¡õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防↓攻時，轉跳到其影格編號",
+        "Description":"按防↓攻時，轉跳到其影格編號"
       },
       "hit_Fj":{
         "Name":"hit_Fj",
-        "Tip":"«ö¨¾¡÷¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡÷¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防→跳時，轉跳到其影格編號",
+        "Description":"按防→跳時，轉跳到其影格編號"
       },
       "hit_Uj":{
         "Name":"hit_Uj",
-        "Tip":"«ö¨¾¡ô¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡ô¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防↑跳時，轉跳到其影格編號",
+        "Description":"按防↑跳時，轉跳到其影格編號"
       },
       "hit_Dj":{
         "Name":"hit_Dj",
-        "Tip":"«ö¨¾¡õ¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¡õ¸õ®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防↓跳時，轉跳到其影格編號",
+        "Description":"按防↓跳時，轉跳到其影格編號"
       },
       "hit_ja":{
         "Name":"hit_ja",
-        "Tip":"«ö¨¾¸õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¨¾¸õ§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按防跳攻時，轉跳到其影格編號",
+        "Description":"按防跳攻時，轉跳到其影格編號"
       }
     },
     "bp":{
       "x":{
         "Name":"x",
-        "Tip":"¼L¨¤¬y¦åªºx¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å",
-        "Description":"¼L¨¤¬y¦åªºx¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å"
+        "Tip":"嘴角流血的x軸位置\nHP小於1/3時流血",
+        "Description":"嘴角流血的x軸位置\nHP小於1/3時流血"
       },
       "y":{
         "Name":"y",
-        "Tip":"¼L¨¤¬y¦åªºy¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å",
-        "Description":"¼L¨¤¬y¦åªºy¶b¦ì¸m\nHP¤p©ó1/3®É¬y¦å"
+        "Tip":"嘴角流血的y軸位置\nHP小於1/3時流血",
+        "Description":"嘴角流血的y軸位置\nHP小於1/3時流血"
       }
     },
     "w":{
       "kind":{
         "Name":"kind",
-        "Tip":"ªZ¾¹ª¬ºA\n1: «ù¦b¤â¤W\n2: «ù¦b¤â¤W\n3: ±¼¸¨",
-        "Description":"ªZ¾¹ª¬ºA\n1: «ù¦b¤â¤W\n2: «ù¦b¤â¤W\n3: ±¼¸¨"
+        "Tip":"武器狀態\n1: 持在手上\n2: 持在手上\n3: 掉落",
+        "Description":"武器狀態\n1: 持在手上\n2: 持在手上\n3: 掉落"
       },
       "x":{
         "Name":"x",
-        "Tip":"ªZ¾¹ªºx¶b¦ì¸m",
-        "Description":"ªZ¾¹ªºx¶b¦ì¸m"
+        "Tip":"武器的x軸位置",
+        "Description":"武器的x軸位置"
       },
       "y":{
         "Name":"y",
-        "Tip":"ªZ¾¹ªºy¶b¦ì¸m",
-        "Description":"ªZ¾¹ªºy¶b¦ì¸m"
+        "Tip":"武器的y軸位置",
+        "Description":"武器的y軸位置"
       },
       "weaponact":{
         "Name":"weaponact",
-        "Tip":"ªZ¾¹ªº²Ä´X­Ó¼v®æ\n­Y¦b20~35¤§¥~¡AªZ¾¹·|³Q¥´¨ì",
-        "Description":"ªZ¾¹ªº²Ä´X­Ó¼v®æ\n­Y¦b20~35¤§¥~¡AªZ¾¹·|³Q¥´¨ì"
+        "Tip":"武器的第幾個影格\n若在20~35之外，武器會被打到",
+        "Description":"武器的第幾個影格\n若在20~35之外，武器會被打到"
       },
       "cover":{
         "Name":"cover",
-        "Tip":"0: ªZ¾¹¦b«e (ÂÐ»\\¦b¨¤¦â¹Ï¤ù)\n1: ªZ¾¹¦b«á (¨¤¦âÂÐ»\\ªZ¾¹¹Ï¤ù)",
-        "Description":"0: ªZ¾¹¦b«e (ÂÐ»\\¦b¨¤¦â¹Ï¤ù)\n1: ªZ¾¹¦b«á (¨¤¦âÂÐ»\\ªZ¾¹¹Ï¤ù)"
+        "Tip":"0: 武器在前 (覆蓋在角色圖片)\n1: 武器在後 (角色覆蓋武器圖片)",
+        "Description":"0: 武器在前 (覆蓋在角色圖片)\n1: 武器在後 (角色覆蓋武器圖片)"
       },
       "dvx":{
         "Name":"dvx",
-        "Tip":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
-        "Description":"¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+        "Tip":"向前(正)、後(負)移動的速度",
+        "Description":"向前(正)、後(負)移動的速度"
       },
       "dvy":{
         "Name":"dvy",
-        "Tip":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
-        "Description":"¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+        "Tip":"向天(負)、地(正)移動的速度",
+        "Description":"向天(負)、地(正)移動的速度"
       },
       "dvz":{
         "Name":"dvz",
-        "Tip":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
-        "Description":"¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+        "Tip":"向上下移動的速度，方向由方向鍵↑↓決定",
+        "Description":"向上下移動的速度，方向由方向鍵↑↓決定"
       },
       "attacking":{
         "Name":"attacking",
-        "Tip":"§ðÀ»ª¬ºA\n0: µL§ðÀ»\n1: ¯¸¥ß®É§ðÀ»\n2: ¸õÅD®É§ðÀ»\n3: ¶]§ð®Éªº§ðÀ»\n4: ½Ä¸õ®Éªº§ðÀ»",
-        "Description":"§ðÀ»ª¬ºA\n0: µL§ðÀ»\n1: ¯¸¥ß®É§ðÀ»\n2: ¸õÅD®É§ðÀ»\n3: ¶]§ð®Éªº§ðÀ»\n4: ½Ä¸õ®Éªº§ðÀ»"
+        "Tip":"攻擊狀態\n0: 無攻擊\n1: 站立時攻擊\n2: 跳躍時攻擊\n3: 跑攻時的攻擊\n4: 衝跳時的攻擊",
+        "Description":"攻擊狀態\n0: 無攻擊\n1: 站立時攻擊\n2: 跳躍時攻擊\n3: 跑攻時的攻擊\n4: 衝跳時的攻擊"
       }
     },
     "b":{
@@ -188,23 +188,23 @@
       },
       "x":{
         "Name":"x",
-        "Tip":"³Q¥´À»®Øªºx¶b°_©l¦ì¸m",
-        "Description":"³Q¥´À»®Øªºx¶b°_©l¦ì¸m"
+        "Tip":"被打擊框的x軸起始位置",
+        "Description":"被打擊框的x軸起始位置"
       },
       "y":{
         "Name":"y",
-        "Tip":"³Q¥´À»®Øªºy¶b°_©l¦ì¸m",
-        "Description":"³Q¥´À»®Øªºy¶b°_©l¦ì¸m"
+        "Tip":"被打擊框的y軸起始位置",
+        "Description":"被打擊框的y軸起始位置"
       },
       "w":{
         "Name":"w",
-        "Tip":"³Q¥´À»®Øªºx¶b¼e«×",
-        "Description":"³Q¥´À»®Øªºx¶b¼e«×"
+        "Tip":"被打擊框的x軸寬度",
+        "Description":"被打擊框的x軸寬度"
       },
       "h":{
         "Name":"h",
-        "Tip":"³Q¥´À»®Øªºy¶b°ª«×",
-        "Description":"³Q¥´À»®Øªºy¶b°ª«×"
+        "Tip":"被打擊框的y軸高度",
+        "Description":"被打擊框的y軸高度"
       },
       "index":{
         "Name":"<b> index",
@@ -215,98 +215,98 @@
     "i":{
       "kind":{
         "Name":"kind",
-        "Tip":"¶Ë®`¯S®Ä",
-        "Description":"¶Ë®`¯S®Ä\n0: ¤@¯ë§ðÀ»/¯S®Ä§ðÀ»\n1: ®»¦í·w¯tªº¤H(state 16)\n2: ¾ß°_ªZ¾¹\n3: ±j¨î§ì¤H\n4: ³Q¼Ä¤Hªº<c>¥á¥X®Éªº§ðÀ»Ãþ§O\n5: ªZ¾¹Ãþ§O\n6: ¼Ä¤H­Y¦b¦¹½d³ò¡AÂà¸õ¦Ü­«§ðÀ»¼v®æ\n7: «ö§ðÀ»¥iª½±µ¾ß¬BªZ¾¹\\n8: injuryÅÜ¦¨ªvÀø¼Æ­È¡A¼v®æÂà¸õ¦Üdvx\n9: ¥´¤¤¼Ä¤H¦Û¨­¦å¶qÂk¹s\n10: Henry¦º¤`¤§¼Ö³¹®ÄªG\n11: Henry¦º¤`¤§¼Ö³¹®ÄªG\n14: ªý¾×\n15: ¯B°_\n16: µ²­á"
+        "Tip":"傷害特效",
+        "Description":"傷害特效\n0: 一般攻擊/特效攻擊\n1: 捉住暈眩的人(state 16)\n2: 撿起武器\n3: 強制抓人\n4: 被敵人的<c>丟出時的攻擊類別\n5: 武器類別\n6: 敵人若在此範圍，轉跳至重攻擊影格\n7: 按攻擊可直接撿拾武器\\n8: injury變成治療數值，影格轉跳至dvx\n9: 打中敵人自身血量歸零\n10: Henry死亡之樂章效果\n11: Henry死亡之樂章效果\n14: 阻擋\n15: 浮起\n16: 結凍"
       },
       "x":{
         "Name":"x",
-        "Tip":"¥´À»®Øªºx¶b°_©l¦ì¸m",
-        "Description":"¥´À»®Øªºx¶b°_©l¦ì¸m"
+        "Tip":"打擊框的x軸起始位置",
+        "Description":"打擊框的x軸起始位置"
       },
       "y":{
         "Name":"y",
-        "Tip":"¥´À»®Øªºy¶b°_©l¦ì¸m",
-        "Description":"¥´À»®Øªºy¶b°_©l¦ì¸m"
+        "Tip":"打擊框的y軸起始位置",
+        "Description":"打擊框的y軸起始位置"
       },
       "w":{
         "Name":"w",
-        "Tip":"¥´À»®Øªºx¶b¼e«×",
-        "Description":"¥´À»®Øªºx¶b¼e«×"
+        "Tip":"打擊框的x軸寬度",
+        "Description":"打擊框的x軸寬度"
       },
       "h":{
         "Name":"h",
-        "Tip":"¥´À»®Øªºy¶b°ª«×",
-        "Description":"¥´À»®Øªºy¶b°ª«×"
+        "Tip":"打擊框的y軸高度",
+        "Description":"打擊框的y軸高度"
       },
       "zwidth":{
         "Name":"zwidth",
-        "Tip":"¥´À»®Øªºz¶b¼e«×",
-        "Description":"¥´À»®Øªºz¶b¼e«×"
+        "Tip":"打擊框的z軸寬度",
+        "Description":"打擊框的z軸寬度"
       },
       "dvx":{
         "Name":"dvx",
-        "Tip":"³QÀ»¤¤ªºª«Åéªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
-        "Description":"³QÀ»¤¤ªºª«Åéªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+        "Tip":"被擊中的物體的向前(正)、後(負)移動的速度",
+        "Description":"被擊中的物體的向前(正)、後(負)移動的速度"
       },
       "dvy":{
         "Name":"dvy",
-        "Tip":"³QÀ»¤¤ªºª«Åéªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
-        "Description":"³QÀ»¤¤ªºª«Åéªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+        "Tip":"被擊中的物體的向天(負)、地(正)移動的速度",
+        "Description":"被擊中的物體的向天(負)、地(正)移動的速度"
       },
       "dvz":{
         "Name":"dvz",
-        "Tip":"³QÀ»¤¤ªºª«Åéªº¦V¤W¤U²¾°Êªº³t«×",
-        "Description":"³QÀ»¤¤ªºª«Åéªº¦V¤W¤U²¾°Êªº³t«×"
+        "Tip":"被擊中的物體的向上下移動的速度",
+        "Description":"被擊中的物體的向上下移動的速度"
       },
       "fall":{
         "Name":"fall",
-        "Tip":"À»­Ë­È",
-        "Description":"À»­Ë­È\n1: ¼Ä¤H·|°±¹y¤@¤U¡A¦ý¤£·|²Ö¥[¦Ü·w¯t\n25: ¥´¨â¤U¼Ä¤H·|·w¯t\n40: ¥´²Ä¤@¤U¼Ä¤H·|«á°h¡A²Ä¤G¤U­Ë¦a\n60: ¥´²Ä¤@¤U¼Ä¤H·w¯t¡A²Ä¤G¤U­Ë¦a\n70: ª½±µ­Ë¦a\n­t­È: ¤£¼vÅT³Q¥´À»ªº¨¤¦â°Ê§@¡A¦ý·|¨Ï¨ä¦³ÅQÅé®ÄªG (³Q¥´À»¤£·|¦³¨ü¶Ë°Ê§@)"
+        "Tip":"擊倒值",
+        "Description":"擊倒值\n1: 敵人會停頓一下，但不會累加至暈眩\n25: 打兩下敵人會暈眩\n40: 打第一下敵人會後退，第二下倒地\n60: 打第一下敵人暈眩，第二下倒地\n70: 直接倒地\n負值: 不影響被打擊的角色動作，但會使其有霸體效果 (被打擊不會有受傷動作)"
       },
       "arest":{
         "Name":"arest",
-        "Tip":"­«½Æ§ðÀ»³æ­Ó¼Ä¤Hªº¶¡¹j\n±j¨î°±¥Îvrest",
-        "Description":"­«½Æ§ðÀ»³æ­Ó¼Ä¤Hªº¶¡¹j\n±j¨î°±¥Îvrest"
+        "Tip":"重複攻擊單個敵人的間隔\n強制停用vrest",
+        "Description":"重複攻擊單個敵人的間隔\n強制停用vrest"
       },
       "vrest":{
         "Name":"vrest",
-        "Tip":"­«½Æ§ðÀ»½Æ¼Æ¼Ä¤Hªº¶¡¹j\nµLªk»Parest¦P®É¨Ï¥Î\n³Ì¤p­È¬°4",
-        "Description":"­«½Æ§ðÀ»½Æ¼Æ¼Ä¤Hªº¶¡¹j\nµLªk»Parest¦P®É¨Ï¥Î\n³Ì¤p­È¬°4"
+        "Tip":"重複攻擊複數敵人的間隔\n無法與arest同時使用\n最小值為4",
+        "Description":"重複攻擊複數敵人的間隔\n無法與arest同時使用\n最小值為4"
       },
       "bdefend":{
         "Name":"bdefend",
-        "Tip":"¯}¨¾­È\n²Ö¥[¨ì60¥iÀ»¯}¨¾¿mª¬ºAªº¼Ä¤H\n60: ª½±µ¯}¨¾\n100: µLµø¥ô¦ó¨¾¿m®ÄªG¡Aª½±µ§ðÀ»¡C¹D¨ã«h±j¨î¯}Ãa",
-        "Description":"¯}¨¾­È\n²Ö¥[¨ì60¥iÀ»¯}¨¾¿mª¬ºAªº¼Ä¤H\n60: ª½±µ¯}¨¾\n100: µLµø¥ô¦ó¨¾¿m®ÄªG¡Aª½±µ§ðÀ»¡C¹D¨ã«h±j¨î¯}Ãa"
+        "Tip":"破防值\n累加到60可擊破防禦狀態的敵人\n60: 直接破防\n100: 無視任何防禦效果，直接攻擊。道具則強制破壞",
+        "Description":"破防值\n累加到60可擊破防禦狀態的敵人\n60: 直接破防\n100: 無視任何防禦效果，直接攻擊。道具則強制破壞"
       },
       "injury":{
         "Name":"injury",
-        "Tip":"¶Ë®`",
-        "Description":"¶Ë®`"
+        "Tip":"傷害",
+        "Description":"傷害"
       },
       "effect":{
         "Name":"effect",
-        "Tip":"§ðÀ»¯S®Ä¡A¶È­­©ókind:0",
-        "Description":"§ðÀ»¯S®Ä¡A¶È­­©ókind:0\n0: ®±À»¯S®Ä\n1: §Q¾¹¯S®Ä\n2: µÛ¤õ\n20: µÛ¤õ¡A¥´¤£¨ì®ð¥\\\n21: µÛ¤õ¡A¥i¤Ï¼u®ð¥\\¡A°t¦Xstate 18(fire)«K¤£·|¥´¨ì¶¤¤Í\n22: µÛ¤õ¡Cdvx¬°¥¿®É¡A§ðÀ»¤è¦V¦V¤º¡Cdvx¬°­t®É¡A§ðÀ»¤è¦V¦V¥~\n23: ¥´À»¯S®Ä¡Cdvx¬°¥¿®É¡A§ðÀ»¤è¦V¦V¤º¡Cdvx¬°­t®É¡A§ðÀ»¤è¦V¦V¥~\n3: ¦B­á\n30: ¦B­á¡C¥´¤£¨ìstate 13ªº¤H(³Q¦B­áªº¤H)\n4: ¶È§ðÀ»type:1, 2, 3, 4, 5, 6ªºª««~"
+        "Tip":"攻擊特效，僅限於kind:0",
+        "Description":"攻擊特效，僅限於kind:0\n0: 拳擊特效\n1: 利器特效\n2: 著火\n20: 著火，打不到氣功\n21: 著火，可反彈氣功，配合state 18(fire)便不會打到隊友\n22: 著火。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n23: 打擊特效。dvx為正時，攻擊方向向內。dvx為負時，攻擊方向向外\n3: 冰凍\n30: 冰凍。打不到state 13的人(被冰凍的人)\n4: 僅攻擊type:1, 2, 3, 4, 5, 6的物品"
       },
       "catchingact 1":{
         "Name":"catchingact 1",
-        "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
-        "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+        "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號",
+        "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"
       },
       "catchingact 2":{
         "Name":"catchingact 2",
-        "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
-        "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¦Û¤vªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+        "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號",
+        "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，自己的動作轉跳至其影格編號"
       },
       "caughtact 1":{
         "Name":"caughtact 1",
-        "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
-        "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+        "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號",
+        "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"
       },
       "caughtact 2":{
         "Name":"caughtact 2",
-        "Tip":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹",
-        "Description":"¶È­­©ókind:1(®»¦í·w¯tªº¤H), kind:3(±j¨î§ì¤H)\n§ì¨ì¼Ä¤H«á¡A¼Ä¤Hªº°Ê§@Âà¸õ¦Ü¨ä¼v®æ½s¸¹"
+        "Tip":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號",
+        "Description":"僅限於kind:1(捉住暈眩的人), kind:3(強制抓人)\n抓到敵人後，敵人的動作轉跳至其影格編號"
       },
       "index":{
         "Name":"<i> index",
@@ -317,130 +317,130 @@
     "o":{
       "kind":{
         "Name":"kind",
-        "Tip":"»s³yÃþ«¬\n1: ±¼¸¨\n2: «ù¦b¤â¤W",
-        "Description":"»s³yÃþ«¬\n1: ±¼¸¨\n2: «ù¦b¤â¤W"
+        "Tip":"製造類型\n1: 掉落\n2: 持在手上",
+        "Description":"製造類型\n1: 掉落\n2: 持在手上"
       },
       "x":{
         "Name":"x",
-        "Tip":"ª«¥óªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k",
-        "Description":"ª«¥óªºx¶b¦ì¸m¡A¤è¦V¬°¥ª¦Ü¥k"
+        "Tip":"物件的x軸位置，方向為左至右",
+        "Description":"物件的x軸位置，方向為左至右"
       },
       "y":{
         "Name":"y",
-        "Tip":"ª««~ªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Üª«¥óªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U",
-        "Description":"ª«¥óªºy¶b¦ì¸m¡A¤è¦V¬°¤W¦Ü¤U"
+        "Tip":"物品的y軸位置，方向為上至物件的y軸位置，方向為上至下",
+        "Description":"物件的y軸位置，方向為上至下"
       },
       "action":{
         "Name":"action",
-        "Tip":"ª«¥óªº¼v®æ½s¸¹",
-        "Description":"ª«¥óªº¼v®æ½s¸¹"
+        "Tip":"物件的影格編號",
+        "Description":"物件的影格編號"
       },
       "dvx":{
         "Name":"dvx",
-        "Tip":"ª«¥óªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×",
-        "Description":"ª«¥óªº¦V«e(¥¿)¡B«á(­t)²¾°Êªº³t«×"
+        "Tip":"物件的向前(正)、後(負)移動的速度",
+        "Description":"物件的向前(正)、後(負)移動的速度"
       },
       "dvy":{
         "Name":"dvy",
-        "Tip":"ª«¥óªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×",
-        "Description":"ª«¥óªº¦V¤Ñ(­t)¡B¦a(¥¿)²¾°Êªº³t«×"
+        "Tip":"物件的向天(負)、地(正)移動的速度",
+        "Description":"物件的向天(負)、地(正)移動的速度"
       },
       "dvz":{
         "Name":"dvz",
-        "Tip":"ª«¥óªº¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
-        "Description":"ª«¥óªº¦V¤W¤U²¾°Êªº³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+        "Tip":"物件的向上下移動的速度，方向由方向鍵↑↓決定",
+        "Description":"物件的向上下移動的速度，方向由方向鍵↑↓決定"
       },
       "oid":{
         "Name":"oid",
-        "Tip":"ª«¥óID",
-        "Description":"ª«¥óID"
+        "Tip":"物件ID",
+        "Description":"物件ID"
       },
       "facing":{
         "Name":"facing",
-        "Tip":"ª«¥óªº¼Æ¶q©M¤è¦V\nOOX: OO¬°¼Æ¶q¡CX¬°¤è¦V¡A0¬°¥¿¦V¡B1¬°¤Ï¦V",
-        "Description":"ª«¥óªº¼Æ¶q©M¤è¦V\nOOX: OO¬°¼Æ¶q¡CX¬°¤è¦V¡A0¬°¥¿¦V¡B1¬°¤Ï¦V"
+        "Tip":"物件的數量和方向\nOOX: OO為數量。X為方向，0為正向、1為反向",
+        "Description":"物件的數量和方向\nOOX: OO為數量。X為方向，0為正向、1為反向"
       }
     },
     "c":{
       "kind":{
         "Name":"kind",
-        "Tip":"§ì¤Hª¬ºA\n1: §ì¤H¤è\n2: ³Q§ì¤è",
-        "Description":"§ì¤Hª¬ºA\n1: §ì¤H¤è\n2: ³Q§ì¤è"
+        "Tip":"抓人狀態\n1: 抓人方\n2: 被抓方",
+        "Description":"抓人狀態\n1: 抓人方\n2: 被抓方"
       },
       "x":{
         "Name":"x",
-        "Tip":"§ì/³Q§ìªºx¶b¦ì¸m",
-        "Description":"§ì/³Q§ìªºx¶b¦ì¸m"
+        "Tip":"抓/被抓的x軸位置",
+        "Description":"抓/被抓的x軸位置"
       },
       "y":{
         "Name":"y",
-        "Tip":"§ì/³Q§ìªºy¶b¦ì¸m",
-        "Description":"§ì/³Q§ìªºy¶b¦ì¸m"
+        "Tip":"抓/被抓的y軸位置",
+        "Description":"抓/被抓的y軸位置"
       },
       "injury":{
         "Name":"injury",
-        "Tip":"¶Ë®`\n¥¿­È: ¨ü¶Ë¥[¥´À»ªº°±¹y®ÄªG\n­t­È: ¨ü¶Ë¦ýµL¥´À»ªº°±¹y®ÄªG",
-        "Description":"¶Ë®`\n¥¿­È: ¨ü¶Ë¥[¥´À»ªº°±¹y®ÄªG\n­t­È: ¨ü¶Ë¦ýµL¥´À»ªº°±¹y®ÄªG"
+        "Tip":"傷害\n正值: 受傷加打擊的停頓效果\n負值: 受傷但無打擊的停頓效果",
+        "Description":"傷害\n正值: 受傷加打擊的停頓效果\n負值: 受傷但無打擊的停頓效果"
       },
       "cover":{
         "Name":"cover",
-        "Tip":"¹Ï¼h¶¶§Ç\n10: ³Q§ìªÌ¦b«á\n11: ³Q§ìªÌ¦b«e",
-        "Description":"¹Ï¼h¶¶§Ç\n10: ³Q§ìªÌ¦b«á\n11: ³Q§ìªÌ¦b«e"
+        "Tip":"圖層順序\n10: 被抓者在後\n11: 被抓者在前",
+        "Description":"圖層順序\n10: 被抓者在後\n11: 被抓者在前"
       },
       "vaction":{
         "Name":"vaction",
-        "Tip":"³Q§ìªÌªº¼v®æ½s¸¹",
-        "Description":"³Q§ìªÌªº¼v®æ½s¸¹"
+        "Tip":"被抓者的影格編號",
+        "Description":"被抓者的影格編號"
       },
       "aaction":{
         "Name":"aaction",
-        "Tip":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö§ðÀ»®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按攻擊時，轉跳到其影格編號",
+        "Description":"按攻擊時，轉跳到其影格編號"
       },
       "taction":{
         "Name":"taction",
-        "Tip":"«ö¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹",
-        "Description":"«ö¡÷§ð®É¡AÂà¸õ¨ì¨ä¼v®æ½s¸¹"
+        "Tip":"按→攻時，轉跳到其影格編號",
+        "Description":"按→攻時，轉跳到其影格編號"
       },
       "hurtable":{
         "Name":"hurtable",
-        "Tip":"³Q§ìªÌ·|¤£·|³Q¨ä¥L¤H¥´¨ì\n0: ¤£·|\n1: ·|",
-        "Description":"³Q§ìªÌ·|¤£·|³Q¨ä¥L¤H¥´¨ì\n0: ¤£·|\n1: ·|"
+        "Tip":"被抓者會不會被其他人打到\n0: 不會\n1: 會",
+        "Description":"被抓者會不會被其他人打到\n0: 不會\n1: 會"
       },
       "decrease":{
         "Name":"decrease",
-        "Tip":"§ì¦í®É¶¡ªº´î¤Ö­È(­t­È)¡AÁ`®É¶¡¬°301",
-        "Description":"§ì¦í®É¶¡ªº´î¤Ö­È(­t­È)¡AÁ`®É¶¡¬°301"
+        "Tip":"抓住時間的減少值(負值)，總時間為301",
+        "Description":"抓住時間的減少值(負值)，總時間為301"
       },
       "fronthurtact":{
         "Name":"fronthurtact",
-        "Tip":"¥¿­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹",
-        "Description":"¥¿­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹"
+        "Tip":"正面被打後轉跳的影格編號",
+        "Description":"正面被打後轉跳的影格編號"
       },
       "backhurtact":{
         "Name":"backhurtact",
-        "Tip":"­I­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹",
-        "Description":"­I­±³Q¥´«áÂà¸õªº¼v®æ½s¸¹"
+        "Tip":"背面被打後轉跳的影格編號",
+        "Description":"背面被打後轉跳的影格編號"
       },
       "throwvx":{
         "Name":"throwvx",
-        "Tip":"¥á¥X¥hªºx¤è¦V³t«×",
-        "Description":"¥á¥X¥hªºx¤è¦V³t«×"
+        "Tip":"丟出去的x方向速度",
+        "Description":"丟出去的x方向速度"
       },
       "throwvy":{
         "Name":"throwvy",
-        "Tip":"¥á¥X¥hªºy¤è¦V³t«×",
-        "Description":"¥á¥X¥hªºy¤è¦V³t«×"
+        "Tip":"丟出去的y方向速度",
+        "Description":"丟出去的y方向速度"
       },
       "throwvz":{
         "Name":"throwvz",
-        "Tip":"¥á¥X¥hªºz¤è¦V³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w",
-        "Description":"¥á¥X¥hªºz¤è¦V³t«×¡A¤è¦V¥Ñ¤è¦VÁä¡ô¡õ¨M©w"
+        "Tip":"丟出去的z方向速度，方向由方向鍵↑↓決定",
+        "Description":"丟出去的z方向速度，方向由方向鍵↑↓決定"
       },
       "throwinjury":{
         "Name":"throwinjury",
-        "Tip":"¥áÂY¶Ë®`",
-        "Description":"¥áÂY¶Ë®`"
+        "Tip":"丟擲傷害",
+        "Description":"丟擲傷害"
       },
       "dircontrol":{
         "Name":"dircontrol",
@@ -450,64 +450,64 @@
     },
     "Other":{
       "File Path":{
-        "Name":"ÀÉ®×¸ô®|",
+        "Name":"檔案路徑",
         "Tip":"",
         "Description":""
       },
       "GoTo":{
-        "Name":"¼v®æÂà¸õ",
+        "Name":"影格轉跳",
         "Tip":"",
         "Description":""
       },
       "Apply Change":{
-        "Name":"§ó·s¼v®æ¼Æ¾Ú",
+        "Name":"更新影格數據",
         "Tip":"",
         "Description":""
       },
       "To Next Frame":{
-        "Name":"¤U¤@­Ó¼v®æ",
+        "Name":"下一個影格",
         "Tip":"",
         "Description":""
       }
     },
     "Menu":{
       "File":{
-        "Name":"ÀÉ®×",
+        "Name":"檔案",
         "Tip":"",
         "Description":""
       },
       "Open File":{
-        "Name":"¶}±ÒÀÉ®×",
+        "Name":"開啟檔案",
         "Tip":"",
         "Description":""
       },
       "Save File":{
-        "Name":"Àx¦sÀÉ®×",
+        "Name":"儲存檔案",
         "Tip":"",
         "Description":""
       },
       "Exit":{
-        "Name":"µ²§ô",
+        "Name":"結束",
         "Tip":"",
         "Description":""
       },
       "Settings":{
-        "Name":"³]©w",
+        "Name":"設定",
         "Tip":"",
         "Description":""
       },
       "Preferences":{
-        "Name":"³]©w",
+        "Name":"設定",
         "Tip":"",
         "Description":""
       },
       "Help":{
-        "Name":"À°§U",
+        "Name":"幫助",
         "Tip":"",
         "Description":""
       },
       "Show Context Help":{
-        "Name":"Åã¥ÜÀ°§Uµøµ¡",
+        "Name":"顯示幫助視窗",
         "Tip":"",
         "Description":""
       }
@@ -516,46 +516,46 @@
   "Configuration Window":{
     "Tab":{
       "Main Page":{
-        "Name":"¥D­¶­±",
+        "Name":"主頁面",
         "Tip":"",
         "Description":""
       },
       "Image Page":{
-        "Name":"¼v®æ­¶­±",
+        "Name":"影格頁面",
         "Tip":"",
         "Description":""
       }
     },
     "Main":{
       "Language":{
-        "Name":"»y¨¥",
+        "Name":"語言",
         "Tip":"",
         "Description":""
       },
       "Save":{
-        "Name":"Àx¦s",
+        "Name":"儲存",
         "Tip":"",
         "Description":""
       },
       "Cancel":{
-        "Name":"¨ú®ø",
+        "Name":"取消",
         "Tip":"",
         "Description":""
       }
     },
     "Path":{
       "Reset":{
-        "Name":"­«³]¬°Steam¸ô®|",
+        "Name":"重設為Steam路徑",
         "Tip":"",
         "Description":""
       },
       "Path Data":{
-        "Name":"_res_data ¸ê®Æ§¨¸ô®|",
+        "Name":"_res_data 資料夾路徑",
         "Tip":"",
         "Description":""
       },
       "Path Png":{
-        "Name":"_res_pngs ¸ê®Æ§¨¸ô®|",
+        "Name":"_res_pngs 資料夾路徑",
         "Tip":"",
         "Description":""
       }
@@ -563,154 +563,154 @@
     "Image":{
       "Center Point":{
         "Name":{
-          "Name":"¼v¤l¼Ð°O:",
+          "Name":"影子標記:",
           "Tip":"",
           "Description":""
         },
         "Size":{
-          "Name":"¼Ð°O¤j¤p",
+          "Name":"標記大小",
           "Tip":"",
           "Description":""
         },
         "Color":{
-          "Name":"ÃC¦â",
+          "Name":"顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "bp Point":{
         "Name":{
-          "Name":"<bp> ¼Ð°O:",
+          "Name":"<bp> 標記:",
           "Tip":"",
           "Description":""
         },
         "Size":{
-          "Name":"¼Ð°O¤j¤p",
+          "Name":"標記大小",
           "Tip":"",
           "Description":""
         },
         "Color":{
-          "Name":"ÃC¦â",
+          "Name":"顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "w Point":{
         "Name":{
-          "Name":"<w> ¼Ð°O:",
+          "Name":"<w> 標記:",
           "Tip":"",
           "Description":""
         },
         "Size":{
-          "Name":"¼Ð°O¤j¤p",
+          "Name":"標記大小",
           "Tip":"",
           "Description":""
         },
         "Color":{
-          "Name":"ÃC¦â",
+          "Name":"顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "b Box":{
         "Name":{
-          "Name":"<b> ¼Ð°O:",
+          "Name":"<b> 標記:",
           "Tip":"",
           "Description":""
         },
         "Fill Color":{
-          "Name":"¶ñ¥RÃC¦â",
+          "Name":"填充顏色",
           "Tip":"",
           "Description":""
         },
         "Border Color":{
-          "Name":"Ãä®ØÃC¦â",
+          "Name":"邊框顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "i Box":{
         "Name":{
-          "Name":"<i> ¼Ð°O:",
+          "Name":"<i> 標記:",
           "Tip":"",
           "Description":""
         },
         "Fill Color":{
-          "Name":"¶ñ¥RÃC¦â",
+          "Name":"填充顏色",
           "Tip":"",
           "Description":""
         },
         "Border Color":{
-          "Name":"Ãä®ØÃC¦â",
+          "Name":"邊框顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "o Point":{
         "Name":{
-          "Name":"<o> ¼Ð°O:",
+          "Name":"<o> 標記:",
           "Tip":"",
           "Description":""
         },
         "Size":{
-          "Name":"¼Ð°O¤j¤p",
+          "Name":"標記大小",
           "Tip":"",
           "Description":""
         },
         "Color":{
-          "Name":"ÃC¦â",
+          "Name":"顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
       },
       "c Point":{
         "Name":{
-          "Name":"<c> ¼Ð°O:",
+          "Name":"<c> 標記:",
           "Tip":"",
           "Description":""
         },
         "Size":{
-          "Name":"¼Ð°O¤j¤p",
+          "Name":"標記大小",
           "Tip":"",
           "Description":""
         },
         "Color":{
-          "Name":"ÃC¦â",
+          "Name":"顏色",
           "Tip":"",
           "Description":""
         },
         "Enable":{
-          "Name":"±Ò¥Î",
+          "Name":"啟用",
           "Tip":"",
           "Description":""
         }
