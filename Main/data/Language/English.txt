@@ -464,6 +464,11 @@
         "Name":"To Next Frame",
         "Tip":"",
         "Description":""
+      },
+      "Sound Play":{
+        "Name":"Play",
+        "Tip":"",
+        "Description":""
       }
     },
     "Menu":{
@@ -552,6 +557,11 @@
       },
       "Path Png":{
         "Name":"_res_pngs Folder Path",
+        "Tip":"",
+        "Description":""
+      },
+      "Path Mp3":{
+        "Name":"mp3 Folder Path",
         "Tip":"",
         "Description":""
       }

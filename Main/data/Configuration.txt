@@ -2,7 +2,8 @@
   "Language":{"Name":"English"},
   "Path Config":{
     "Data Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\_res_data",
-    "PNG Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\_res_pngs"
+    "PNG Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\_res_pngs",
+    "mp3 Folder Path":"D:\\SteamLibrary\\steamapps\\common\\Little Fighter 2 remastered\\resources\\app\\mp3"
   },
   "Image Viewer Config":{
     "Center Point":{"Size":3,"Color":16448250,"Show?":true},
