@@ -468,6 +468,11 @@
         "Name":"下一個影格",
         "Tip":"",
         "Description":""
+      },
+      "Sound Play":{
+        "Name":"播放",
+        "Tip":"",
+        "Description":""
       }
     },
     "Menu":{
@@ -556,6 +561,11 @@
       },
       "Path Png":{
         "Name":"_res_pngs 資料夾路徑",
+        "Tip":"",
+        "Description":""
+      },
+      "Path Mp3":{
+        "Name":"mp3 資料夾路徑",
         "Tip":"",
         "Description":""
       }
